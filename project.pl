@@ -11,8 +11,8 @@ nombreKdrama('Crash Landing on You').
 nombreKdrama('2521').
 nombreKdrama('Descendants of the Sun').
 nombreKdrama('Vincenzo').
-nombreKdrama('Hotel Del Luna').
-nombreKdrama('Herederos').
+nombreKdrama('hotel_del_luna').
+nombreKdrama('herederos').
 personaje('jk').
 
 
@@ -25,7 +25,15 @@ es_actor('hyun_bin').
 % Nombre de actor y donde actuo
 actuo_en('lee_min_ho','herederos').
 actuo_en('park_shin_hye','herederos').
+actuo_en('song_hye_kyo','').
+actuo_en('hyun_bin').
 
+% genero de kdrama
+genero('herederos','romance').
+genero('hotel_del_luna','comedia').
 
 % Las clausulas son reglas que tienen una cabeza y un cuerpo.
 %
+
+%Reglas
+coactuaron(X, Y) :- actuo_en(X, Drama), actuo_en(Y, Drama), X \= Y.
