@@ -207,7 +207,7 @@ nombreKdrama('money_flower').
 nombreKdrama('four_legendary_witches').
 nombreKdrama('popets').
 
- 
+
 
 %generos del kdrama
 generoKdrama1('2521','romance').
@@ -1003,9 +1003,1027 @@ doblajeKdrama188('mad_dog',[espanol,ingles,coreano]).
 doblajeKdrama189('time',[espanol,ingles,coreano]).
 doblajeKdrama190('miss_hammurabi',[espanol,ingles,coreano]).
 
+%Director de Kdramas
+director_kdrama1('2521','kim_hyun_suk').
+director_kdrama2('crash_landing_on_you','lee_jung_hyo').
+director_kdrama3('descendants_of_the_sun','lee_eung_bok').
+director_kdrama4('vicenzo','kim_hee_won').
+director_kdrama5('hotel_del_luna','oh_chun_hwan').
+director_kdrama6('herederos','kang_shin_hyo').
+director_kdrama7('startup','oh_choong_hwan').
+director_kdrama8('my_love_from_the_star','jung_dae_yoon').
+director_kdrama9('goblin','lee_eung_bok').
+director_kdrama10('the_king_eternal_monarch','baek_sang_hoon').
+director_kdrama11('it_s_okay_to_not_be_okay','park_shin_woo').
+director_kdrama12('the_legend_of_the_blue_sea','jin_hyeok').
+director_kdrama13('the_heirs','kang_shin_hyo').
+director_kdrama14('aterrizaje_emergencia_en_tu_corazon','lee_jung_hyo').
+director_kdrama15('itaewon_class','kim_sung_yoon').
+director_kdrama16('true_beauty','kim_sang_hyeop').
+director_kdrama17('love_alarm','lee_na_jung').
+director_kdrama18('strong_woman_do_bong_soon','lee_hyung_min').
+director_kdrama19('weightlifting_fairy_kim_bok_joo','oh_hyun_jong').
+director_kdrama20('while_you_were_sleeping','oh_choong_hwan').
+director_kdrama21('w_two_worlds','jung_dae_yoon').
+director_kdrama22('healer','lee_jung_sub').
+director_kdrama23('pinocchio','jo_soo_won').
+director_kdrama24('city_hunter','jin_hyeok').
+director_kdrama25('boys_over_flowers','jeon_ki_sang').
+director_kdrama26('dream_high','lee_eung_bok').
+director_kdrama27('moon_lovers_scarlet_heart_ryeo','kim_kyu_chae').
+director_kdrama28('my_id_is_gangnam_beauty','choi_sung_bum').
+director_kdrama29('extraordinary_you','kim_sang_hyeop').
+director_kdrama30('hwarang','yoon_sung_shik').
+director_kdrama31('the_master_sun','jin_hyeok').
+director_kdrama32('doctor_stranger','jin_hyeok').
+director_kdrama33('dr_romantic','yoo_in_shik').
+director_kdrama34('good_doctor','ki_min_soo').
+director_kdrama35('hospital_playlist','shin_won_ho').
+director_kdrama36('signal','kim_won_seok').
+director_kdrama37('reply_1988','shin_won_ho').
+director_kdrama38('reply_1997','shin_won_ho').
+director_kdrama39('reply_1994','shin_won_ho').
+director_kdrama40('youth_of_may','song_min_yeob').
+director_kdrama41('navillera','han_dong_hwa').
+director_kdrama42('the_sound_of_magic','kim_sung_yoon').
+director_kdrama43('sky_castle','jo_hyun_tak').
+director_kdrama44('the_world_of_the_married','mo_wan_il').
+director_kdrama45('arthdal_chronicles','kim_won_seok').
+director_kdrama46('mouse','choi_jun_bae').
+director_kdrama47('taxi_driver','park_joon_woo').
+director_kdrama48('law_school','kim_seok_yoon').
+director_kdrama49('uncontrollably_fond','park_hyun_suk').
+director_kdrama50('the_penthouse','joo_dong_min').
+director_kdrama51('romance_is_a_bonus_book','lee_jeong_hyo').
+director_kdrama52('because_this_is_my_first_life','park_jun_hwa').
+director_kdrama53('cheese_in_the_trap','lee_yoon_jung').
+director_kdrama54('her_private_life','hong_jong_chan').
+director_kdrama55('the_undateables','kim_soo_ryong').
+director_kdrama56('live_up_to_your_name','hong_jong_chan').
+director_kdrama57('forest','oh_jong_rok').
+director_kdrama58('oh_my_venus','kim_hyun_suk').
+director_kdrama59('the_light_in_your_eyes','kim_suk_yoon').
+director_kdrama60('something_in_the_rain','ahn_pan_seok').
+director_kdrama61('search_www','jung_ji_hyun').
+director_kdrama62('secret_garden','shin_woo_chul').
+director_kdrama63('protect_the_boss','son_jung_hyun').
+director_kdrama64('strongest_deliveryman','jeon_woo_sung').
+director_kdrama65('the_k2','kwak_jung_hwan').
+director_kdrama66('black','kim_hong_sun').
+director_kdrama67('beautiful_mind','mo_wan_il').
+director_kdrama68('white_christmas','kim_yong_soo').
+director_kdrama69('the_guest','kim_hong_sun').
+director_kdrama70('train_to_busan_the_series','yeon_sang_ho').
+director_kdrama71('empress_ki','han_hee').
+director_kdrama72('man_to_man','lee_chang_min').
+director_kdrama73('misty','mo_wan_il').
+director_kdrama74('flower_of_evil','kim_cheol_kyu').
+director_kdrama75('kingdom','kim_seong_hun').
+director_kdrama76('love_in_the_moonlight','kim_sung_yoon').
+director_kdrama77('cheer_up','han_tae_seob').
+director_kdrama78('doctors','oh_choong_hwan').
+director_kdrama79('prison_playbook','shin_won_ho').
+director_kdrama80('strangers_from_hell','lee_chang_hee').
+director_kdrama81('alice','baek_soo_chan').
+director_kdrama82('mrs_cop','yu_in_shik').
+director_kdrama83('class_of_lies','sung_yong_il').
+director_kdrama84('the_last_empress','ju_dong_min').
+director_kdrama85('vagabond','yoo_in_shik').
+director_kdrama86('life_on_mars','lee_jung_hyo').
+director_kdrama87('shine_or_go_crazy','son_hyung_suk').
+director_kdrama88('the_crowned_clown','kim_hee_won').
+director_kdrama89('blood','ki_min_soo').
+director_kdrama90('zombie_detective','shim_jae_hyun').
+director_kdrama91('my_secret_terrius','park_sang_hun').
+director_kdrama92('kairos','park_seung_woo').
+director_kdrama93('the_great_show','shin_yong_hwi').
+director_kdrama94('angel_s_last_mission_love','lee_jung_sub').
+director_kdrama95('run_on','lee_jae_hoon').
+director_kdrama96('into_the_ring','hwang_seung_ki').
+director_kdrama97('dali_and_cocky_prince','lee_jung_sub').
+director_kdrama98('school_2021','kim_min_tae').
+director_kdrama99('the_veil','kim_sung_yong').
+director_kdrama100('inspector_koo','lee_jung_heum').
+director_kdrama101('yumi_s_cells','lee_sang_yeob').
+director_kdrama102('the_red_sleeve','jung_ji_in').
+director_kdrama103('my_name','kim_jin_min').
+director_kdrama104('hometown_cha_cha_cha','yu_je_won').
+director_kdrama105('melancholia','kim_sang_hyeob').
+director_kdrama106('happiness','ahn_gil_ho').
+director_kdrama107('now_we_are_breaking_up','lee_gil_bok').
+director_kdrama108('the_law_cafe','lee_eun_jin').
+director_kdrama109('big_mouth','oh_choong_hwan').
+director_kdrama110('love_in_contract','nam_sung_woo').
+director_kdrama111('alchemy_of_souls','park_jun_hwa').
+director_kdrama112('juvenile_justice','hong_jong_chan').
+director_kdrama113('all_of_us_are_dead','lee_jae_gyoo').
+director_kdrama114('our_beloved_summer','kim_yoon_jin').
+director_kdrama115('a_business_proposal','park_sun_ho').
+director_kdrama116('thirty_nine','kim_sang_ho').
+director_kdrama117('through_the_darkness','park_bo_ram').
+director_kdrama118('again_my_life','han_chae_young').
+director_kdrama119('love_all_play','jo_woong').
+director_kdrama120('clean_with_passion_for_now','no_jong_chan').
+director_kdrama121('be_melodramatic','kim_hye_young').
+director_kdrama122('doom_at_your_service','kwon_young_il').
+director_kdrama123('you_are_my_spring','jung_ji_hyun').
+director_kdrama124('the_one_and_only','oh_hyun_jong').
+director_kdrama125('the_raincoat_killer','kim_jin_young').
+director_kdrama126('reflection_of_you','im_hyun_wook').
+director_kdrama127('private_lives','nam_gun').
+director_kdrama128('she_would_never_know','lee_dong_yoon').
+director_kdrama129('undercover','song_hyun_wook').
+director_kdrama130('revolutionary_sisters','lee_jin_seo').
+director_kdrama131('young_lady_and_gentleman','shin_chang_seok').
+director_kdrama132('a_piece_of_your_mind','lee_sang_yeob').
+director_kdrama133('kings_affection','song_hyun_wook').
+director_kdrama134('the_road_tragedy_of_one','kim_no_won').
+director_kdrama135('doctor_lawyer','lee_yong_seok').
+director_kdrama136('why_her','park_soo_jin').
+director_kdrama137('bloody_heart','yoo_young_eun').
+director_kdrama138('cafe_minamdang','go_jae_hyun').
+director_kdrama139('insider','min_yeon_hong').
+director_kdrama140('joseon_attorney','kim_seung_ho').
+director_kdrama141('queen_for_seven_days','lee_jung_sub').
+director_kdrama142('radiant_office','jung_ji_in').
+director_kdrama143('save_me','kim_sung_soo').
+director_kdrama144('missing_the_other_side','min_yeon_hong').
+director_kdrama145('beautiful_gong_shim','baek_soo_chan').
+director_kdrama146('temperature_of_love','nam_gun').
+director_kdrama147('the_greatest_love','park_hong_kyun').
+director_kdrama148('fated_to_love_you','kim_hee_won').
+director_kdrama149('oh_my_ghost','yoo_je_won').
+director_kdrama150('witch_at_court','kim_young_kyoon').
+director_kdrama151('the_time_we_were_not_in_love','jo_soo_won').
+director_kdrama152('falling_for_innocence','ji_young_soo').
+director_kdrama153('the_liar_and_his_lover','kim_jin_min').
+director_kdrama154('the_lovers_of_the_red_sky','jang_tae_yoo').
+director_kdrama155('shopping_king_louie','lee_sang_yeob').
+director_kdrama156('weightlifting_fairy_kim_bok_joo','oh_hyun_jong').
+director_kdrama157('goodbye_to_goodbye','kim_min_tae').
+director_kdrama158('secret_love_affair','ahn_pan_seok').
+director_kdrama159('the_good_witch','oh_se_kang').
+director_kdrama160('the_flames_of_desire','baek_ho_min').
+director_kdrama161('golden_time','kwak_jung_hwan').
+director_kdrama162('angel_eyes','park_shin_woo').
+director_kdrama163('the_beauty_inside','song_hyun_wook').
+director_kdrama164('another_miss_oh','song_hyun_wook').
+director_kdrama165('legend_of_the_blue_sea','jin_hyuk').
+director_kdrama166('shine_or_go_crazy','son_hyung_suk').
+director_kdrama167('gu_family_book','shin_woo_chul').
+director_kdrama168('cinderella_and_four_knights','kwon_hyuk_chan').
+director_kdrama169('you_who_came_from_the_stars','jang_tae_yoo').
+director_kdrama170('what_s_wrong_with_secretary_kim','park_jun_hwa').
+director_kdrama171('to_the_beautiful_you','jun_ki_sang').
+director_kdrama172('scarlet_heart','kim_kyu_chae').
+director_kdrama173('the_lovers_in_prague','shin_woo_chul').
+director_kdrama174('pasta','kwon_seok_jang').
+director_kdrama175('her_lovely_heels','an_gil_ho').
+director_kdrama176('hot_stove_league','jung_dong_yoon').
+director_kdrama177('united_we_stand','kim_jin_min').
+director_kdrama178('when_the_camellia_blooms','cha_young_hoon').
+director_kdrama179('strongest_chil_woo','park_man_young').
+director_kdrama180('cheer_up_mr_lee','lee_jung_sub').
+director_kdrama181('marry_me_now','yoon_chang_beom').
+director_kdrama182('angel_s_choice','kim_jin_min').
+director_kdrama183('eternal_love','kim_jin_min').
+director_kdrama184('when_time_stopped','kwon_seok_jang').
+director_kdrama185('secret_of_the_three_kingdoms','kim_jin_min').
+director_kdrama186('love_revolution','kim_sang_hyeop').
+director_kdrama187('queen_of_rings','kim_jin_min').
+director_kdrama188('mad_dog','hwang_eui_kyung').
+director_kdrama189('time','joo_dong_min').
+director_kdrama190('miss_hammurabi','mo_wan_il').
+
+
+%capitulos y temporadas
+capitulos_temporadas_kdrama1('2521', 16, 1).
+capitulos_temporadas_kdrama2('crash_landing_on_you', 16, 1).
+capitulos_temporadas_kdrama3('descendants_of_the_sun', 16, 1).
+capitulos_temporadas_kdrama4('vicenzo', 20, 1).
+capitulos_temporadas_kdrama5('hotel_del_luna', 16, 1).
+capitulos_temporadas_kdrama6('herederos', 20, 1).
+capitulos_temporadas_kdrama7('startup', 16, 1).
+capitulos_temporadas_kdrama8('my_love_from_the_star', 16, 1).
+capitulos_temporadas_kdrama9('goblin', 16, 1).
+capitulos_temporadas_kdrama10('the_king_eternal_monarch', 16, 1).
+capitulos_temporadas_kdrama11('it_s_okay_to_not_be_okay', 16, 1).
+capitulos_temporadas_kdrama12('the_legend_of_the_blue_sea', 16, 1).
+capitulos_temporadas_kdrama13('the_heirs', 20, 1).
+capitulos_temporadas_kdrama14('aterrizaje_emergencia_en_tu_corazon', 16, 1).
+capitulos_temporadas_kdrama15('itaewon_class', 16, 1).
+capitulos_temporadas_kdrama16('true_beauty', 16, 1).
+capitulos_temporadas_kdrama17('love_alarm', 8, 2).
+capitulos_temporadas_kdrama18('strong_woman_do_bong_soon', 16, 1).
+capitulos_temporadas_kdrama19('weightlifting_fairy_kim_bok_joo', 16, 1).
+capitulos_temporadas_kdrama20('while_you_were_sleeping', 16, 1).
+capitulos_temporadas_kdrama21('w_two_worlds', 16, 1).
+capitulos_temporadas_kdrama22('healer', 20, 1).
+capitulos_temporadas_kdrama23('pinocchio', 20, 1).
+capitulos_temporadas_kdrama24('city_hunter', 20, 1).
+capitulos_temporadas_kdrama25('boys_over_flowers', 25, 1).
+capitulos_temporadas_kdrama26('dream_high', 16, 1).
+capitulos_temporadas_kdrama27('moon_lovers_scarlet_heart_ryeo', 20, 1).
+capitulos_temporadas_kdrama28('my_id_is_gangnam_beauty', 16, 1).
+capitulos_temporadas_kdrama29('extraordinary_you', 32, 1).
+capitulos_temporadas_kdrama30('hwarang', 20, 1).
+capitulos_temporadas_kdrama31('the_master_sun', 17, 1).
+capitulos_temporadas_kdrama32('doctor_stranger', 20, 1).
+capitulos_temporadas_kdrama33('dr_romantic', 20, 1).
+capitulos_temporadas_kdrama34('good_doctor', 20, 1).
+capitulos_temporadas_kdrama35('hospital_playlist', 12, 2).
+capitulos_temporadas_kdrama36('signal', 16, 1).
+capitulos_temporadas_kdrama37('reply_1988', 20, 1).
+capitulos_temporadas_kdrama38('reply_1997', 16, 1).
+capitulos_temporadas_kdrama39('reply_1994', 21, 1).
+capitulos_temporadas_kdrama40('youth_of_may', 12, 1).
+capitulos_temporadas_kdrama41('navillera', 12, 1).
+capitulos_temporadas_kdrama42('the_sound_of_magic', 6, 1).
+capitulos_temporadas_kdrama43('sky_castle', 20, 1).
+capitulos_temporadas_kdrama44('the_world_of_the_married', 16, 1).
+capitulos_temporadas_kdrama45('arthdal_chronicles', 18, 1).
+capitulos_temporadas_kdrama46('mouse', 20, 1).
+capitulos_temporadas_kdrama47('taxi_driver', 16, 1).
+capitulos_temporadas_kdrama48('law_school', 16, 1).
+capitulos_temporadas_kdrama49('uncontrollably_fond', 20, 1).
+capitulos_temporadas_kdrama50('the_penthouse', 21, 3).
+capitulos_temporadas_kdrama51('romance_is_a_bonus_book', 16, 1).
+capitulos_temporadas_kdrama52('because_this_is_my_first_life', 16, 1).
+capitulos_temporadas_kdrama53('cheese_in_the_trap', 16, 1).
+capitulos_temporadas_kdrama54('her_private_life', 16, 1).
+capitulos_temporadas_kdrama55('the_undateables', 16, 1).
+capitulos_temporadas_kdrama56('live_up_to_your_name', 16, 1).
+capitulos_temporadas_kdrama57('forest', 32, 1).
+capitulos_temporadas_kdrama58('oh_my_venus', 16, 1).
+capitulos_temporadas_kdrama59('the_light_in_your_eyes', 12, 1).
+capitulos_temporadas_kdrama60('something_in_the_rain', 16, 1).
+capitulos_temporadas_kdrama61('search_www', 16, 1).
+capitulos_temporadas_kdrama62('secret_garden', 20, 1).
+capitulos_temporadas_kdrama63('protect_the_boss', 18, 1).
+capitulos_temporadas_kdrama64('strongest_deliveryman', 16, 1).
+capitulos_temporadas_kdrama65('the_k2', 16, 1).
+capitulos_temporadas_kdrama66('black', 18, 1).
+capitulos_temporadas_kdrama67('beautiful_mind', 14, 1).
+capitulos_temporadas_kdrama68('white_christmas', 8, 1).
+capitulos_temporadas_kdrama69('the_guest', 16, 1).
+capitulos_temporadas_kdrama70('train_to_busan_the_series', 12, 1).
+capitulos_temporadas_kdrama71('empress_ki', 51, 1).
+capitulos_temporadas_kdrama72('man_to_man', 16, 1).
+capitulos_temporadas_kdrama73('misty', 16, 1).
+capitulos_temporadas_kdrama74('flower_of_evil', 16, 1).
+capitulos_temporadas_kdrama75('kingdom', 6, 2).
+capitulos_temporadas_kdrama76('love_in_the_moonlight', 18, 1).
+capitulos_temporadas_kdrama77('cheer_up', 12, 1).
+capitulos_temporadas_kdrama78('doctors', 20, 1).
+capitulos_temporadas_kdrama79('prison_playbook', 16, 1).
+capitulos_temporadas_kdrama80('strangers_from_hell', 10, 1).
+capitulos_temporadas_kdrama81('alice', 16, 1).
+capitulos_temporadas_kdrama82('mrs_cop', 18, 1).
+capitulos_temporadas_kdrama83('class_of_lies', 16, 1).
+capitulos_temporadas_kdrama84('the_last_empress', 52, 1).
+capitulos_temporadas_kdrama85('vagabond', 16, 1).
+capitulos_temporadas_kdrama86('life_on_mars', 16, 1).
+capitulos_temporadas_kdrama87('shine_or_go_crazy', 24, 1).
+capitulos_temporadas_kdrama88('the_crowned_clown', 16, 1).
+capitulos_temporadas_kdrama89('blood', 20, 1).
+capitulos_temporadas_kdrama90('zombie_detective', 12, 1).
+capitulos_temporadas_kdrama91('my_secret_terrius', 32, 1).
+capitulos_temporadas_kdrama92('kairos', 16, 1).
+capitulos_temporadas_kdrama93('the_great_show', 16, 1).
+capitulos_temporadas_kdrama94('angel_s_last_mission_love', 32, 1).
+capitulos_temporadas_kdrama95('run_on', 16, 1).
+capitulos_temporadas_kdrama96('into_the_ring', 16, 1).
+capitulos_temporadas_kdrama97('dali_and_cocky_prince', 16, 1).
+capitulos_temporadas_kdrama98('school_2021', 16, 1).
+capitulos_temporadas_kdrama99('the_veil', 12, 1).
+capitulos_temporadas_kdrama100('inspector_koo', 12, 1).
+capitulos_temporadas_kdrama101('yumi_s_cells', 14, 1).
+capitulos_temporadas_kdrama102('the_red_sleeve', 17, 1).
+capitulos_temporadas_kdrama103('my_name', 8, 1).
+capitulos_temporadas_kdrama104('hometown_cha_cha_cha', 16, 1).
+capitulos_temporadas_kdrama105('melancholia', 16, 1).
+capitulos_temporadas_kdrama106('happiness', 12, 1).
+capitulos_temporadas_kdrama107('now_we_are_breaking_up', 16, 1).
+capitulos_temporadas_kdrama108('the_law_cafe', 16, 1).
+capitulos_temporadas_kdrama109('big_mouth', 16, 1).
+capitulos_temporadas_kdrama110('love_in_contract', 16, 1).
+capitulos_temporadas_kdrama111('alchemy_of_souls', 20, 1).
+capitulos_temporadas_kdrama112('juvenile_justice', 10, 1).
+capitulos_temporadas_kdrama113('all_of_us_are_dead', 12, 1).
+capitulos_temporadas_kdrama114('our_beloved_summer', 16, 1).
+capitulos_temporadas_kdrama115('a_business_proposal', 12, 1).
+capitulos_temporadas_kdrama116('thirty_nine', 12, 1).
+capitulos_temporadas_kdrama117('through_the_darkness', 12, 1).
+capitulos_temporadas_kdrama118('again_my_life', 16, 1).
+capitulos_temporadas_kdrama119('love_all_play', 16, 1).
+capitulos_temporadas_kdrama120('clean_with_passion_for_now', 16, 1).
+capitulos_temporadas_kdrama121('be_melodramatic', 16, 1).
+capitulos_temporadas_kdrama122('doom_at_your_service', 16, 1).
+capitulos_temporadas_kdrama123('you_are_my_spring', 16, 1).
+capitulos_temporadas_kdrama124('the_one_and_only', 16, 1).
+capitulos_temporadas_kdrama125('the_raincoat_killer', 3, 1).
+capitulos_temporadas_kdrama126('reflection_of_you', 16, 1).
+capitulos_temporadas_kdrama127('private_lives', 16, 1).
+capitulos_temporadas_kdrama128('she_would_never_know', 16, 1).
+capitulos_temporadas_kdrama129('undercover', 16, 1).
+capitulos_temporadas_kdrama130('revolutionary_sisters', 50, 1).
+capitulos_temporadas_kdrama131('young_lady_and_gentleman', 52, 1).
+capitulos_temporadas_kdrama132('a_piece_of_your_mind', 12, 1).
+capitulos_temporadas_kdrama133('kings_affection', 20, 1).
+capitulos_temporadas_kdrama134('the_road_tragedy_of_one', 12, 1).
+capitulos_temporadas_kdrama135('doctor_lawyer', 16, 1).
+capitulos_temporadas_kdrama136('why_her', 16, 1).
+capitulos_temporadas_kdrama137('bloody_heart', 16, 1).
+capitulos_temporadas_kdrama138('cafe_minamdang', 18, 1).
+capitulos_temporadas_kdrama139('insider', 16, 1).
+capitulos_temporadas_kdrama140('joseon_attorney', 16, 1).
+capitulos_temporadas_kdrama141('queen_for_seven_days', 20, 1).
+capitulos_temporadas_kdrama142('radiant_office', 16, 1).
+capitulos_temporadas_kdrama143('save_me', 16, 1).
+capitulos_temporadas_kdrama144('missing_the_other_side', 12, 1).
+capitulos_temporadas_kdrama145('beautiful_gong_shim', 20, 1).
+capitulos_temporadas_kdrama146('temperature_of_love', 40, 1).
+capitulos_temporadas_kdrama147('the_greatest_love', 16, 1).
+capitulos_temporadas_kdrama148('fated_to_love_you', 20, 1).
+capitulos_temporadas_kdrama149('oh_my_ghost', 16, 1).
+capitulos_temporadas_kdrama150('witch_at_court', 16, 1).
+capitulos_temporadas_kdrama151('the_time_we_were_not_in_love', 16, 1).
+capitulos_temporadas_kdrama152('falling_for_innocence', 16, 1).
+capitulos_temporadas_kdrama153('the_liar_and_his_lover', 16, 1).
+capitulos_temporadas_kdrama154('the_lovers_of_the_red_sky', 16, 1).
+capitulos_temporadas_kdrama155('shopping_king_louie', 16, 1).
+capitulos_temporadas_kdrama156('weightlifting_fairy_kim_bok_joo', 16, 1).
+capitulos_temporadas_kdrama157('goodbye_to_goodbye', 40, 1).
+capitulos_temporadas_kdrama158('secret_love_affair', 16, 1).
+capitulos_temporadas_kdrama159('the_good_witch', 40, 2).
+capitulos_temporadas_kdrama160('the_flames_of_desire', 50, 2).
+capitulos_temporadas_kdrama161('golden_time', 23, 1).
+capitulos_temporadas_kdrama162('angel_eyes', 20, 1).
+capitulos_temporadas_kdrama163('the_beauty_inside', 16, 1).
+capitulos_temporadas_kdrama164('another_miss_oh', 16, 1).
+capitulos_temporadas_kdrama165('legend_of_the_blue_sea', 20, 1).
+capitulos_temporadas_kdrama166('shine_or_go_crazy', 24, 1).
+capitulos_temporadas_kdrama167('gu_family_book', 24, 1).
+capitulos_temporadas_kdrama168('cinderella_and_four_knights', 16, 1).
+capitulos_temporadas_kdrama169('you_who_came_from_the_stars', 21, 1).
+capitulos_temporadas_kdrama170('what_s_wrong_with_secretary_kim', 16, 1).
+capitulos_temporadas_kdrama171('to_the_beautiful_you', 16, 1).
+capitulos_temporadas_kdrama172('scarlet_heart', 20, 1).
+capitulos_temporadas_kdrama173('the_lovers_in_prague', 18, 1).
+capitulos_temporadas_kdrama174('pasta', 20, 1).
+capitulos_temporadas_kdrama175('her_lovely_heels', 10, 1).
+capitulos_temporadas_kdrama176('hot_stove_league', 16, 1).
+capitulos_temporadas_kdrama177('united_we_stand', 16, 1).
+capitulos_temporadas_kdrama178('when_the_camellia_blooms', 20, 1).
+capitulos_temporadas_kdrama179('strongest_chil_woo', 20, 1).
+capitulos_temporadas_kdrama180('cheer_up_mr_lee', 16, 1).
+capitulos_temporadas_kdrama181('marry_me_now', 50, 1).
+capitulos_temporadas_kdrama182('angel_s_choice', 140, 3).
+capitulos_temporadas_kdrama183('eternal_love', 58, 1).
+capitulos_temporadas_kdrama184('when_time_stopped', 12, 1).
+capitulos_temporadas_kdrama185('secret_of_the_three_kingdoms', 54, 1).
+capitulos_temporadas_kdrama186('love_revolution', 30, 1).
+capitulos_temporadas_kdrama187('queen_of_rings', 6, 1).
+capitulos_temporadas_kdrama188('mad_dog', 16, 1).
+capitulos_temporadas_kdrama189('time', 32, 1).
+capitulos_temporadas_kdrama190('miss_hammurabi', 16, 1).
 
 
 
+%¿Cual es el total de capitulos de 190  kdramas definidos?
+total_capitulos(Total) :-
+    findall(Capitulos, capitulos_temporadas_kdrama(_, Capitulos, _), ListaCapitulos),
+    sum_list(ListaCapitulos, Total).
+
+%¿Cuales son los kdramas con mas de dos temporadas?
+kdramas_con_mas_de_dos_temporadas(Kdrama) :-
+    capitulos_temporadas_kdrama(Kdrama, _, Temporada),
+    Temporada > 2.
+
+%¿Cuales son los kdramas con mas de una temporada?
+kdramas_con_mas_de_una_temporada(Kdrama) :-
+    capitulos_temporadas_kdrama(Kdrama, _, Temporada),
+    Temporada > 1.
+
+%R¿Dada cierta cantidad cuales son los kdramas que tienen mas capitulos que X?
+% Regla que encuentra los Kdramas con más capítulos que una cantidad dada
+%en cantidad debemos poner X
+kdramas_con_mas_capitulos(Cantidad, Kdrama) :-
+    nonvar(Cantidad), 
+    capitulos_temporadas_kdrama(Kdrama, Capitulos, _),
+    Capitulos > Cantidad.
+
+%REgla que define cada capitulo,temporada  y  su kdrama 
+capitulos_temporadas_kdrama(Kdrama, Capitulos,Temporada) :-
+    capitulos_temporadas_kdrama1(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama3(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama4(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama5(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama6(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama7(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama8(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama9(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama10(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama11(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama12(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama13(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama14(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama15(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama16(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama17(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama18(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama19(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama20(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama21(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama22(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama23(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama24(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama25(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama26(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama27(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama28(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama29(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama31(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama32(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama33(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama34(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama35(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama36(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama37(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama38(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama39(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama40(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama41(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama42(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama43(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama44(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama45(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama46(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama47(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama48(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama49(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama50(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama51(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama52(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama53(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama54(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama55(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama56(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama57(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama58(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama59(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama60(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama61(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama62(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama63(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama64(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama65(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama66(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama67(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama68(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama69(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama70(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama71(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama72(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama73(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama74(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama75(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama76(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama77(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama78(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama79(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama80(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama81(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama82(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama83(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama84(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama85(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama86(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama87(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama88(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama89(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama90(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama91(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama92(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama93(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama94(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama95(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama96(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama97(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama98(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama99(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama100(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama101(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama102(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama103(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama104(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama105(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama106(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama107(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama108(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama109(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama110(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama111(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama112(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama113(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama114(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama115(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama116(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama117(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama118(Kdrama, Capitulos, Temporada)
+    ;   capitulos_temporadas_kdrama119(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama120(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama121(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama122(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama123(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama124(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama125(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama126(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama127(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama128(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama129(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama130(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama131(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama132(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama133(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama134(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama135(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama136(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama137(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama138(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama139(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama140(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama141(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama142(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama143(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama144(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama145(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama146(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama147(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama148(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama149(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama150(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama151(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama152(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama153(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama154(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama155(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama156(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama157(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama158(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama159(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama160(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama161(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama162(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama163(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama164(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama165(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama166(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama167(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama168(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama169(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama170(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama171(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama172(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama173(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama174(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama175(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama176(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama177(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama178(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama179(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama180(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama181(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama182(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama183(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama184(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama185(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama186(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama187(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama188(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama189(Kdrama, Capitulos, Temporada)
+        ;   capitulos_temporadas_kdrama190(Kdrama, Capitulos, Temporada).
+
+%Regla que define la cantidad de Kdramas dirigidos por cada director
+cantidad_kdramas_por_director(Director, Cantidad) :-
+    findall(Kdrama, directorKdrama(Kdrama, Director), ListaKdramas),
+    length(ListaKdramas, Cantidad).
+%si no se define un director dara la cantidad total de la lista 190
+%?- cantidad_kdramas_por_director('Oh Choong-hwan', Cantidad).
+% Cantidad 4
+
+%Regla que define una lista de dirctores unicos
+directores_unicos(Director) :-
+    directorKdrama(_, Director),
+    !. % Elimina duplicados.
+
+%Regla que define cada kdrama y su director
+directorKdrama(Kdrama, Director) :-
+    director_kdrama1(Kdrama, Director)
+    ;   director_kdrama2(Kdrama, Director)     
+    ;   director_kdrama3(Kdrama, Director)
+    ;   director_kdrama4(Kdrama, Director)
+    ;   director_kdrama5(Kdrama, Director)
+    ;   director_kdrama6(Kdrama, Director)
+    ;   director_kdrama7(Kdrama, Director)
+    ;   director_kdrama8(Kdrama, Director)
+    ;   director_kdrama9(Kdrama, Director)
+    ;   director_kdrama10(Kdrama, Director)
+    ;   director_kdrama11(Kdrama, Director)
+    ;   director_kdrama12(Kdrama, Director)
+    ;   director_kdrama13(Kdrama, Director)
+    ;   director_kdrama14(Kdrama, Director)
+    ;   director_kdrama15(Kdrama, Director)
+    ;   director_kdrama16(Kdrama, Director)
+    ;   director_kdrama17(Kdrama, Director)
+    ;   director_kdrama18(Kdrama, Director)
+    ;   director_kdrama19(Kdrama, Director)
+    ;   director_kdrama20(Kdrama, Director)
+    ;   director_kdrama21(Kdrama, Director)
+    ;   director_kdrama22(Kdrama, Director)
+    ;   director_kdrama23(Kdrama, Director)
+    ;   director_kdrama24(Kdrama, Director)
+    ;   director_kdrama25(Kdrama, Director)
+    ;   director_kdrama26(Kdrama, Director)
+    ;   director_kdrama27(Kdrama, Director)
+    ;   director_kdrama28(Kdrama, Director)
+    ;   director_kdrama29(Kdrama, Director)
+    ;   director_kdrama30(Kdrama, Director)
+    ;   director_kdrama31(Kdrama, Director)
+    ;   director_kdrama32(Kdrama, Director)
+    ;   director_kdrama33(Kdrama, Director)
+    ;   director_kdrama34(Kdrama, Director)
+    ;   director_kdrama35(Kdrama, Director)
+    ;   director_kdrama36(Kdrama, Director)
+    ;   director_kdrama37(Kdrama, Director)
+    ;   director_kdrama38(Kdrama, Director)
+    ;   director_kdrama39(Kdrama, Director)
+    ;   director_kdrama40(Kdrama, Director)
+    ;   director_kdrama41(Kdrama, Director)
+    ;   director_kdrama42(Kdrama, Director)
+    ;   director_kdrama43(Kdrama, Director)
+    ;   director_kdrama44(Kdrama, Director)
+    ;   director_kdrama45(Kdrama, Director)
+    ;   director_kdrama46(Kdrama, Director)
+    ;   director_kdrama47(Kdrama, Director)
+    ;   director_kdrama48(Kdrama, Director)
+    ;   director_kdrama49(Kdrama, Director)
+    ;   director_kdrama50(Kdrama, Director)
+    ;   director_kdrama51(Kdrama, Director)
+    ;   director_kdrama52(Kdrama, Director)
+    ;   director_kdrama53(Kdrama, Director)
+    ;   director_kdrama54(Kdrama, Director)
+    ;   director_kdrama55(Kdrama, Director)
+    ;   director_kdrama56(Kdrama, Director)
+    ;   director_kdrama57(Kdrama, Director)
+    ;   director_kdrama58(Kdrama, Director)
+    ;   director_kdrama59(Kdrama, Director)
+    ;   director_kdrama60(Kdrama, Director)
+    ;   director_kdrama61(Kdrama, Director)
+    ;   director_kdrama62(Kdrama, Director)
+    ;   director_kdrama63(Kdrama, Director)
+    ;   director_kdrama64(Kdrama, Director)
+    ;   director_kdrama65(Kdrama, Director)
+    ;   director_kdrama66(Kdrama, Director)
+    ;   director_kdrama67(Kdrama, Director)
+    ;   director_kdrama68(Kdrama, Director)
+    ;   director_kdrama69(Kdrama, Director)
+    ;   director_kdrama70(Kdrama, Director)
+    ;   director_kdrama71(Kdrama, Director)
+    ;   director_kdrama72(Kdrama, Director)
+    ;   director_kdrama73(Kdrama, Director)
+    ;   director_kdrama74(Kdrama, Director)
+    ;   director_kdrama75(Kdrama, Director)
+    ;   director_kdrama76(Kdrama, Director)
+    ;   director_kdrama77(Kdrama, Director)
+    ;   director_kdrama78(Kdrama, Director)
+    ;   director_kdrama79(Kdrama, Director)
+    ;   director_kdrama80(Kdrama, Director)
+    ;   director_kdrama81(Kdrama, Director)
+    ;   director_kdrama82(Kdrama, Director)
+    ;   director_kdrama83(Kdrama, Director)
+    ;   director_kdrama84(Kdrama, Director)
+    ;   director_kdrama85(Kdrama, Director)
+    ;   director_kdrama86(Kdrama, Director)
+    ;   director_kdrama87(Kdrama, Director)
+    ;   director_kdrama88(Kdrama, Director)
+    ;   director_kdrama89(Kdrama, Director)
+    ;   director_kdrama90(Kdrama, Director)
+    ;   director_kdrama91(Kdrama, Director)
+    ;   director_kdrama92(Kdrama, Director)
+    ;   director_kdrama93(Kdrama, Director)
+    ;   director_kdrama94(Kdrama, Director)
+    ;   director_kdrama95(Kdrama, Director)
+    ;   director_kdrama96(Kdrama, Director)
+    ;   director_kdrama97(Kdrama, Director)
+    ;   director_kdrama98(Kdrama, Director)
+    ;   director_kdrama99(Kdrama, Director)
+    ;   director_kdrama100(Kdrama, Director)
+    ;   director_kdrama101(Kdrama, Director)
+    ;   director_kdrama102(Kdrama, Director)
+    ;   director_kdrama103(Kdrama, Director)
+    ;   director_kdrama104(Kdrama, Director)
+    ;   director_kdrama105(Kdrama, Director)
+    ;   director_kdrama106(Kdrama, Director)
+    ;   director_kdrama107(Kdrama, Director)
+    ;   director_kdrama108(Kdrama, Director)
+    ;   director_kdrama109(Kdrama, Director)
+    ;   director_kdrama110(Kdrama, Director)
+    ;   director_kdrama111(Kdrama, Director)
+    ;   director_kdrama112(Kdrama, Director)
+    ;   director_kdrama113(Kdrama, Director)
+    ;   director_kdrama114(Kdrama, Director)
+    ;   director_kdrama115(Kdrama, Director)
+    ;   director_kdrama116(Kdrama, Director)
+    ;   director_kdrama117(Kdrama, Director)
+    ;   director_kdrama118(Kdrama, Director)
+    ;   director_kdrama119(Kdrama, Director)
+    ;   director_kdrama120(Kdrama, Director)
+    ;   director_kdrama121(Kdrama, Director)
+    ;   director_kdrama122(Kdrama, Director)
+    ;   director_kdrama123(Kdrama, Director)
+    ;   director_kdrama124(Kdrama, Director)
+    ;   director_kdrama125(Kdrama, Director)
+    ;   director_kdrama126(Kdrama, Director)
+    ;   director_kdrama127(Kdrama, Director)
+    ;   director_kdrama128(Kdrama, Director)
+    ;   director_kdrama129(Kdrama, Director)
+    ;   director_kdrama130(Kdrama, Director)
+    ;   director_kdrama131(Kdrama, Director)
+    ;   director_kdrama132(Kdrama, Director)
+    ;   director_kdrama133(Kdrama, Director)
+    ;   director_kdrama134(Kdrama, Director)
+    ;   director_kdrama135(Kdrama, Director)
+    ;   director_kdrama136(Kdrama, Director)
+    ;   director_kdrama137(Kdrama, Director)
+    ;   director_kdrama138(Kdrama, Director)
+    ;   director_kdrama139(Kdrama, Director)
+    ;   director_kdrama140(Kdrama, Director)
+    ;   director_kdrama141(Kdrama, Director)
+    ;   director_kdrama142(Kdrama, Director)
+    ;   director_kdrama143(Kdrama, Director)
+    ;   director_kdrama144(Kdrama, Director)
+    ;   director_kdrama145(Kdrama, Director)
+    ;   director_kdrama146(Kdrama, Director)
+    ;   director_kdrama147(Kdrama, Director)
+    ;   director_kdrama148(Kdrama, Director)
+    ;   director_kdrama149(Kdrama, Director)
+    ;   director_kdrama150(Kdrama, Director)
+    ;   director_kdrama151(Kdrama, Director)
+    ;   director_kdrama152(Kdrama, Director)
+    ;   director_kdrama153(Kdrama, Director)
+    ;   director_kdrama154(Kdrama, Director)
+    ;   director_kdrama155(Kdrama, Director)
+    ;   director_kdrama156(Kdrama, Director)
+    ;   director_kdrama157(Kdrama, Director)
+    ;   director_kdrama158(Kdrama, Director)
+    ;   director_kdrama159(Kdrama, Director)
+    ;   director_kdrama160(Kdrama, Director)
+    ;   director_kdrama161(Kdrama, Director)
+    ;   director_kdrama162(Kdrama, Director)
+    ;   director_kdrama163(Kdrama, Director)
+    ;   director_kdrama164(Kdrama, Director)
+    ;   director_kdrama165(Kdrama, Director)
+    ;   director_kdrama166(Kdrama, Director)
+    ;   director_kdrama167(Kdrama, Director)
+    ;   director_kdrama168(Kdrama, Director)
+    ;   director_kdrama169(Kdrama, Director)
+    ;   director_kdrama170(Kdrama, Director)
+    ;   director_kdrama171(Kdrama, Director)
+    ;   director_kdrama172(Kdrama, Director)
+    ;   director_kdrama173(Kdrama, Director)
+    ;   director_kdrama174(Kdrama, Director)
+    ;   director_kdrama175(Kdrama, Director)
+    ;   director_kdrama176(Kdrama, Director)
+    ;   director_kdrama177(Kdrama, Director)
+    ;   director_kdrama178(Kdrama, Director)
+    ;   director_kdrama179(Kdrama, Director)
+    ;   director_kdrama180(Kdrama, Director)
+    ;   director_kdrama181(Kdrama, Director)
+    ;   director_kdrama182(Kdrama, Director)
+    ;   director_kdrama183(Kdrama, Director)
+    ;   director_kdrama184(Kdrama, Director)
+    ;   director_kdrama185(Kdrama, Director)
+    ;   director_kdrama186(Kdrama, Director)
+    ;   director_kdrama187(Kdrama, Director)
+    ;   director_kdrama188(Kdrama, Director)
+    ;   director_kdrama189(Kdrama, Director)
+    ;   director_kdrama190(Kdrama, Director).
+
+
+
+%¿Cuales son los kdramas que fueron doblados al espanol?
+% regla que encuentra los kdramas que fueron doblados al espanol
+kdramas_doblados_al_espanol(Kdrama) :-
+    doblajeKdrama(_, Kdrama, Doblajes),
+    member(espanol, Doblajes).
+
+%¿Cuales son los kdramas que fueron doblados al ingles?
+% regla que encuentra los kdramas que fueron doblados al ingles
+kdramas_doblados_al_ingles(Kdrama) :-
+    doblajeKdrama(_, Kdrama, Doblajes),
+    member(ingles, Doblajes).
+
+%¿Cuales son los kdramas que fueron doblados al coreano?
+% regla que encuentra los kdramas que fueron doblados al coreano
+kdramas_doblados_al_coreano(Kdrama) :-
+    doblajeKdrama(_, Kdrama, Doblajes),
+    member(coreano, Doblajes).
+
+%regla que define un id unico para cada kdrama y sus doblajes
+doblajeKdrama(Id, Kdrama, Doblajes) :- 
+    doblajeKdrama1(Kdrama, Doblajes), Id = 1
+    ;   doblajeKdrama2(Kdrama, Doblajes), Id = 2
+    ;   doblajeKdrama3(Kdrama, Doblajes), Id = 3
+    ;   doblajeKdrama4(Kdrama, Doblajes), Id = 4
+    ;   doblajeKdrama5(Kdrama, Doblajes), Id = 5
+    ;   doblajeKdrama6(Kdrama, Doblajes), Id = 6
+    ;   doblajeKdrama7(Kdrama, Doblajes), Id = 7
+    ;   doblajeKdrama8(Kdrama, Doblajes), Id = 8
+    ;   doblajeKdrama9(Kdrama, Doblajes), Id = 9
+    ;   doblajeKdrama10(Kdrama, Doblajes), Id = 10
+    ;   doblajeKdrama11(Kdrama, Doblajes), Id = 11
+    ;   doblajeKdrama12(Kdrama, Doblajes), Id = 12
+    ;   doblajeKdrama13(Kdrama, Doblajes), Id = 13
+    ;   doblajeKdrama14(Kdrama, Doblajes), Id = 14
+    ;   doblajeKdrama15(Kdrama, Doblajes), Id = 15
+    ;   doblajeKdrama16(Kdrama, Doblajes), Id = 16
+    ;   doblajeKdrama17(Kdrama, Doblajes), Id = 17
+    ;   doblajeKdrama18(Kdrama, Doblajes), Id = 18
+    ;   doblajeKdrama19(Kdrama, Doblajes), Id = 19
+    ;   doblajeKdrama20(Kdrama, Doblajes), Id = 20
+    ;   doblajeKdrama21(Kdrama, Doblajes), Id = 21
+    ;   doblajeKdrama22(Kdrama, Doblajes), Id = 22
+    ;   doblajeKdrama23(Kdrama, Doblajes), Id = 23
+    ;   doblajeKdrama24(Kdrama, Doblajes), Id = 24
+    ;   doblajeKdrama25(Kdrama, Doblajes), Id = 25
+    ;   doblajeKdrama26(Kdrama, Doblajes), Id = 26
+    ;   doblajeKdrama27(Kdrama, Doblajes), Id = 27
+    ;   doblajeKdrama28(Kdrama, Doblajes), Id = 28
+    ;   doblajeKdrama29(Kdrama, Doblajes), Id = 29
+    ;   doblajeKdrama30(Kdrama, Doblajes), Id = 30
+    ;   doblajeKdrama31(Kdrama, Doblajes), Id = 31
+    ;   doblajeKdrama32(Kdrama, Doblajes), Id = 32
+    ;   doblajeKdrama33(Kdrama, Doblajes), Id = 33
+    ;   doblajeKdrama34(Kdrama, Doblajes), Id = 34
+    ;   doblajeKdrama35(Kdrama, Doblajes), Id = 35
+    ;   doblajeKdrama36(Kdrama, Doblajes), Id = 36
+    ;   doblajeKdrama37(Kdrama, Doblajes), Id = 37
+    ;   doblajeKdrama38(Kdrama, Doblajes), Id = 38
+    ;   doblajeKdrama39(Kdrama, Doblajes), Id = 39
+    ;   doblajeKdrama40(Kdrama, Doblajes), Id = 40
+    ;   doblajeKdrama41(Kdrama, Doblajes), Id = 41
+    ;   doblajeKdrama42(Kdrama, Doblajes), Id = 42
+    ;   doblajeKdrama43(Kdrama, Doblajes), Id = 43
+    ;   doblajeKdrama44(Kdrama, Doblajes), Id = 44
+    ;   doblajeKdrama45(Kdrama, Doblajes), Id = 45
+    ;   doblajeKdrama46(Kdrama, Doblajes), Id = 46
+    ;   doblajeKdrama47(Kdrama, Doblajes), Id = 47
+    ;   doblajeKdrama48(Kdrama, Doblajes), Id = 48
+    ;   doblajeKdrama49(Kdrama, Doblajes), Id = 49
+    ;   doblajeKdrama50(Kdrama, Doblajes), Id = 50
+    ;   doblajeKdrama51(Kdrama, Doblajes), Id = 51
+    ;   doblajeKdrama52(Kdrama, Doblajes), Id = 52
+    ;   doblajeKdrama53(Kdrama, Doblajes), Id = 53
+    ;   doblajeKdrama54(Kdrama, Doblajes), Id = 54
+    ;   doblajeKdrama55(Kdrama, Doblajes), Id = 55
+    ;   doblajeKdrama56(Kdrama, Doblajes), Id = 56
+    ;   doblajeKdrama57(Kdrama, Doblajes), Id = 57
+    ;   doblajeKdrama58(Kdrama, Doblajes), Id = 58
+    ;   doblajeKdrama59(Kdrama, Doblajes), Id = 59
+    ;   doblajeKdrama60(Kdrama, Doblajes), Id = 60
+    ;   doblajeKdrama61(Kdrama, Doblajes), Id = 61
+    ;   doblajeKdrama62(Kdrama, Doblajes), Id = 62
+    ;   doblajeKdrama63(Kdrama, Doblajes), Id = 63
+    ;   doblajeKdrama64(Kdrama, Doblajes), Id = 64
+    ;   doblajeKdrama65(Kdrama, Doblajes), Id = 65
+    ;   doblajeKdrama66(Kdrama, Doblajes), Id = 66
+    ;   doblajeKdrama67(Kdrama, Doblajes), Id = 67
+    ;   doblajeKdrama68(Kdrama, Doblajes), Id = 68
+    ;   doblajeKdrama69(Kdrama, Doblajes), Id = 69
+    ;   doblajeKdrama70(Kdrama, Doblajes), Id = 70
+    ;   doblajeKdrama71(Kdrama, Doblajes), Id = 71
+    ;   doblajeKdrama72(Kdrama, Doblajes), Id = 72
+    ;   doblajeKdrama73(Kdrama, Doblajes), Id = 73
+    ;   doblajeKdrama74(Kdrama, Doblajes), Id = 74
+    ;   doblajeKdrama75(Kdrama, Doblajes), Id = 75
+    ;   doblajeKdrama76(Kdrama, Doblajes), Id = 76
+    ;   doblajeKdrama77(Kdrama, Doblajes), Id = 77
+    ;   doblajeKdrama78(Kdrama, Doblajes), Id = 78
+    ;   doblajeKdrama79(Kdrama, Doblajes), Id = 79
+    ;   doblajeKdrama80(Kdrama, Doblajes), Id = 80
+    ;   doblajeKdrama81(Kdrama, Doblajes), Id = 81
+    ;   doblajeKdrama82(Kdrama, Doblajes), Id = 82
+    ;   doblajeKdrama83(Kdrama, Doblajes), Id = 83
+    ;   doblajeKdrama84(Kdrama, Doblajes), Id = 84
+    ;   doblajeKdrama85(Kdrama, Doblajes), Id = 85
+    ;   doblajeKdrama86(Kdrama, Doblajes), Id = 86
+    ;   doblajeKdrama87(Kdrama, Doblajes), Id = 87
+    ;   doblajeKdrama88(Kdrama, Doblajes), Id = 88
+    ;   doblajeKdrama89(Kdrama, Doblajes), Id = 89
+    ;   doblajeKdrama90(Kdrama, Doblajes), Id = 90
+    ;   doblajeKdrama91(Kdrama, Doblajes), Id = 91
+    ;   doblajeKdrama92(Kdrama, Doblajes), Id = 92
+    ;   doblajeKdrama93(Kdrama, Doblajes), Id = 93
+    ;   doblajeKdrama94(Kdrama, Doblajes), Id = 94
+    ;   doblajeKdrama95(Kdrama, Doblajes), Id = 95
+    ;   doblajeKdrama96(Kdrama, Doblajes), Id = 96
+    ;   doblajeKdrama97(Kdrama, Doblajes), Id = 97
+    ;   doblajeKdrama98(Kdrama, Doblajes), Id = 98
+    ;   doblajeKdrama99(Kdrama, Doblajes), Id = 99
+    ;   doblajeKdrama100(Kdrama, Doblajes), Id = 100
+    ;   doblajeKdrama101(Kdrama, Doblajes), Id = 101
+    ;   doblajeKdrama102(Kdrama, Doblajes), Id = 102
+    ;   doblajeKdrama103(Kdrama, Doblajes), Id = 103
+    ;   doblajeKdrama104(Kdrama, Doblajes), Id = 104
+    ;   doblajeKdrama105(Kdrama, Doblajes), Id = 105
+    ;   doblajeKdrama106(Kdrama, Doblajes), Id = 106
+    ;   doblajeKdrama107(Kdrama, Doblajes), Id = 107
+    ;   doblajeKdrama108(Kdrama, Doblajes), Id = 108
+    ;   doblajeKdrama109(Kdrama, Doblajes), Id = 109
+    ;   doblajeKdrama110(Kdrama, Doblajes), Id = 110
+    ;   doblajeKdrama111(Kdrama, Doblajes), Id = 111
+    ;   doblajeKdrama112(Kdrama, Doblajes), Id = 112
+    ;   doblajeKdrama113(Kdrama, Doblajes), Id = 113
+    ;   doblajeKdrama114(Kdrama, Doblajes), Id = 114
+    ;   doblajeKdrama115(Kdrama, Doblajes), Id = 115
+    ;   doblajeKdrama116(Kdrama, Doblajes), Id = 116
+    ;   doblajeKdrama117(Kdrama, Doblajes), Id = 117
+    ;   doblajeKdrama118(Kdrama, Doblajes), Id = 118
+    ;   doblajeKdrama119(Kdrama, Doblajes), Id = 119
+    ;   doblajeKdrama120(Kdrama, Doblajes), Id = 120
+    ;   doblajeKdrama121(Kdrama, Doblajes), Id = 121
+    ;   doblajeKdrama122(Kdrama, Doblajes), Id = 122
+    ;   doblajeKdrama123(Kdrama, Doblajes), Id = 123
+    ;   doblajeKdrama124(Kdrama, Doblajes), Id = 124
+    ;   doblajeKdrama125(Kdrama, Doblajes), Id = 125
+    ;   doblajeKdrama126(Kdrama, Doblajes), Id = 126
+    ;   doblajeKdrama127(Kdrama, Doblajes), Id = 127
+    ;   doblajeKdrama128(Kdrama, Doblajes), Id = 128
+    ;   doblajeKdrama129(Kdrama, Doblajes), Id = 129
+    ;   doblajeKdrama130(Kdrama, Doblajes), Id = 130
+    ;   doblajeKdrama131(Kdrama, Doblajes), Id = 131
+    ;   doblajeKdrama132(Kdrama, Doblajes), Id = 132
+    ;   doblajeKdrama133(Kdrama, Doblajes), Id = 133
+    ;   doblajeKdrama134(Kdrama, Doblajes), Id = 134
+    ;   doblajeKdrama135(Kdrama, Doblajes), Id = 135
+    ;   doblajeKdrama136(Kdrama, Doblajes), Id = 136
+    ;   doblajeKdrama137(Kdrama, Doblajes), Id = 137
+    ;   doblajeKdrama138(Kdrama, Doblajes), Id = 138
+    ;   doblajeKdrama139(Kdrama, Doblajes), Id = 139
+    ;   doblajeKdrama140(Kdrama, Doblajes), Id = 140
+    ;   doblajeKdrama141(Kdrama, Doblajes), Id = 141
+    ;   doblajeKdrama142(Kdrama, Doblajes), Id = 142
+    ;   doblajeKdrama143(Kdrama, Doblajes), Id = 143
+    ;   doblajeKdrama144(Kdrama, Doblajes), Id = 144
+    ;   doblajeKdrama145(Kdrama, Doblajes), Id = 145
+    ;   doblajeKdrama146(Kdrama, Doblajes), Id = 146
+    ;   doblajeKdrama147(Kdrama, Doblajes), Id = 147
+    ;   doblajeKdrama148(Kdrama, Doblajes), Id = 148
+    ;   doblajeKdrama149(Kdrama, Doblajes), Id = 149
+    ;   doblajeKdrama150(Kdrama, Doblajes), Id = 150
+    ;   doblajeKdrama151(Kdrama, Doblajes), Id = 151
+    ;   doblajeKdrama152(Kdrama, Doblajes), Id = 152
+    ;   doblajeKdrama153(Kdrama, Doblajes), Id = 153
+    ;   doblajeKdrama154(Kdrama, Doblajes), Id = 154
+    ;   doblajeKdrama155(Kdrama, Doblajes), Id = 155
+    ;   doblajeKdrama156(Kdrama, Doblajes), Id = 156
+    ;   doblajeKdrama157(Kdrama, Doblajes), Id = 157
+    ;   doblajeKdrama158(Kdrama, Doblajes), Id = 158
+    ;   doblajeKdrama159(Kdrama, Doblajes), Id = 159
+    ;   doblajeKdrama160(Kdrama, Doblajes), Id = 160
+    ;   doblajeKdrama161(Kdrama, Doblajes), Id = 161
+    ;   doblajeKdrama162(Kdrama, Doblajes), Id = 162
+    ;   doblajeKdrama163(Kdrama, Doblajes), Id = 163
+    ;   doblajeKdrama164(Kdrama, Doblajes), Id = 164
+    ;   doblajeKdrama165(Kdrama, Doblajes), Id = 165
+    ;   doblajeKdrama166(Kdrama, Doblajes), Id = 166
+    ;   doblajeKdrama167(Kdrama, Doblajes), Id = 167
+    ;   doblajeKdrama168(Kdrama, Doblajes), Id = 168
+    ;   doblajeKdrama169(Kdrama, Doblajes), Id = 169
+    ;   doblajeKdrama170(Kdrama, Doblajes), Id = 170
+    ;   doblajeKdrama171(Kdrama, Doblajes), Id = 171
+    ;   doblajeKdrama172(Kdrama, Doblajes), Id = 172
+    ;   doblajeKdrama173(Kdrama, Doblajes), Id = 173
+    ;   doblajeKdrama174(Kdrama, Doblajes), Id = 174
+    ;   doblajeKdrama175(Kdrama, Doblajes), Id = 175
+    ;   doblajeKdrama176(Kdrama, Doblajes), Id = 176
+    ;   doblajeKdrama177(Kdrama, Doblajes), Id = 177
+    ;   doblajeKdrama178(Kdrama, Doblajes), Id = 178
+    ;   doblajeKdrama179(Kdrama, Doblajes), Id = 179
+    ;   doblajeKdrama180(Kdrama, Doblajes), Id = 180
+    ;   doblajeKdrama181(Kdrama, Doblajes), Id = 181
+    ;   doblajeKdrama182(Kdrama, Doblajes), Id = 182
+    ;   doblajeKdrama183(Kdrama, Doblajes), Id = 183
+    ;   doblajeKdrama184(Kdrama, Doblajes), Id = 184
+    ;   doblajeKdrama185(Kdrama, Doblajes), Id = 185
+    ;   doblajeKdrama186(Kdrama, Doblajes), Id = 186
+    ;   doblajeKdrama187(Kdrama, Doblajes), Id = 187
+    ;   doblajeKdrama188(Kdrama, Doblajes), Id = 188
+    ;   doblajeKdrama189(Kdrama, Doblajes), Id = 189
+    ;   doblajeKdrama190(Kdrama, Doblajes), Id = 190.
+
+        
 
 %¿Cuales son los kdramas que fueron filmados en Corea del sur?
 % Regla que encuentra los Kdramas que fueron filmados en Corea del sur
