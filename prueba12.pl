@@ -2,6 +2,7 @@
 
 
 nombrekdrama/2.
+:- discontiguous doblajes/1.
 :- discontiguous nombrekdrama/2.
 :- discontiguous actuo_en/2.
 :- discontiguous generokdrama/2.
@@ -669,8 +670,6 @@ region('okinawa').
 %paises donde fue filmado
 pais('corea_del_sur').
 pais('japon').
-pais('china').
-pais('eu').
 
 %plataformas de streaming
 plataforma('netflix').
@@ -678,13 +677,13 @@ plataforma('viki').
 plataforma('dramafever').
 
 %kdramas pais y region
-locacionKdrama1('2521',[corea_del_sur],[seoul,busan]).
+locacionKdrama1('2521',[corea_del_sur,japon],[seoul,busan,kanto]).
 locacionKdrama2('crash_landing_on_you',[corea_del_sur],[seoul,chungcheong]).
 locacionKdrama3('descendants_of_the_sun',[corea_del_sur],[seoul,busan]).
 locacionKdrama4('vicenzo',[corea_del_sur],[seoul]).
-locacionKdrama5('hotel_del_luna',[corea_del_sur],[seoul,jeju]).
-locacionKdrama6('herederos',[corea_del_sur],[seoul]).
-locacionKdrama7('startup',[corea_del_sur],[seoul,busan]).
+locacionKdrama5('hotel_del_luna',[corea_del_sur,japon],[seoul,jeju]).
+locacionKdrama6('herederos',[corea_del_sur,japon],[seoul,kanto]).
+locacionKdrama7('startup',[corea_del_sur,japon],[seoul,busan]).
 locacionKdrama8('my_love_from_the_star',[corea_del_sur],[seoul,busan]).
 locacionKdrama9('goblin',[corea_del_sur],[seoul]).
 locacionKdrama10('the_king_eternal_monarch',[corea_del_sur],[seoul]).
@@ -697,7 +696,7 @@ locacionKdrama16('true_beauty',[corea_del_sur],[seoul]).
 locacionKdrama17('love_alarm',[corea_del_sur],[seoul,busan]).
 locacionKdrama18('strong_woman_do_bong_soon',[corea_del_sur],[seoul]).
 locacionKdrama19('weightlifting_fairy_kim_bok_joo',[corea_del_sur],[seoul]).
-locacionKdrama20('while_you_were_sleeping',[corea_del_sur],[seoul]).
+locacionKdrama20('while_you_were_sleeping',[corea_del_sur,japon],[seoul,okinawa]).
 locacionKdrama21('w_two_worlds',[corea_del_sur],[seoul]).
 locacionKdrama22('healer',[corea_del_sur],[seoul]).
 locacionKdrama23('pinocchio',[corea_del_sur],[seoul]).
@@ -717,15 +716,15 @@ locacionKdrama36('signal',[corea_del_sur],[seoul]).
 locacionKdrama37('reply_1988',[corea_del_sur],[seoul]).
 locacionKdrama38('reply_1997',[corea_del_sur],[seoul]).
 locacionKdrama39('reply_1994',[corea_del_sur],[seoul]).
-locacionKdrama40('youth_of_may',[corea_del_sur],[seoul]).
+locacionKdrama40('youth_of_may',[corea_del_sur,japon],[seoul]).
 locacionKdrama41('navillera',[corea_del_sur],[seoul]).
 locacionKdrama42('the_sound_of_magic',[corea_del_sur],[seoul]).
 locacionKdrama43('sky_castle',[corea_del_sur],[seoul]).
 locacionKdrama44('the_world_of_the_married',[corea_del_sur],[seoul]).
 locacionKdrama45('arthdal_chronicles',[corea_del_sur],[seoul]).
-locacionKdrama46('mouse',[corea_del_sur],[seoul]).
-locacionKdrama47('taxi_driver',[corea_del_sur],[seoul]).
-locacionKdrama48('law_school',[corea_del_sur],[seoul]).
+locacionKdrama46('mouse',[corea_del_sur,japon],[seoul,okinawa]).
+locacionKdrama47('taxi_driver',[corea_del_sur,japon],[seoul,kanto]).
+locacionKdrama48('law_school',[corea_del_sur,japon],[seoul,kanto]).
 locacionKdrama49('uncontrollably_fond',[corea_del_sur],[seoul]).
 locacionKdrama50('the_penthouse',[corea_del_sur],[seoul]).
 locacionKdrama51('romance_is_a_bonus_book',[corea_del_sur],[seoul]).
@@ -803,14 +802,258 @@ locacionKdrama122('time',[corea_del_sur],[seoul]).
 locacionKdrama123('miss_hammurabi',[corea_del_sur],[seoul]).
 locacionKdrama124('money_flower',[corea_del_sur],[seoul]).
 locacionKdrama125('four_legendary_witches',[corea_del_sur],[seoul]).
-locacionKdrama126('popets',[corea_del_sur],[seoul]).
+locacionKdrama126('popets',[corea_del_sur,japon],[seoul,okinawa]).
 
+%doblajes 
+doblajes('espanol').
+doblajes('ingles').
+dobjajes('coreano').
+doblajes('chino').
+doblajes('japones').
+
+% Doblaje de Kdramas
+doblajeKdrama1('2521',[espanol,ingles,coreano]).
+doblajeKdrama2('crash_landing_on_you',[espanol,ingles,coreano]).
+doblajeKdrama3('descendants_of_the_sun',[espanol,ingles,coreano]).
+doblajeKdrama4('vicenzo',[espanol,ingles,coreano]).
+doblajeKdrama5('hotel_del_luna',[espanol,coreano]).
+doblajeKdrama6('herederos',[espanol,ingles,coreano]).
+doblajeKdrama7('startup',[espanol,ingles,coreano]).
+doblajeKdrama8('my_love_from_the_star',[coreano]).
+doblajeKdrama9('goblin',[espanol,ingles,coreano]).
+doblajeKdrama10('the_king_eternal_monarch',[espanol,ingles,coreano]).
+doblajeKdrama11('it_s_okay_to_not_be_okay',[espanol,ingles,coreano]).
+doblajeKdrama12('the_legend_of_the_blue_sea',[espanol,ingles,coreano]).
+doblajeKdrama13('the_heirs',[espanol,ingles,coreano]).
+doblajeKdrama14('aterrizaje_emergencia_en_tu_corazon',[espanol,ingles,coreano]).
+doblajeKdrama15('itaewon_class',[espanol,ingles,coreano]).
+doblajeKdrama16('true_beauty',[espanol,ingles,coreano]).
+doblajeKdrama17('love_alarm',[espanol,ingles,coreano]).
+doblajeKdrama18('strong_woman_do_bong_soon',[espanol,ingles]).
+doblajeKdrama19('weightlifting_fairy_kim_bok_joo',[coreano]).
+doblajeKdrama20('while_you_were_sleeping',[espanol,ingles,coreano]).
+doblajeKdrama21('w_two_worlds',[espanol,ingles,coreano]).
+doblajeKdrama22('healer',[espanol,ingles,coreano]).
+doblajeKdrama23('pinocchio',[espanol,ingles,coreano]).
+doblajeKdrama24('city_hunter',[espanol,ingles,coreano]).
+doblajeKdrama25('heirs',[coreano]).
+doblajeKdrama26('dream_high',[espanol,ingles]).
+doblajeKdrama27('moon_lovers_scarlet_heart_ryeo',[espanol,ingles,coreano]).
+doblajeKdrama28('my_id_is_gangnam_beauty',[espanol,ingles,coreano]).
+doblajeKdrama29('extraordinary_you',[espanol,ingles,coreano]).
+doblajeKdrama30('hwarang',[espanol,ingles,coreano]).
+doblajeKdrama31('the_master_sun',[espanol,ingles,coreano]).
+doblajeKdrama32('doctor_stranger',[coreano]).
+doblajeKdrama33('dr_romantic',[coreano]).
+doblajeKdrama34('good_doctor',[coreano]).
+doblajeKdrama35('hospital_playlist',[coreano]).
+doblajeKdrama36('signal',[espanol,ingles]).
+doblajeKdrama37('reply_1988',[coreano]).
+doblajeKdrama38('reply_1997',[coreano]).
+doblajeKdrama39('reply_1994',[coreano]).
+doblajeKdrama40('youth_of_may',[coreano]).
+doblajeKdrama41('navillera',[coreano]).
+doblajeKdrama42('the_sound_of_magic',[coreano]).
+doblajeKdrama43('sky_castle',[coreano]).
+doblajeKdrama44('the_world_of_the_married',[coreano]).
+doblajeKdrama45('arthdal_chronicles',[coreano,chino,japones]).
+doblajeKdrama46('mouse',[coreano,chino,japones]).
+doblajeKdrama47('taxi_driver',[coreano,chino,japones]).
+doblajeKdrama48('law_school',[coreano,chino,japones]).
+doblajeKdrama49('uncontrollably_fond',[coreano,chino,japones]).
+doblajeKdrama50('the_penthouse',[coreano,chino,japones]).
+doblajeKdrama51('romance_is_a_bonus_book',[coreano,chino,japones]).
+doblajeKdrama52('because_this_is_my_first_life',[coreano,chino,japones]).
+doblajeKdrama53('cheese_in_the_trap',[coreano,chino,japones]).
+doblajeKdrama54('her_private_life',[coreano,chino,japones]).
+doblajeKdrama55('the_undateables',[coreano,chino,japones]).
+doblajeKdrama56('live_up_to_your_name',[coreano,chino,japones]).
+doblajeKdrama57('forest',[coreano,chino,japones]).
+doblajeKdrama58('oh_my_venus',[coreano,chino,japones]).
+doblajeKdrama59('the_light_in_your_eyes',[coreano,chino,japones]).
+doblajeKdrama60('something_in_the_rain',[coreano,chino,japones]).
+doblajeKdrama61('search_www',[coreano,chino,japones]).
+doblajeKdrama62('secret_garden',[coreano,chino,japones]).
+doblajeKdrama63('protect_the_boss',[coreano,chino,japones]).
+doblajeKdrama64('strongest_deliveryman',[coreano,chino,japones]).
+doblajeKdrama65('the_k2',[coreano,chino,japones]).
+doblajeKdrama66('black',[coreano,chino,japones]).
+doblajeKdrama67('beautiful_mind',[coreano,chino,japones]).
+doblajeKdrama68('white_christmas',[coreano,chino,japones]).
+doblajeKdrama69('the_guest',[coreano,chino,japones]).
+doblajeKdrama70('train_to_busan_the_series',[coreano,chino,japones]).
+doblajeKdrama71('empress_ki',[coreano,chino,japones]).
+doblajeKdrama72('man_to_man',[coreano,chino,japones]).
+doblajeKdrama73('misty',[coreano,chino,japones]).
+doblajeKdrama74('flower_of_evil',[coreano,chino,japones]).
+doblajeKdrama75('kingdom',[coreano,chino,japones]).
+doblajeKdrama76('love_in_the_moonlight',[coreano,chino,japones]).
+doblajeKdrama77('cheer_up',[coreano,chino,japones]).
+doblajeKdrama78('doctors',[coreano,chino,japones]).
+doblajeKdrama79('prison_playbook',[coreano,chino,japones]).
+doblajeKdrama80('strangers_from_hell',[espanol,coreano,chino,japones]).
+doblajeKdrama81('alice',[coreano,chino,japones]).
+doblajeKdrama82('mrs_cop',[coreano,chino,japones]).
+doblajeKdrama83('class_of_lies',[coreano,chino,japones,ingles]).
+doblajeKdrama84('the_last_empress',[coreano,chino,japones]).
+doblajeKdrama85('vagabond',[coreano,chino,japones]).
+doblajeKdrama86('life_on_mars',[coreano,chino,japones]).
+doblajeKdrama87('shine_or_go_crazy',[coreano,chino,japones]).
+doblajeKdrama88('the_crowned_clown',[coreano,chino,japones]).
+doblajeKdrama89('blood',[coreano,chino,japones]).
+doblajeKdrama90('zombie_detective',[coreano,chino,japones]).
+doblajeKdrama91('my_secret_terrius',[coreano,chino,japones]).
+doblajeKdrama92('kairos',[coreano,chino,japones]).
+doblajeKdrama93('the_great_show',[coreano,chino,japones]).
+doblajeKdrama94('angel_s_last_mission_love',[coreano,chino,japones]).
+doblajeKdrama95('run_on',[coreano,chino,japones]).
+doblajeKdrama96('into_the_ring',[coreano,chino,japones]).
+doblajeKdrama97('dali_and_cocky_prince',[coreano,chino,japones]).
+doblajeKdrama98('school_2021',[coreano,chino,japones]).
+doblajeKdrama99('the_veil',[coreano,chino,japones]).
+doblajeKdrama100('inspector_koo',[coreano,chino,japones]).
+doblajeKdrama101('yumi_s_cells',[espanol,ingles,coreano]).
+doblajeKdrama102('the_red_sleeve',[espanol,ingles,coreano]).
+doblajeKdrama103('my_name',[espanol,ingles,coreano]).
+doblajeKdrama104('hometown_cha_cha_cha',[espanol,ingles,coreano]).
+doblajeKdrama105('melancholia',[espanol,ingles,coreano]).
+doblajeKdrama106('happiness',[espanol,ingles,coreano]).
+doblajeKdrama107('now_we_are_breaking_up',[espanol,ingles,coreano]).
+doblajeKdrama108('the_law_cafe',[espanol,ingles,coreano]).
+doblajeKdrama109('big_mouth',[espanol,ingles,coreano]).
+doblajeKdrama110('love_in_contract',[espanol,ingles,coreano]).
+doblajeKdrama111('alchemy_of_souls',[espanol,ingles,coreano]).
+doblajeKdrama112('juvenile_justice',[espanol,ingles,coreano]).
+doblajeKdrama113('all_of_us_are_dead',[espanol,ingles,coreano]).
+doblajeKdrama114('our_beloved_summer',[espanol,ingles,coreano]).
+doblajeKdrama115('a_business_proposal',[espanol,ingles,coreano]).
+doblajeKdrama116('thirty_nine',[espanol,ingles,coreano]).
+doblajeKdrama117('through_the_darkness',[espanol,ingles,coreano]).
+doblajeKdrama118('again_my_life',[espanol,ingles,coreano]).
+doblajeKdrama119('love_all_play',[espanol,ingles,coreano]).
+doblajeKdrama120('clean_with_passion_for_now',[espanol,ingles,coreano]).
+doblajeKdrama121('be_melodramatic',[espanol,ingles,coreano,frances]).
+doblajeKdrama122('doom_at_your_service',[espanol,ingles,coreano]).
+doblajeKdrama123('you_are_my_spring',[espanol,ingles,coreano]).
+doblajeKdrama124('the_one_and_only',[espanol,ingles,coreano,frances]).
+doblajeKdrama125('the_raincoat_killer',[espanol,ingles,coreano]).
+doblajeKdrama126('reflection_of_you',[espanol,ingles,coreano]).
+doblajeKdrama127('private_lives',[espanol,ingles,coreano]).
+doblajeKdrama128('she_would_never_know',[espanol,ingles,coreano]).
+doblajeKdrama129('undercover',[espanol,ingles,coreano]).
+doblajeKdrama130('revolutionary_sisters',[espanol,ingles,coreano]).
+doblajeKdrama131('young_lady_and_gentleman',[espanol,ingles,coreano]).
+doblajeKdrama132('a_piece_of_your_mind',[espanol,ingles,coreano]).
+doblajeKdrama133('kings_affection',[espanol,ingles,coreano]).
+doblajeKdrama134('the_road_tragedy_of_one',[espanol,ingles,coreano]).
+doblajeKdrama135('doctor_lawyer',[espanol,ingles,coreano]).
+doblajeKdrama136('why_her',[espanol,ingles,coreano]).
+doblajeKdrama137('bloody_heart',[espanol,ingles,coreano]).
+doblajeKdrama138('cafe_minamdang',[espanol,ingles,coreano]).
+doblajeKdrama139('insider',[espanol,ingles,coreano]).
+doblajeKdrama140('joseon_attorney',[espanol,ingles,coreano]).
+doblajeKdrama141('queen_for_seven_days',[espanol,ingles,coreano]).
+doblajeKdrama142('radiant_office',[espanol,ingles,coreano]).
+doblajeKdrama143('save_me',[espanol,ingles,coreano]).
+doblajeKdrama144('missing_the_other_side',[espanol,ingles,coreano]).
+doblajeKdrama145('beautiful_gong_shim',[espanol,ingles,coreano]).
+doblajeKdrama146('temperature_of_love',[espanol,ingles,coreano]).
+doblajeKdrama147('the_greatest_love',[espanol,ingles,coreano]).
+doblajeKdrama148('fated_to_love_you',[espanol,ingles,coreano]).
+doblajeKdrama149('oh_my_ghost',[espanol,ingles,coreano]).
+doblajeKdrama150('witch_at_court',[espanol,ingles,coreano]).
+doblajeKdrama151('the_time_we_were_not_in_love',[espanol,ingles,coreano]).
+doblajeKdrama152('falling_for_innocence',[espanol,ingles,coreano]).
+doblajeKdrama153('the_liar_and_his_lover',[espanol,ingles,coreano]).
+doblajeKdrama154('the_lovers_of_the_red_sky',[espanol,ingles,coreano]).
+doblajeKdrama155('shopping_king_louie',[espanol,ingles,coreano]).
+doblajeKdrama156('weightlifting_fairy_kim_bok_joo',[espanol,ingles,coreano]).
+doblajeKdrama157('goodbye_to_goodbye',[espanol,ingles,coreano]).
+doblajeKdrama158('secret_love_affair',[espanol,ingles,coreano]).
+doblajeKdrama159('the_good_witch',[espanol,ingles,coreano]).
+doblajeKdrama160('the_flames_of_desire',[espanol,ingles,coreano]).
+doblajeKdrama161('golden_time',[espanol,ingles,coreano]).
+doblajeKdrama162('angel_eyes',[espanol,ingles,coreano]).
+doblajeKdrama163('the_beauty_inside',[espanol,ingles,coreano]).
+doblajeKdrama164('another_miss_oh',[espanol,ingles,coreano]).
+doblajeKdrama165('legend_of_the_blue_sea',[espanol,ingles,coreano]).
+doblajeKdrama166('shine_or_go_crazy',[espanol,ingles,coreano]).
+doblajeKdrama167('gu_family_book',[espanol,ingles,coreano]).
+doblajeKdrama168('cinderella_and_four_knights',[espanol,ingles,coreano]).
+doblajeKdrama169('you_who_came_from_the_stars',[espanol,ingles,coreano]).
+doblajeKdrama170('what_s_wrong_with_secretary_kim',[ingles,coreano]).
+doblajeKdrama171('to_the_beautiful_you',[espanol,ingles,coreano]).
+doblajeKdrama172('scarlet_heart',[espanol,ingles,coreano]).
+doblajeKdrama173('the_lovers_in_prague',[espanol,ingles,coreano]).
+doblajeKdrama174('pasta',[espanol,ingles,coreano]).
+doblajeKdrama175('her_lovely_heels',[espanol,ingles,coreano]).
+doblajeKdrama176('hot_stove_league',[espanol,ingles,coreano]).
+doblajeKdrama177('united_we_stand',[espanol,ingles,coreano]).
+doblajeKdrama178('when_the_camellia_blooms',[espanol,ingles,coreano]).
+doblajeKdrama179('strongest_chil_woo',[espanol,ingles,coreano]).
+doblajeKdrama180('cheer_up_mr_lee',[espanol,ingles,coreano]).
+doblajeKdrama181('marry_me_now',[espanol,ingles,coreano]).
+doblajeKdrama182('angel_s_choice',[espanol,ingles,coreano]).
+doblajeKdrama183('eternal_love',[espanol,ingles,coreano]).
+doblajeKdrama184('when_time_stopped',[espanol,ingles,coreano]).
+doblajeKdrama185('secret_of_the_three_kingdoms',[espanol,ingles,coreano]).
+doblajeKdrama186('love_revolution',[espanol,ingles,coreano]).
+doblajeKdrama187('queen_of_rings',[espanol,ingles,coreano]).
+doblajeKdrama188('mad_dog',[espanol,ingles,coreano]).
+doblajeKdrama189('time',[espanol,ingles,coreano]).
+doblajeKdrama190('miss_hammurabi',[espanol,ingles,coreano]).
+
+
+
+
+
+%¿Cuales son los kdramas que fueron filmados en Corea del sur?
+% Regla que encuentra los Kdramas que fueron filmados en Corea del sur
+kdramas_filmados_en_corea_del_sur(Kdrama) :- 
+    locacionKdrama(_, Kdrama, Pais, _),
+    member(corea_del_sur, Pais).
+
+%¿Cuales son los kdramas que fueron filmados en Japon?
+% Regla que encuentra los Kdramas que fueron filmados en Japon
+kdramas_filmados_en_japon(Kdrama) :- 
+    locacionKdrama(_, Kdrama,Pais, _),
+    member(japon, Pais).
+
+%¿Cuales son los kdramas que se filmaron en la region de kanto?
+% Regla que encuentra los Kdramas que se filmaron en la region de kanto
+kdramas_filmados_en_kanto(Kdrama) :- 
+    locacionKdrama(_, Kdrama, _, Lugares),
+    member(kanto, Lugares).
+
+%¿Cuales son los kdramas que se filmaron en la region de okinawa?
+% Regla que encuentra los Kdramas que se filmaron en la region de okinawa
+kdramas_filmados_en_okinawa(Kdrama) :- 
+    locacionKdrama(_, Kdrama, _, Lugares),
+    member(okinawa, Lugares).
+
+%¿Cuales son los kdramas que se filmaron en jeju?
+% Regla que encuentra los Kdramas que se filmaron en jeju
+kdramas_filmados_en_jeju(Kdrama) :-
+    locacionKdrama(_, Kdrama, _, Lugares),
+    member(jeju, Lugares).
 
 %¿Cuales son los kdramas que se filmaron en seoul?
 % Regla que encuentra los Kdramas que se filmaron en seoul
-kdramas_filmados_en_seoul(Kdrama,Pais, Lugares) :-
-    locacionKdrama(_, Kdrama, Pais, Lugares),
+kdramas_filmados_en_seoul(Kdrama) :-
+    locacionKdrama(_, Kdrama, _, Lugares),
     member(seoul, Lugares).
+
+%¿Cuales son los kdramas que se filmaron en busan?
+% Regla que encuentra los Kdramas que se filmaron en busan
+kdramas_filmados_en_busan(Kdrama) :-
+    locacionKdrama(_, Kdrama, _, Lugares),
+    member(busan, Lugares).
+
+%¿Cuales son los kdramas que se filmaron en chungcheong?
+% Regla que encuentra los Kdramas que se filmaron en chungcheong
+kdramas_filmados_en_chungcheong(Kdrama) :-
+    locacionKdrama(_, Kdrama, _, Lugares),
+    member(chungcheong, Lugares).
 
 %se define u na regla que asigna un id unico a cada kdrama y sus locaciones
     locacionKdrama(Id, Kdrama, Pais, Lugares) :-
@@ -820,7 +1063,127 @@ kdramas_filmados_en_seoul(Kdrama,Pais, Lugares) :-
     ;   locacionKdrama4(Kdrama, Pais, Lugares), Id = 4
     ;   locacionKdrama5(Kdrama, Pais, Lugares), Id = 5
     ;   locacionKdrama6(Kdrama, Pais, Lugares), Id = 6
-    ;   locacionKdrama7(Kdrama, Pais, Lugares), Id = 7.
+    ;   locacionKdrama7(Kdrama, Pais, Lugares), Id = 7
+    ;   locacionKdrama8(Kdrama, Pais, Lugares), Id = 8
+    ;   locacionKdrama9(Kdrama, Pais, Lugares), Id = 9
+    ;   locacionKdrama10(Kdrama, Pais, Lugares), Id = 10
+    ;   locacionKdrama11(Kdrama, Pais, Lugares), Id = 11
+    ;   locacionKdrama12(Kdrama, Pais, Lugares), Id = 12
+    ;   locacionKdrama13(Kdrama, Pais, Lugares), Id = 13
+    ;   locacionKdrama14(Kdrama, Pais, Lugares), Id = 14
+    ;   locacionKdrama15(Kdrama, Pais, Lugares), Id = 15
+    ;   locacionKdrama16(Kdrama, Pais, Lugares), Id = 16
+    ;   locacionKdrama17(Kdrama, Pais, Lugares), Id = 17
+    ;   locacionKdrama18(Kdrama, Pais, Lugares), Id = 18
+    ;   locacionKdrama19(Kdrama, Pais, Lugares), Id = 19
+    ;   locacionKdrama20(Kdrama, Pais, Lugares), Id = 20
+    ;   locacionKdrama21(Kdrama, Pais, Lugares), Id = 21
+    ;   locacionKdrama22(Kdrama, Pais, Lugares), Id = 22
+    ;   locacionKdrama23(Kdrama, Pais, Lugares), Id = 23
+    ;   locacionKdrama24(Kdrama, Pais, Lugares), Id = 24
+    ;   locacionKdrama25(Kdrama, Pais, Lugares), Id = 25
+    ;   locacionKdrama26(Kdrama, Pais, Lugares), Id = 26
+    ;   locacionKdrama27(Kdrama, Pais, Lugares), Id = 27
+    ;   locacionKdrama28(Kdrama, Pais, Lugares), Id = 28
+    ;   locacionKdrama29(Kdrama, Pais, Lugares), Id = 29
+    ;   locacionKdrama30(Kdrama, Pais, Lugares), Id = 30
+    ;   locacionKdrama31(Kdrama, Pais, Lugares), Id = 31
+    ;   locacionKdrama32(Kdrama, Pais, Lugares), Id = 32
+    ;   locacionKdrama33(Kdrama, Pais, Lugares), Id = 33
+    ;   locacionKdrama34(Kdrama, Pais, Lugares), Id = 34
+    ;   locacionKdrama35(Kdrama, Pais, Lugares), Id = 35
+    ;   locacionKdrama36(Kdrama, Pais, Lugares), Id = 36
+    ;   locacionKdrama37(Kdrama, Pais, Lugares), Id = 37
+    ;   locacionKdrama38(Kdrama, Pais, Lugares), Id = 38
+    ;   locacionKdrama39(Kdrama, Pais, Lugares), Id = 39
+    ;   locacionKdrama40(Kdrama, Pais, Lugares), Id = 40
+    ;   locacionKdrama41(Kdrama, Pais, Lugares), Id = 41
+    ;   locacionKdrama42(Kdrama, Pais, Lugares), Id = 42
+    ;   locacionKdrama43(Kdrama, Pais, Lugares), Id = 43
+    ;   locacionKdrama44(Kdrama, Pais, Lugares), Id = 44
+    ;   locacionKdrama45(Kdrama, Pais, Lugares), Id = 45
+    ;   locacionKdrama46(Kdrama, Pais, Lugares), Id = 46
+    ;   locacionKdrama47(Kdrama, Pais, Lugares), Id = 47
+    ;   locacionKdrama48(Kdrama, Pais, Lugares), Id = 48
+    ;   locacionKdrama49(Kdrama, Pais, Lugares), Id = 49
+    ;   locacionKdrama50(Kdrama, Pais, Lugares), Id = 50
+    ;   locacionKdrama51(Kdrama, Pais, Lugares), Id = 51
+    ;   locacionKdrama52(Kdrama, Pais, Lugares), Id = 52
+    ;   locacionKdrama53(Kdrama, Pais, Lugares), Id = 53
+    ;   locacionKdrama54(Kdrama, Pais, Lugares), Id = 54
+    ;   locacionKdrama55(Kdrama, Pais, Lugares), Id = 55
+    ;   locacionKdrama56(Kdrama, Pais, Lugares), Id = 56
+    ;   locacionKdrama57(Kdrama, Pais, Lugares), Id = 57
+    ;   locacionKdrama58(Kdrama, Pais, Lugares), Id = 58
+    ;   locacionKdrama59(Kdrama, Pais, Lugares), Id = 59
+    ;   locacionKdrama60(Kdrama, Pais, Lugares), Id = 60
+    ;   locacionKdrama61(Kdrama, Pais, Lugares), Id = 61
+    ;   locacionKdrama62(Kdrama, Pais, Lugares), Id = 62
+    ;   locacionKdrama63(Kdrama, Pais, Lugares), Id = 63
+    ;   locacionKdrama64(Kdrama, Pais, Lugares), Id = 64
+    ;   locacionKdrama65(Kdrama, Pais, Lugares), Id = 65
+    ;   locacionKdrama66(Kdrama, Pais, Lugares), Id = 66
+    ;   locacionKdrama67(Kdrama, Pais, Lugares), Id = 67
+    ;   locacionKdrama68(Kdrama, Pais, Lugares), Id = 68
+    ;   locacionKdrama69(Kdrama, Pais, Lugares), Id = 69
+    ;   locacionKdrama70(Kdrama, Pais, Lugares), Id = 70
+    ;   locacionKdrama71(Kdrama, Pais, Lugares), Id = 71
+    ;   locacionKdrama72(Kdrama, Pais, Lugares), Id = 72
+    ;   locacionKdrama73(Kdrama, Pais, Lugares), Id = 73
+    ;   locacionKdrama74(Kdrama, Pais, Lugares), Id = 74
+    ;   locacionKdrama75(Kdrama, Pais, Lugares), Id = 75
+    ;   locacionKdrama76(Kdrama, Pais, Lugares), Id = 76
+    ;   locacionKdrama77(Kdrama, Pais, Lugares), Id = 77
+    ;   locacionKdrama78(Kdrama, Pais, Lugares), Id = 78
+    ;   locacionKdrama79(Kdrama, Pais, Lugares), Id = 79
+    ;   locacionKdrama80(Kdrama, Pais, Lugares), Id = 80
+    ;   locacionKdrama81(Kdrama, Pais, Lugares), Id = 81
+    ;   locacionKdrama82(Kdrama, Pais, Lugares), Id = 82
+    ;   locacionKdrama83(Kdrama, Pais, Lugares), Id = 83
+    ;   locacionKdrama84(Kdrama, Pais, Lugares), Id = 84
+    ;   locacionKdrama85(Kdrama, Pais, Lugares), Id = 85
+    ;   locacionKdrama86(Kdrama, Pais, Lugares), Id = 86
+    ;   locacionKdrama87(Kdrama, Pais, Lugares), Id = 87
+    ;   locacionKdrama88(Kdrama, Pais, Lugares), Id = 88
+    ;   locacionKdrama89(Kdrama, Pais, Lugares), Id = 89
+    ;   locacionKdrama90(Kdrama, Pais, Lugares), Id = 90
+    ;   locacionKdrama91(Kdrama, Pais, Lugares), Id = 91
+    ;   locacionKdrama92(Kdrama, Pais, Lugares), Id = 92
+    ;   locacionKdrama93(Kdrama, Pais, Lugares), Id = 93
+    ;   locacionKdrama94(Kdrama, Pais, Lugares), Id = 94
+    ;   locacionKdrama95(Kdrama, Pais, Lugares), Id = 95
+    ;   locacionKdrama96(Kdrama, Pais, Lugares), Id = 96
+    ;   locacionKdrama97(Kdrama, Pais, Lugares), Id = 97
+    ;   locacionKdrama98(Kdrama, Pais, Lugares), Id = 98
+    ;   locacionKdrama99(Kdrama, Pais, Lugares), Id = 99
+    ;   locacionKdrama100(Kdrama, Pais, Lugares), Id = 100
+    ;   locacionKdrama101(Kdrama, Pais, Lugares), Id = 101
+    ;   locacionKdrama102(Kdrama, Pais, Lugares), Id = 102
+    ;   locacionKdrama103(Kdrama, Pais, Lugares), Id = 103
+    ;   locacionKdrama104(Kdrama, Pais, Lugares), Id = 104
+    ;   locacionKdrama105(Kdrama, Pais, Lugares), Id = 105
+    ;   locacionKdrama106(Kdrama, Pais, Lugares), Id = 106
+    ;   locacionKdrama107(Kdrama, Pais, Lugares), Id = 107
+    ;   locacionKdrama108(Kdrama, Pais, Lugares), Id = 108
+    ;   locacionKdrama109(Kdrama, Pais, Lugares), Id = 109
+    ;   locacionKdrama110(Kdrama, Pais, Lugares), Id = 110
+    ;   locacionKdrama111(Kdrama, Pais, Lugares), Id = 111
+    ;   locacionKdrama112(Kdrama, Pais, Lugares), Id = 112
+    ;   locacionKdrama113(Kdrama, Pais, Lugares), Id = 113
+    ;   locacionKdrama114(Kdrama, Pais, Lugares), Id = 114
+    ;   locacionKdrama115(Kdrama, Pais, Lugares), Id = 115
+    ;   locacionKdrama116(Kdrama, Pais, Lugares), Id = 116
+    ;   locacionKdrama117(Kdrama, Pais, Lugares), Id = 117
+    ;   locacionKdrama118(Kdrama, Pais, Lugares), Id = 118
+    ;   locacionKdrama119(Kdrama, Pais, Lugares), Id = 119
+    ;   locacionKdrama120(Kdrama, Pais, Lugares), Id = 120
+    ;   locacionKdrama121(Kdrama, Pais, Lugares), Id = 121
+    ;   locacionKdrama122(Kdrama, Pais, Lugares), Id = 122
+    ;   locacionKdrama123(Kdrama, Pais, Lugares), Id = 123
+    ;   locacionKdrama124(Kdrama, Pais, Lugares), Id = 124
+    ;   locacionKdrama125(Kdrama, Pais, Lugares), Id = 125
+    ;   locacionKdrama126(Kdrama, Pais, Lugares), Id = 126.
+
    
 
 
