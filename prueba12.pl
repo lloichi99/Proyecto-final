@@ -7,6 +7,8 @@ nombrekdrama/2.
 :- discontiguous generokdrama/2.
 :- discontiguous actores_de_kdramas/2.
 :- discontiguous subtitulo_de_kdrama/3.
+:- discontiguous locacionKdrama/4.
+
 %nombre kdrama
 
 nombreKdrama('2521').
@@ -803,7 +805,26 @@ locacionKdrama124('money_flower',[corea_del_sur],[seoul]).
 locacionKdrama125('four_legendary_witches',[corea_del_sur],[seoul]).
 locacionKdrama126('popets',[corea_del_sur],[seoul]).
 
-%nombre de kdrama que empiezan en hangul con la letra
+
+%¿Cuales son los kdramas que se filmaron en seoul?
+% Regla que encuentra los Kdramas que se filmaron en seoul
+kdramas_filmados_en_seoul(Kdrama,Pais, Lugares) :-
+    locacionKdrama(_, Kdrama, Pais, Lugares),
+    member(seoul, Lugares).
+
+%se define u na regla que asigna un id unico a cada kdrama y sus locaciones
+    locacionKdrama(Id, Kdrama, Pais, Lugares) :-
+        locacionKdrama1(Kdrama, Pais, Lugares), Id = 1
+    ;   locacionKdrama2(Kdrama, Pais, Lugares), Id = 2
+    ;   locacionKdrama3(Kdrama, Pais, Lugares), Id = 3
+    ;   locacionKdrama4(Kdrama, Pais, Lugares), Id = 4
+    ;   locacionKdrama5(Kdrama, Pais, Lugares), Id = 5
+    ;   locacionKdrama6(Kdrama, Pais, Lugares), Id = 6
+    ;   locacionKdrama7(Kdrama, Pais, Lugares), Id = 7.
+   
+
+
+
 
 %¿Cuales son los kdrama subtitulados en español?
 % Regla que encuentra los Kdramas subtitulados en español
