@@ -1,6 +1,6 @@
-
-
-
+%Programacion logica y funcional 
+%Alma rosaura Mia Morales
+%Joyce Abrego  Avila 
 nombrekdrama/2.
 :- discontiguous doblajes/1.
 :- discontiguous nombrekdrama/2.
@@ -1390,10 +1390,19 @@ capitulos_temporadas_kdrama190('miss_hammurabi', 16, 1).
 
 
 
+
 %¿Cual es el total de capitulos de 190  kdramas definidos?
 total_capitulos(Total) :-
     findall(Capitulos, capitulos_temporadas_kdrama(_, Capitulos, _), ListaCapitulos),
     sum_list(ListaCapitulos, Total).
+
+%¿Cual es el promedio de todos los capitulos? 19.9999
+promedio_capitulos(Promedio) :-
+    findall(Capitulos, capitulos_temporadas_kdrama(_, Capitulos, _), ListaCapitulos),
+    sum_list(ListaCapitulos, Total),
+    length(ListaCapitulos, Cantidad),
+    Promedio is Total / Cantidad.
+
 
 %¿Cuales son los kdramas con mas de dos temporadas?
 kdramas_con_mas_de_dos_temporadas(Kdrama) :-
@@ -2752,3 +2761,167 @@ Genero = 'fantasia', generoKdrama1(Kdrama,'fantasia')
 ;   Genero = 'fantasia', generoKdrama98(Kdrama,'fantasia')
 ;   Genero = 'fantasia', generoKdrama99(Kdrama,'fantasia')
 ;   Genero = 'fantasia', generoKdrama100(Kdrama,'fantasia').
+
+%¿Cuales son los kdramas de accion?
+kdramas_accion(Kdrama,Genero) :-
+  Genero = 'accion', generoKdrama(Kdrama,'accion').
+
+%¿Cuales son los kdramas de comedia?
+kdramas_comedia(Kdrama,Genero) :-
+    Genero = 'comedia', generoKdrama(Kdrama,'comedia').
+
+%¿Cuales son los kdramas de drama?
+kdramas_drama(Kdrama,Genero) :-
+    Genero = 'drama', generoKdrama(Kdrama,'drama').
+
+%¿Cuales son los kdramas de genero escolar?
+kdramas_escolar(Kdrama,Genero) :-
+    Genero = 'escolar', generoKdrama(Kdrama,'escolar').
+
+%¿Cuales son los kdramas de genero historico?
+kdramas_historico(Kdrama,Genero) :-
+    Genero = 'historico', generoKdrama(Kdrama,'historico').
+
+%¿Cuales son los kdramas de genero melodrama?
+kdramas_melodrama(Kdrama,Genero) :-
+    Genero = 'melodrama', generoKdrama(Kdrama,'melodrama').
+
+%¿Cuales son los kdramas de genero misterio?
+kdramas_misterio(Kdrama,Genero) :-
+    Genero = 'misterio', generoKdrama(Kdrama,'misterio').
+
+%¿Cuales son los kdramas de genero ciencia ficcion?
+kdramas_ciencia_ficcion(Kdrama,Genero) :-
+    Genero = 'ciencia_ficcion', generoKdrama(Kdrama,'ciencia_ficcion').
+
+%¿Cuales son los kdramas de genero horror?
+kdramas_horror(Kdrama,Genero) :-
+    Genero = 'horror', generoKdrama(Kdrama,'horror').
+
+%¿Cuales son los kdramas de genero thriller?
+kdramas_thriller(Kdrama,Genero) :-
+    Genero = 'thriller', generoKdrama(Kdrama,'thriller').
+
+%¿Cuales son los kdramas de genero medicina?
+kdramas_medicina(Kdrama,Genero) :-
+    Genero = 'medicina', generoKdrama(Kdrama,'medicina').
+
+%¿Cuales son los kdramas de genero crimen?
+kdramas_crimen(Kdrama,Genero) :-
+    Genero = 'crimen', generoKdrama(Kdrama,'crimen').
+
+%¿Cuales son los kdramas de genero musical?
+kdramas_musical(Kdrama,Genero) :-
+    Genero = 'musical', generoKdrama(Kdrama,'musical').
+
+%¿Cuales son los kdramas de genero legal?
+kdramas_legal(Kdrama,Genero) :-
+    Genero = 'legal', generoKdrama(Kdrama,'legal').
+
+%¿Cuales son los kdramas de genero slice of life?
+kdramas_slice_of_life(Kdrama,Genero) :-
+    Genero = 'slice_of_life', generoKdrama(Kdrama,'slice_of_life').
+
+%¿Cual es el genero de los 100 kdramas?
+generoKdrama(Kdrama,Genero) :- 
+    generoKdrama1(Kdrama,Genero)
+    ; generoKdrama2(Kdrama,Genero)
+    ; generoKdrama3(Kdrama,Genero)
+    ; generoKdrama4(Kdrama,Genero)
+    ; generoKdrama5(Kdrama,Genero)
+    ; generoKdrama6(Kdrama,Genero)
+    ; generoKdrama7(Kdrama,Genero)
+    ; generoKdrama8(Kdrama,Genero)
+    ; generoKdrama9(Kdrama,Genero)
+    ; generoKdrama10(Kdrama,Genero)
+    ; generoKdrama11(Kdrama,Genero)
+    ; generoKdrama12(Kdrama,Genero)
+    ; generoKdrama13(Kdrama,Genero)
+    ; generoKdrama14(Kdrama,Genero)
+    ; generoKdrama15(Kdrama,Genero)
+    ; generoKdrama16(Kdrama,Genero)
+    ; generoKdrama17(Kdrama,Genero)
+    ; generoKdrama18(Kdrama,Genero)
+    ; generoKdrama19(Kdrama,Genero)
+    ; generoKdrama20(Kdrama,Genero)
+    ; generoKdrama21(Kdrama,Genero)
+    ; generoKdrama22(Kdrama,Genero)
+    ; generoKdrama23(Kdrama,Genero)
+    ; generoKdrama24(Kdrama,Genero)
+    ; generoKdrama25(Kdrama,Genero)
+    ; generoKdrama26(Kdrama,Genero)
+    ; generoKdrama27(Kdrama,Genero)
+    ; generoKdrama28(Kdrama,Genero)
+    ; generoKdrama29(Kdrama,Genero)
+    ; generoKdrama30(Kdrama,Genero)
+    ; generoKdrama31(Kdrama,Genero)
+    ; generoKdrama32(Kdrama,Genero)
+    ; generoKdrama33(Kdrama,Genero)
+    ; generoKdrama34(Kdrama,Genero)
+    ; generoKdrama35(Kdrama,Genero)
+    ; generoKdrama36(Kdrama,Genero)
+    ; generoKdrama37(Kdrama,Genero)
+    ; generoKdrama38(Kdrama,Genero)
+    ; generoKdrama39(Kdrama,Genero)
+    ; generoKdrama40(Kdrama,Genero)
+    ; generoKdrama41(Kdrama,Genero)
+    ; generoKdrama42(Kdrama,Genero)
+    ; generoKdrama43(Kdrama,Genero)
+    ; generoKdrama44(Kdrama,Genero)
+    ; generoKdrama45(Kdrama,Genero)
+    ; generoKdrama46(Kdrama,Genero)
+    ; generoKdrama47(Kdrama,Genero)
+    ; generoKdrama48(Kdrama,Genero)
+    ; generoKdrama49(Kdrama,Genero)
+    ; generoKdrama50(Kdrama,Genero)
+    ; generoKdrama51(Kdrama,Genero)
+    ; generoKdrama52(Kdrama,Genero)
+    ; generoKdrama53(Kdrama,Genero)
+    ; generoKdrama54(Kdrama,Genero)
+    ; generoKdrama55(Kdrama,Genero)
+    ; generoKdrama56(Kdrama,Genero)
+    ; generoKdrama57(Kdrama,Genero)
+    ; generoKdrama58(Kdrama,Genero)
+    ; generoKdrama59(Kdrama,Genero)
+    ; generoKdrama60(Kdrama,Genero)
+    ; generoKdrama61(Kdrama,Genero)
+    ; generoKdrama62(Kdrama,Genero)
+    ; generoKdrama63(Kdrama,Genero)
+    ; generoKdrama64(Kdrama,Genero)
+    ; generoKdrama65(Kdrama,Genero)
+    ; generoKdrama66(Kdrama,Genero)
+    ; generoKdrama67(Kdrama,Genero)
+    ; generoKdrama68(Kdrama,Genero)
+    ; generoKdrama69(Kdrama,Genero)
+    ; generoKdrama70(Kdrama,Genero)
+    ; generoKdrama71(Kdrama,Genero)
+    ; generoKdrama72(Kdrama,Genero)
+    ; generoKdrama73(Kdrama,Genero)
+    ; generoKdrama74(Kdrama,Genero)
+    ; generoKdrama75(Kdrama,Genero)
+    ; generoKdrama76(Kdrama,Genero)
+    ; generoKdrama77(Kdrama,Genero)
+    ; generoKdrama78(Kdrama,Genero)
+    ; generoKdrama79(Kdrama,Genero)
+    ; generoKdrama80(Kdrama,Genero)
+    ; generoKdrama81(Kdrama,Genero)
+    ; generoKdrama82(Kdrama,Genero)
+    ; generoKdrama83(Kdrama,Genero)
+    ; generoKdrama84(Kdrama,Genero)
+    ; generoKdrama85(Kdrama,Genero)
+    ; generoKdrama86(Kdrama,Genero)
+    ; generoKdrama87(Kdrama,Genero)
+    ; generoKdrama88(Kdrama,Genero)
+    ; generoKdrama89(Kdrama,Genero)
+    ; generoKdrama90(Kdrama,Genero)
+    ; generoKdrama91(Kdrama,Genero)
+    ; generoKdrama92(Kdrama,Genero)
+    ; generoKdrama93(Kdrama,Genero)
+    ; generoKdrama94(Kdrama,Genero)
+    ; generoKdrama95(Kdrama,Genero)
+    ; generoKdrama96(Kdrama,Genero)
+    ; generoKdrama97(Kdrama,Genero)
+    ; generoKdrama98(Kdrama,Genero)
+    ; generoKdrama99(Kdrama,Genero)
+    ; generoKdrama100(Kdrama,Genero).
+
