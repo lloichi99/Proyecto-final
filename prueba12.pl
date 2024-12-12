@@ -6,9 +6,11 @@ nombrekdrama/2.
 :- discontiguous nombrekdrama/2.
 :- discontiguous actuo_en/2.
 :- discontiguous generokdrama/2.
+:- discontiguous nombreoriginalkdrama/2.
 :- discontiguous actores_de_kdramas/2.
 :- discontiguous subtitulo_de_kdrama/3.
 :- discontiguous locacionKdrama/4.
+:- discontiguous nombre_coreano/2.
 
 %nombre kdrama
 
@@ -209,9 +211,11 @@ nombreKdrama('popets').
 
 
 
+
+
 %generos del kdrama
 generoKdrama1('2521','romance').
-generoKdrama2('Crahsing_landing_on_you','comedia').
+generoKdrama2('crash_landing_on_you','comedia').
 generoKdrama3('descendants_of_the_sun','romance').
 generoKdrama4('vicenzo','accion').
 generoKdrama5('hotel_del_luna','fantasia').
@@ -671,10 +675,7 @@ region('okinawa').
 pais('corea_del_sur').
 pais('japon').
 
-%plataformas de streaming
-plataforma('netflix').
-plataforma('viki').
-plataforma('dramafever').
+
 
 %kdramas pais y region
 locacionKdrama1('2521',[corea_del_sur,japon],[seoul,busan,kanto]).
@@ -1388,7 +1389,400 @@ capitulos_temporadas_kdrama188('mad_dog', 16, 1).
 capitulos_temporadas_kdrama189('time', 32, 1).
 capitulos_temporadas_kdrama190('miss_hammurabi', 16, 1).
 
+%plataformas de streaming
+plataforma('netflix').
+plataforma('viki').
+plataforma('dramafever').
 
+lanzamiento_kdrama1('2521', 12, 02, 2021,'tvN').
+lanzamiento_kdrama2('crash_landing_on_you', 14, 12, 2019,'tvN').
+lanzamiento_kdrama3('descendants_of_the_sun', 24, 02, 2016,'KBS2').
+lanzamiento_kdrama4('vicenzo', 20, 02, 2021,'tvN').
+lanzamiento_kdrama5('hotel_del_luna', 13, 07, 2019,'tvN').
+lanzamiento_kdrama6('herederos', 09, 10, 2013,'SBS').
+lanzamiento_kdrama7('startup', 17, 10, 2020,'tvN').
+lanzamiento_kdrama8('my_love_from_the_star', 18, 12, 2013,'SBS').
+lanzamiento_kdrama9('goblin', 02, 12, 2016,'tvN').
+lanzamiento_kdrama10('the_king_eternal_monarch', 17, 04, 2020,'SBS').
+lanzamiento_kdrama11('it_s_okay_to_not_be_okay', 20, 06, 2020,'tvN').
+lanzamiento_kdrama12('the_legend_of_the_blue_sea', 16, 11, 2016,'SBS').
+lanzamiento_kdrama13('the_heirs', 09, 10, 2013,'SBS').
+lanzamiento_kdrama14('aterrizaje_emergencia_en_tu_corazon', 14, 12, 2019,'tvN').
+lanzamiento_kdrama15('itaewon_class', 31, 01, 2020,'JTBC').
+lanzamiento_kdrama16('true_beauty', 09, 12, 2020,'tvN').
+lanzamiento_kdrama17('love_alarm', 22, 08, 2019,'Netflix').
+lanzamiento_kdrama18('my_love_from_the_star', 18, 12, 2013, 'SBS').
+lanzamiento_kdrama19('goblin', 02, 12, 2016, 'tvN').
+lanzamiento_kdrama20('the_king_eternal_monarch', 17, 04, 2020, 'SBS').
+lanzamiento_kdrama21('it_s_okay_to_not_be_okay', 20, 06, 2020, 'tvN').
+lanzamiento_kdrama22('the_legend_of_the_blue_sea', 16, 11, 2016, 'SBS').
+lanzamiento_kdrama23('the_heirs', 09, 10, 2013, 'SBS').
+lanzamiento_kdrama24('aterrizaje_emergencia_en_tu_corazon', 14, 12, 2019, 'tvN').
+lanzamiento_kdrama25('itaewon_class', 31, 01, 2020, 'JTBC').
+lanzamiento_kdrama26('true_beauty', 09, 12, 2020, 'tvN').
+lanzamiento_kdrama27('love_alarm', 22, 08, 2019, 'Netflix').
+lanzamiento_kdrama28('strong_woman_do_bong_soon', 24, 02, 2017, 'JTBC').
+lanzamiento_kdrama29('weightlifting_fairy_kim_bok_joo', 16, 11, 2016, 'MBC').
+lanzamiento_kdrama30('while_you_were_sleeping', 27, 09, 2017, 'SBS').
+lanzamiento_kdrama31('w_two_worlds', 20, 07, 2016, 'MBC').
+lanzamiento_kdrama32('healer', 08, 12, 2014, 'KBS2').
+lanzamiento_kdrama33('pinocchio', 12, 11, 2014, 'SBS').
+lanzamiento_kdrama34('city_hunter', 25, 05, 2011, 'SBS').
+lanzamiento_kdrama35('boys_over_flowers', 05, 01, 2009, 'KBS2').
+lanzamiento_kdrama36('dream_high', 03, 01, 2011, 'KBS2').
+lanzamiento_kdrama37('moon_lovers_scarlet_heart_ryeo', 29, 08, 2016, 'SBS').
+lanzamiento_kdrama38('my_id_is_gangnam_beauty', 27, 07, 2018, 'JTBC').
+lanzamiento_kdrama39('extraordinary_you', 02, 10, 2019, 'MBC').
+lanzamiento_kdrama40('hwarang', 19, 12, 2016, 'KBS2').
+lanzamiento_kdrama41('the_master_sun', 07, 08, 2013, 'SBS').
+lanzamiento_kdrama42('doctor_stranger', 05, 05, 2014, 'SBS').
+lanzamiento_kdrama43('dr_romantic', 07, 11, 2016, 'SBS').
+lanzamiento_kdrama44('good_doctor', 05, 08, 2013, 'KBS2').
+lanzamiento_kdrama45('hospital_playlist', 12, 03, 2020, 'tvN').
+lanzamiento_kdrama46('signal', 22, 01, 2016, 'tvN').
+lanzamiento_kdrama47('reply_1988', 06, 11, 2015, 'tvN').
+lanzamiento_kdrama48('reply_1997', 24, 07, 2012, 'tvN').
+lanzamiento_kdrama49('reply_1994', 18, 10, 2013, 'tvN').
+lanzamiento_kdrama50('youth_of_may', 03, 05, 2021, 'KBS2').
+lanzamiento_kdrama51('navillera', 22, 03, 2021, 'tvN').
+lanzamiento_kdrama52('the_sound_of_magic', 06, 05, 2022, 'Netflix').
+lanzamiento_kdrama53('sky_castle', 23, 11, 2018, 'JTBC').
+lanzamiento_kdrama54('the_world_of_the_married', 27, 03, 2020, 'JTBC').
+lanzamiento_kdrama55('arthdal_chronicles', 01, 06, 2019, 'tvN').
+lanzamiento_kdrama56('mouse', 03, 03, 2021, 'tvN').
+lanzamiento_kdrama57('taxi_driver', 09, 04, 2021, 'SBS').
+lanzamiento_kdrama58('law_school', 14, 04, 2021, 'JTBC').
+lanzamiento_kdrama59('uncontrollably_fond', 06, 07, 2016, 'KBS2').
+lanzamiento_kdrama60('the_penthouse', 26, 10, 2020, 'SBS').
+lanzamiento_kdrama61('romance_is_a_bonus_book', 26, 01, 2019, 'tvN').
+lanzamiento_kdrama62('because_this_is_my_first_life', 09, 10, 2017, 'tvN').
+lanzamiento_kdrama63('cheese_in_the_trap', 04, 01, 2016, 'tvN').
+lanzamiento_kdrama64('her_private_life', 10, 04, 2019, 'tvN').
+lanzamiento_kdrama65('the_undateables', 23, 05, 2018, 'SBS').
+lanzamiento_kdrama66('live_up_to_your_name', 12, 08, 2017, 'tvN').
+lanzamiento_kdrama67('forest', 29, 01, 2020, 'KBS2').
+lanzamiento_kdrama68('oh_my_venus', 16, 11, 2015, 'KBS2').
+lanzamiento_kdrama69('the_light_in_your_eyes', 11, 02, 2019, 'JTBC').
+lanzamiento_kdrama70('something_in_the_rain', 30, 03, 2018, 'JTBC').
+lanzamiento_kdrama71('search_www', 05, 06, 2019, 'tvN').
+lanzamiento_kdrama72('secret_garden', 13, 11, 2010, 'SBS').
+lanzamiento_kdrama73('protect_the_boss', 03, 08, 2011, 'SBS').
+lanzamiento_kdrama74('strongest_deliveryman', 04, 08, 2017, 'KBS2').
+lanzamiento_kdrama75('the_k2', 23, 09, 2016, 'tvN').
+lanzamiento_kdrama76('black', 14, 10, 2017, 'OCN').
+lanzamiento_kdrama77('beautiful_mind', 20, 06, 2016, 'KBS2').
+lanzamiento_kdrama78('white_christmas', 30, 01, 2011, 'KBS2').
+lanzamiento_kdrama79('the_guest', 12, 09, 2018, 'OCN').
+lanzamiento_kdrama80('train_to_busan_the_series', 20, 07, 2016, 'OCN').
+lanzamiento_kdrama81('empress_ki', 28, 10, 2013, 'MBC').
+lanzamiento_kdrama82('man_to_man', 21, 04, 2017, 'JTBC').
+lanzamiento_kdrama83('misty', 02, 02, 2018, 'JTBC').
+lanzamiento_kdrama84('flower_of_evil', 29, 07, 2020, 'tvN').
+lanzamiento_kdrama85('kingdom', 25, 01, 2019, 'Netflix').
+lanzamiento_kdrama86('love_in_the_moonlight', 22, 08, 2016, 'KBS2').
+lanzamiento_kdrama87('cheer_up', 03, 10, 2022, 'SBS').
+lanzamiento_kdrama88('doctors', 20, 06, 2016, 'SBS').
+lanzamiento_kdrama89('prison_playbook', 22, 11, 2017, 'tvN').
+lanzamiento_kdrama90('strangers_from_hell', 31, 08, 2019, 'OCN').
+lanzamiento_kdrama91('alice', 28, 08, 2020, 'SBS').
+lanzamiento_kdrama92('mrs_cop', 03, 08, 2015, 'SBS').
+lanzamiento_kdrama93('class_of_lies', 17, 07, 2019, 'OCN').
+lanzamiento_kdrama94('the_last_empress', 21, 11, 2018, 'SBS').
+lanzamiento_kdrama95('vagabond', 20, 09, 2019, 'SBS').
+lanzamiento_kdrama96('life_on_mars', 09, 06, 2018, 'OCN').
+lanzamiento_kdrama97('shine_or_go_crazy', 19, 01, 2015, 'MBC').
+lanzamiento_kdrama98('the_crowned_clown', 07, 01, 2019, 'tvN').
+lanzamiento_kdrama99('blood', 16, 02, 2015, 'KBS2').
+lanzamiento_kdrama100('zombie_detective', 21, 09, 2020, 'KBS2').
+lanzamiento_kdrama101('yumi_s_cells', 17, 09, 2021, 'tvN').
+lanzamiento_kdrama102('the_red_sleeve', 12, 11, 2021, 'MBC').
+lanzamiento_kdrama103('my_name', 15, 10, 2021, 'Netflix').
+lanzamiento_kdrama104('hometown_cha_cha_cha', 28, 08, 2021, 'tvN').
+lanzamiento_kdrama105('melancholia', 10, 11, 2021, 'tvN').
+lanzamiento_kdrama106('happiness', 05, 11, 2021, 'tvN').
+lanzamiento_kdrama107('now_we_are_breaking_up', 12, 11, 2021, 'SBS').
+lanzamiento_kdrama108('the_law_cafe', 05, 09, 2022, 'KBS2').
+lanzamiento_kdrama109('big_mouth', 29, 07, 2022, 'MBC').
+lanzamiento_kdrama110('love_in_contract', 21, 09, 2022, 'tvN').
+lanzamiento_kdrama111('alchemy_of_souls', 18, 06, 2022, 'tvN').
+lanzamiento_kdrama112('juvenile_justice', 25, 02, 2022, 'Netflix').
+lanzamiento_kdrama113('all_of_us_are_dead', 28, 01, 2022, 'Netflix').
+lanzamiento_kdrama114('our_beloved_summer', 06, 12, 2021, 'SBS').
+lanzamiento_kdrama115('a_business_proposal', 28, 02, 2022, 'SBS').
+lanzamiento_kdrama116('thirty_nine', 16, 02, 2022, 'JTBC').
+lanzamiento_kdrama117('through_the_darkness', 14, 01, 2022, 'SBS').
+lanzamiento_kdrama118('again_my_life', 08, 04, 2022, 'SBS').
+lanzamiento_kdrama119('love_all_play', 20, 04, 2022, 'KBS2').
+lanzamiento_kdrama120('clean_with_passion_for_now', 26, 11, 2018, 'JTBC').
+lanzamiento_kdrama121('be_melodramatic', 09, 08, 2019, 'JTBC').
+lanzamiento_kdrama122('doom_at_your_service', 10, 05, 2021, 'tvN').
+lanzamiento_kdrama123('you_are_my_spring', 05, 07, 2021, 'tvN').
+lanzamiento_kdrama124('the_one_and_only', 20, 12, 2021, 'JTBC').
+lanzamiento_kdrama125('the_raincoat_killer', 22, 10, 2021, 'Netflix').
+lanzamiento_kdrama126('reflection_of_you', 13, 10, 2021, 'JTBC').
+lanzamiento_kdrama127('private_lives', 07, 10, 2020, 'JTBC').
+lanzamiento_kdrama128('she_would_never_know', 18, 01, 2021, 'JTBC').
+lanzamiento_kdrama129('undercover', 23, 04, 2021, 'JTBC').
+lanzamiento_kdrama130('revolutionary_sisters', 13, 03, 2021, 'KBS2').
+lanzamiento_kdrama131('young_lady_and_gentleman', 25, 09, 2021, 'KBS2').
+lanzamiento_kdrama132('a_piece_of_your_mind', 23, 03, 2020, 'tvN').
+lanzamiento_kdrama133('kings_affection', 11, 10, 2021, 'KBS2').
+lanzamiento_kdrama134('the_road_tragedy_of_one', 04, 08, 2021, 'tvN').
+lanzamiento_kdrama135('doctor_lawyer', 03, 06, 2022, 'MBC').
+lanzamiento_kdrama136('why_her', 03, 06, 2022, 'SBS').
+lanzamiento_kdrama137('bloody_heart', 02, 05, 2022, 'KBS2').
+lanzamiento_kdrama138('cafe_minamdang', 27, 06, 2022, 'KBS2').
+lanzamiento_kdrama139('insider', 08, 06, 2022, 'JTBC').
+lanzamiento_kdrama140('joseon_attorney', 31, 03, 2023, 'MBC').
+lanzamiento_kdrama141('queen_for_seven_days', 31, 05, 2017, 'KBS2').
+lanzamiento_kdrama142('radiant_office', 15, 03, 2017, 'MBC').
+lanzamiento_kdrama143('save_me', 05, 08, 2017, 'OCN').
+lanzamiento_kdrama144('missing_the_other_side', 29, 08, 2020, 'OCN').
+lanzamiento_kdrama145('beautiful_gong_shim', 14, 05, 2016, 'SBS').
+lanzamiento_kdrama146('temperature_of_love', 18, 09, 2017, 'SBS').
+lanzamiento_kdrama147('the_greatest_love', 04, 05, 2011, 'MBC').
+lanzamiento_kdrama148('fated_to_love_you', 02, 07, 2014, 'MBC').
+lanzamiento_kdrama149('oh_my_ghost', 03, 07, 2015, 'tvN').
+lanzamiento_kdrama150('witch_at_court', 09, 10, 2017, 'KBS2').
+lanzamiento_kdrama151('the_time_we_were_not_in_love', 27, 06, 2015, 'SBS').
+lanzamiento_kdrama152('falling_for_innocence', 03, 04, 2015, 'JTBC').
+lanzamiento_kdrama153('the_liar_and_his_lover', 20, 03, 2017, 'tvN').
+lanzamiento_kdrama154('the_lovers_of_the_red_sky', 30, 08, 2021, 'SBS').
+lanzamiento_kdrama155('shopping_king_louie', 21, 09, 2016, 'MBC').
+lanzamiento_kdrama156('weightlifting_fairy_kim_bok_joo', 16, 11, 2016, 'MBC').
+lanzamiento_kdrama157('goodbye_to_goodbye', 26, 05, 2018, 'MBC').
+lanzamiento_kdrama158('secret_love_affair', 17, 03, 2014, 'JTBC').
+lanzamiento_kdrama159('the_good_witch', 03, 03, 2018, 'SBS').
+lanzamiento_kdrama160('the_flames_of_desire', 02, 10, 2010, 'MBC').
+lanzamiento_kdrama161('golden_time', 09, 07, 2012, 'MBC').
+lanzamiento_kdrama162('angel_eyes', 05, 04, 2014, 'SBS').
+lanzamiento_kdrama163('the_beauty_inside', 01, 10, 2018, 'JTBC').
+lanzamiento_kdrama164('another_miss_oh', 02, 05, 2016, 'tvN').
+lanzamiento_kdrama165('legend_of_the_blue_sea', 16, 11, 2016, 'SBS').
+lanzamiento_kdrama166('shine_or_go_crazy', 19, 01, 2015, 'MBC').
+lanzamiento_kdrama167('gu_family_book', 08, 04, 2013, 'MBC').
+lanzamiento_kdrama168('cinderella_and_four_knights', 12, 08, 2016, 'tvN').
+lanzamiento_kdrama169('you_who_came_from_the_stars', 18, 12, 2013, 'SBS').
+lanzamiento_kdrama170('what_s_wrong_with_secretary_kim', 06, 06, 2018, 'tvN').
+lanzamiento_kdrama171('to_the_beautiful_you', 15, 08, 2012, 'SBS').
+lanzamiento_kdrama172('scarlet_heart', 29, 08, 2016, 'SBS').
+lanzamiento_kdrama173('the_lovers_in_prague', 24, 09, 2005, 'SBS').
+lanzamiento_kdrama174('pasta', 04, 01, 2010, 'MBC').
+lanzamiento_kdrama175('her_lovely_heels', 24, 02, 2014, 'SBS').
+lanzamiento_kdrama176('hot_stove_league', 13, 12, 2019, 'SBS').
+lanzamiento_kdrama177('united_we_stand', 01, 01, 2020, 'Netflix').
+lanzamiento_kdrama178('when_the_camellia_blooms', 18, 09, 2019, 'KBS2').
+lanzamiento_kdrama179('strongest_chil_woo', 17, 06, 2008, 'KBS2').
+lanzamiento_kdrama180('cheer_up_mr_lee', 05, 10, 2013, 'SBS').
+lanzamiento_kdrama181('marry_me_now', 17, 03, 2018, 'KBS2').
+lanzamiento_kdrama182('angel_s_choice', 02, 04, 2012, 'MBC').
+lanzamiento_kdrama183('eternal_love', 30, 01, 2017, 'tencent_video').
+lanzamiento_kdrama184('when_time_stopped', 24, 10, 2018, 'KBSW').
+lanzamiento_kdrama185('secret_of_the_three_kingdoms', 27, 03, 2018, 'tencent_video').
+lanzamiento_kdrama186('love_revolution', 01, 09, 2020, 'KakaoTV').
+lanzamiento_kdrama187('queen_of_rings', 09, 03, 2017, 'MBC').
+lanzamiento_kdrama188('mad_dog', 11, 10, 2017, 'KBS2').
+lanzamiento_kdrama189('time', 25, 07, 2018, 'MBC').
+lanzamiento_kdrama190('miss_hammurabi', 21, 05, 2018, 'JTBC').
+
+
+
+%¿cuantos kdramas son emitidos por la plataforma tvN?
+
+
+
+%REgla que define la informacion de lanzamiento de cada kdrama
+lanzamiento_kdrama(Kdrama, Dia, Mes, Anio, Canal) :-
+    lanzamiento_kdrama1(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama2(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama3(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama4(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama5(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama6(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama7(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama8(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama9(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama10(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama11(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama12(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama13(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama14(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama15(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama16(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama17(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama18(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama19(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama20(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama21(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama22(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama23(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama24(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama25(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama26(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama27(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama28(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama29(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama30(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama31(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama32(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama33(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama34(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama35(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama36(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama37(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama38(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama39(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama40(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama41(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama42(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama43(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama44(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama45(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama46(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama47(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama48(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama49(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama50(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama51(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama52(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama53(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama54(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama55(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama56(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama57(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama58(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama59(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama60(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama61(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama62(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama63(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama64(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama65(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama66(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama67(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama68(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama69(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama70(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama71(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama72(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama73(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama74(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama75(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama76(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama77(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama78(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama79(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama80(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama81(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama82(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama83(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama84(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama85(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama86(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama87(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama88(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama89(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama90(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama91(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama92(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama93(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama94(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama95(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama96(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama97(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama98(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama99(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama100(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama101(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama102(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama103(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama104(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama105(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama106(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama107(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama108(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama109(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama110(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama111(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama112(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama113(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama114(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama115(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama116(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama117(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama118(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama119(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama120(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama121(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama122(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama123(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama124(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama125(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama126(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama127(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama128(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama129(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama130(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama131(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama132(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama133(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama134(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama135(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama136(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama137(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama138(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama139(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama140(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama141(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama142(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama143(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama144(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama145(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama146(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama147(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama148(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama149(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama150(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama151(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama152(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama153(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama154(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama155(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama156(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama157(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama158(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama159(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama160(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama161(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama162(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama163(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama164(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama165(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama166(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama167(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama168(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama169(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama170(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama171(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama172(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama173(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama174(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama175(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama176(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama177(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama178(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama179(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama180(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama181(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama182(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama183(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama184(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama185(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama186(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama187(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama188(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama189(Kdrama, Dia, Mes, Anio, Canal)
+    ;   lanzamiento_kdrama190(Kdrama, Dia, Mes, Anio, Canal).
 
 
 %¿Cual es el total de capitulos de 190  kdramas definidos?
