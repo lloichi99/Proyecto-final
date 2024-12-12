@@ -1586,8 +1586,443 @@ lanzamiento_kdrama189('time', 25, 07, 2018, 'MBC').
 lanzamiento_kdrama190('miss_hammurabi', 21, 05, 2018, 'JTBC').
 
 
+ultima_emision1('2521', 03, 04, 2022).
+ultima_emision2('crash_landing_on_you', 16, 02, 2020).
+ultima_emision3('descendants_of_the_sun', 14, 04, 2016).
+ultima_emision4('vicenzo', 02, 05, 2021).
+ultima_emision5('hotel_del_luna', 01, 09, 2019).
+ultima_emision6('herederos', 12, 12, 2013).
+ultima_emision7('startup', 06, 12, 2020).
+ultima_emision8('my_love_from_the_star', 27, 02, 2014).
+ultima_emision9('goblin', 21, 01, 2017).
+ultima_emision10('the_king_eternal_monarch', 12, 06, 2020).
+ultima_emision11('it_s_okay_to_not_be_okay', 09, 08, 2020).
+ultima_emision12('the_legend_of_the_blue_sea', 25, 01, 2017).
+ultima_emision13('the_heirs', 12, 12, 2013).
+ultima_emision14('aterrizaje_emergencia_en_tu_corazon', 16, 02, 2020).
+ultima_emision15('itaewon_class', 21, 03, 2020).
+ultima_emision16('true_beauty', 04, 02, 2021).
+ultima_emision17('love_alarm', 22, 10, 2021).
+ultima_emision18('strong_woman_do_bong_soon', 15, 04, 2017).
+ultima_emision19('weightlifting_fairy_kim_bok_joo', 11, 01, 2017).
+ultima_emision20('while_you_were_sleeping', 16, 11, 2017).
+ultima_emision21('w_two_worlds', 14, 09, 2016).
+ultima_emision22('healer', 10, 02, 2015).
+ultima_emision23('pinocchio', 15, 01, 2015).
+ultima_emision24('city_hunter', 28, 07, 2011).
+ultima_emision25('boys_over_flowers', 31, 03, 2009).
+ultima_emision26('dream_high', 28, 02, 2011).
+ultima_emision27('moon_lovers_scarlet_heart_ryeo', 01, 11, 2016).
+ultima_emision28('my_id_is_gangnam_beauty', 15, 09, 2018).
+ultima_emision29('extraordinary_you', 21, 11, 2019).
+ultima_emision30('hwarang', 21, 02, 2017).
+ultima_emision31('the_master_sun', 03, 10, 2013).
+ultima_emision32('doctor_stranger', 08, 07, 2014).
+ultima_emision33('dr_romantic', 17, 01, 2017).
+ultima_emision34('good_doctor', 08, 10, 2013).
+ultima_emision35('hospital_playlist', 16, 09, 2021).
+ultima_emision36('signal', 12, 03, 2016).
+ultima_emision37('reply_1988', 16, 01, 2016).
+ultima_emision38('reply_1997', 18, 09, 2012).
+ultima_emision39('reply_1994', 28, 12, 2013).
+ultima_emision40('youth_of_may', 08, 06, 2021).
+ultima_emision41('navillera', 27, 04, 2021).
+ultima_emision42('the_sound_of_magic', 06, 05, 2022).
+ultima_emision43('sky_castle', 01, 02, 2019).
+ultima_emision44('the_world_of_the_married', 16, 05, 2020).
+ultima_emision45('arthdal_chronicles', 22, 09, 2019).
+ultima_emision46('mouse', 19, 05, 2021).
+ultima_emision47('taxi_driver', 29, 05, 2021).
+ultima_emision48('law_school', 09, 06, 2021).
+ultima_emision49('uncontrollably_fond', 08, 09, 2016).
+ultima_emision50('the_penthouse', 10, 09, 2021).
+ultima_emision51('romance_is_a_bonus_book', 17, 03, 2019).
+ultima_emision52('because_this_is_my_first_life', 28, 11, 2017).
+ultima_emision53('cheese_in_the_trap', 01, 03, 2016).
+ultima_emision54('her_private_life', 30, 05, 2019).
+ultima_emision55('the_undateables', 19, 07, 2018).
+ultima_emision56('live_up_to_your_name', 01, 10, 2017).
+ultima_emision57('forest', 19, 03, 2020).
+ultima_emision58('oh_my_venus', 05, 01, 2016).
+ultima_emision59('the_light_in_your_eyes', 19, 03, 2019).
+ultima_emision60('something_in_the_rain', 19, 05, 2018).
+ultima_emision61('search_www', 25, 07, 2019).
+ultima_emision62('secret_garden', 16, 01, 2011).
+ultima_emision63('protect_the_boss', 29, 09, 2011).
+ultima_emision64('strongest_deliveryman', 23, 09, 2017).
+ultima_emision65('the_k2', 12, 11, 2016).
+ultima_emision66('black', 10, 12, 2017).
+ultima_emision67('beautiful_mind', 02, 08, 2016).
+ultima_emision68('white_christmas', 20, 03, 2011).
+ultima_emision69('the_guest', 01, 11, 2018).
+ultima_emision70('train_to_busan_the_series', 20, 07, 2016).
+ultima_emision71('empress_ki', 29, 04, 2014).
+ultima_emision72('man_to_man', 10, 06, 2017).
+ultima_emision73('misty', 24, 03, 2018).
+ultima_emision74('flower_of_evil', 23, 09, 2020).
+ultima_emision75('kingdom', 13, 03, 2020).
+ultima_emision76('love_in_the_moonlight', 18, 10, 2016).
+ultima_emision77('cheer_up', 13, 12, 2022).
+ultima_emision78('doctors', 23, 08, 2016).
+ultima_emision79('prison_playbook', 18, 01, 2018).
+ultima_emision80('strangers_from_hell', 06, 10, 2019).
+ultima_emision81('alice', 24, 10, 2020).
+ultima_emision82('mrs_cop', 29, 09, 2015).
+ultima_emision83('class_of_lies', 05, 09, 2019).
+ultima_emision84('the_last_empress', 21, 02, 2019).
+ultima_emision85('vagabond', 23, 11, 2019).
+ultima_emision86('life_on_mars', 05, 08, 2018).
+ultima_emision87('shine_or_go_crazy', 07, 04, 2015).
+ultima_emision88('the_crowned_clown', 04, 03, 2019).
+ultima_emision89('blood', 21, 04, 2015).
+ultima_emision90('zombie_detective', 27, 10, 2020).
+ultima_emision91('my_secret_terrius', 15, 11, 2018).
+ultima_emision92('kairos', 22, 12, 2020).
+ultima_emision93('the_great_show', 15, 10, 2019).
+ultima_emision94('angel_s_last_mission_love', 11, 07, 2019).
+ultima_emision95('run_on', 04, 02, 2021).
+ultima_emision96('into_the_ring', 20, 08, 2020).
+ultima_emision97('dali_and_cocky_prince', 11, 11, 2021).
+ultima_emision98('school_2021', 13, 01, 2022).
+ultima_emision99('the_veil', 23, 10, 2021).
+ultima_emision100('inspector_koo', 12, 12, 2021).
+ultima_emision101('yumi_s_cells', 30, 10, 2021).
+ultima_emision102('the_red_sleeve', 01, 01, 2022).
+ultima_emision103('my_name', 15, 10, 2021).
+ultima_emision104('hometown_cha_cha_cha', 17, 10, 2021).
+ultima_emision105('melancholia', 30, 12, 2021).
+ultima_emision106('happiness', 11, 12, 2021).
+ultima_emision107('now_we_are_breaking_up', 08, 01, 2022).
+ultima_emision108('the_law_cafe', 25, 10, 2022).
+ultima_emision109('big_mouth', 17, 09, 2022).
+ultima_emision110('love_in_contract', 10, 11, 2022).
+ultima_emision111('alchemy_of_souls', 08, 01, 2023).
+ultima_emision112('juvenile_justice', 25, 02, 2022).
+ultima_emision113('all_of_us_are_dead', 28, 01, 2022).
+ultima_emision114('our_beloved_summer', 25, 01, 2022).
+ultima_emision115('a_business_proposal', 05, 04, 2022).
+ultima_emision116('thirty_nine', 31, 03, 2022).
+ultima_emision117('through_the_darkness', 12, 03, 2022).
+ultima_emision118('again_my_life', 28, 05, 2022).
+ultima_emision119('love_all_play', 09, 06, 2022).
+ultima_emision120('clean_with_passion_for_now', 04, 02, 2019).
+ultima_emision121('be_melodramatic', 28, 09, 2019).
+ultima_emision122('doom_at_your_service', 29, 06, 2021).
+ultima_emision123('you_are_my_spring', 24, 08, 2021).
+ultima_emision124('the_one_and_only', 08, 02, 2022).
+ultima_emision125('the_raincoat_killer', 22, 10, 2021).
+ultima_emision126('reflection_of_you', 02, 12, 2021).
+ultima_emision127('private_lives', 26, 11, 2020).
+ultima_emision128('she_would_never_know', 23, 03, 2021).
+ultima_emision129('undercover', 12, 06, 2021).
+ultima_emision130('revolutionary_sisters', 18, 09, 2021).
+ultima_emision131('young_lady_and_gentleman', 27, 03, 2022).
+ultima_emision132('a_piece_of_your_mind', 28, 04, 2020).
+ultima_emision133('kings_affection', 14, 12, 2021).
+ultima_emision134('the_road_tragedy_of_one', 23, 09, 2021).
+ultima_emision135('doctor_lawyer', 23, 07, 2022).
+ultima_emision136('why_her', 23, 07, 2022).
+ultima_emision137('bloody_heart', 21, 06, 2022).
+ultima_emision138('cafe_minamdang', 23, 08, 2022).
+ultima_emision139('insider', 28, 07, 2022).
+ultima_emision140('joseon_attorney', 20, 05, 2023).
+ultima_emision141('queen_for_seven_days', 03, 08, 2017).
+ultima_emision142('radiant_office', 04, 05, 2017).
+ultima_emision143('save_me', 24, 09, 2017).
+ultima_emision144('missing_the_other_side', 11, 10, 2020).
+ultima_emision145('beautiful_gong_shim', 17, 07, 2016).
+ultima_emision146('temperature_of_love', 21, 11, 2017).
+ultima_emision147('the_greatest_love', 23, 06, 2011).
+ultima_emision148('fated_to_love_you', 04, 09, 2014).
+ultima_emision149('oh_my_ghost', 22, 08, 2015).
+ultima_emision150('witch_at_court', 28, 11, 2017).
+ultima_emision151('the_time_we_were_not_in_love', 16, 08, 2015).
+ultima_emision152('falling_for_innocence', 23, 05, 2015).
+ultima_emision153('the_liar_and_his_lover', 09, 05, 2017).
+ultima_emision154('the_lovers_of_the_red_sky', 26, 10, 2021).
+ultima_emision155('shopping_king_louie', 10, 11, 2016).
+ultima_emision156('weightlifting_fairy_kim_bok_joo', 11, 01, 2017).
+ultima_emision157('goodbye_to_goodbye', 17, 11, 2018).
+ultima_emision158('secret_love_affair', 13, 05, 2014).
+ultima_emision159('the_good_witch', 06, 05, 2018).
+ultima_emision160('the_flames_of_desire', 27, 03, 2011).
+ultima_emision161('golden_time', 25, 09, 2012).
+ultima_emision162('angel_eyes', 15, 06, 2014).
+ultima_emision163('the_beauty_inside', 20, 11, 2018).
+ultima_emision164('another_miss_oh', 28, 06, 2016).
+ultima_emision165('legend_of_the_blue_sea', 25, 01, 2017).
+ultima_emision166('shine_or_go_crazy', 07, 04, 2015).
+ultima_emision167('gu_family_book', 25, 06, 2013).
+ultima_emision168('cinderella_and_four_knights', 01, 10, 2016).
+ultima_emision169('you_who_came_from_the_stars', 27, 02, 2014).
+ultima_emision170('what_s_wrong_with_secretary_kim', 26, 07, 2018).
+ultima_emision171('to_the_beautiful_you', 04, 10, 2012).
+ultima_emision172('scarlet_heart', 01, 11, 2016).
+ultima_emision173('the_lovers_in_prague', 20, 11, 2005).
+ultima_emision174('pasta', 09, 03, 2010).
+ultima_emision175('her_lovely_heels', 25, 03, 2014).
+ultima_emision176('hot_stove_league', 14, 02, 2020).
+ultima_emision177('united_we_stand', 01, 01, 2020).
+ultima_emision178('when_the_camellia_blooms', 21, 11, 2019).
+ultima_emision179('strongest_chil_woo', 19, 08, 2008).
+ultima_emision180('cheer_up_mr_lee', 05, 10, 2013).
+ultima_emision181('marry_me_now', 17, 03, 2018).
+ultima_emision182('angel_s_choice', 02, 04, 2012).
+ultima_emision183('eternal_love', 30, 01, 2017).
+ultima_emision184('when_time_stopped', 24, 10, 2018).
+ultima_emision185('secret_of_the_three_kingdoms', 27, 03, 2018).
+ultima_emision186('love_revolution', 01, 09, 2020).
+ultima_emision187('queen_of_rings', 09, 03, 2017).
+ultima_emision188('mad_dog', 11, 10, 2017).
+ultima_emision189('time', 25, 07, 2018).
+ultima_emision190('miss_hammurabi', 21, 05, 2018).
+
+personajes_kdrama1('2521',['Na_Hee_Do','Lee_Su_Geun','Kim_Seon_Ho','Jung_Sae_Byeok']).
+personajes_kdrama2('crash_landing_on_you',['Yoon_Seri','Ri_Jeong_Hyeok','Seo_Dan','Gu_Seung_Jun']).
+personajes_kdrama3('descendants_of_the_sun',['Yoo_Shi_Jin','Kang_Mo_Yeon','Seo_Dae_Young','Yoon_Myung_Joo']).
+personajes_kdrama4('vicenzo',['Vincenzo_Cassano','Hong_Cha_Young','Jang_Jun_Woo','Choi_Myung_Hee']).
+personajes_kdrama5('hotel_del_luna',['Jang_Ma_Ri','Ku_Chan_Sung','Choi_Seon_Bi','Kim_Yoo_Na']).
+personajes_kdrama6('herederos',['Kim_Tan','Cha_Eun_Sang','Choi_Young_Do','Yoo_Rachel']).
+personajes_kdrama7('startup',['Seo_Dal_Mi','Nam_Do_San','Han_Ji_Pyeong','Won_In_Jae']).
+personajes_kdrama8('my_love_from_the_star',['Do_Min_Joon','Cheon_Song_Yi','Yoo_Se_Mi','Lee_Jae_Kyung']).
+personajes_kdrama9('goblin',['Kim_Shin','Ji_Eun_Tak','Wang_Yeo','Sunny']).
+personajes_kdrama10('the_king_eternal_monarch',['Lee_Gon','Jung_Tae_Eul','Jo_Young','Koo_Se_Ryeong']).
+personajes_kdrama11('it_s_okay_to_not_be_okay',['Moon_Kang_Tae','Go_Moon_Young','Nam_Joo_Ri','Lee_Sang_In']).
+personajes_kdrama12('the_legend_of_the_blue_sea',['Heo_Joon_Jae','Shim_Cheong','Ma_Dae_Young','Jo_Nam_Doo']).
+personajes_kdrama13('the_heirs',['Kim_Tan','Cha_Eun_Sang','Choi_Young_Do','Yoo_Rachel']).
+personajes_kdrama14('aterrizaje_emergencia_en_tu_corazon',['Yoon_Seri','Ri_Jeong_Hyeok','Seo_Dan','Gu_Seung_Jun']).
+personajes_kdrama15('itaewon_class',['Park_Sae_Ro_Yi','Jo_Yi_Seo','Oh_Soo_Ah','Jang_Dae_Hee']).
+personajes_kdrama16('true_beauty',['Lim_Ju_Kyung','Lee_Su_Ho','Han_Seo_Joon','Kang_Soo_Jin']).
+personajes_kdrama17('love_alarm',['Kim_Jo_Jo','Hwang_Sun_Oh','Lee_Hye_Young','Park_Gul_Mi']).
+personajes_kdrama18('strong_woman_do_bong_soon',['Do_Bong_Soon','Ahn_Min_Hyuk','In_Gook_Doo','Baek_Soo_Tak']).
+personajes_kdrama19('weightlifting_fairy_kim_bok_joo',['Kim_Bok_Joo','Jung_Joon_Hyung','Song_Shi_Ho','Kim_Dae_Ho']).
+personajes_kdrama20('while_you_were_sleeping',['Nam_Hong_Joo','Jung_Jae_Chan','Han_Woo_Tak','Lee_Yoo_Bum']).
+personajes_kdrama21('w_two_worlds',['Oh_Yeon_Joo','Kang_Chul','Seo_Do_Yoon','Yoon_So_Hee']).
+personajes_kdrama22('healer',['Seo_Jung_Hoo','Chae_Young_Shin','Kim_Moon_Ho','Jo_Min_Ja']).
+personajes_kdrama23('pinocchio',['Choi_Dal_Po','Choi_In_Ha','Seo_Bum_Jo','Yoon_Yoo_Rae']).
+personajes_kdrama24('city_hunter',['Lee_Yoon_Sung','Kim_Na_Na','Lee_Jin_Pyo','Kim_Young_Joo']).
+personajes_kdrama25('boys_over_flowers',['Gu_Jun_Pyo','Geum_Jan_Di','Yoon_Ji_Hoo','So_Yi_Jung']).
+personajes_kdrama26('dream_high',['Go_Hye_Mi','Song_Sam_Dong','Jin_Gook','Yoon_Baek_Hee']).
+personajes_kdrama27('moon_lovers_scarlet_heart_ryeo',['Hae_Soo','Wang_So','Wang_Wook','Baek_Ah']).
+personajes_kdrama28('my_id_is_gangnam_beauty',['Kang_Mi_Rae','Do_Kyung_Seok','Hyun_Soo_A','Yeon_Woo_Young']).
+personajes_kdrama29('extraordinary_you',['Eun_Dan_Oh','Ha_Roo','Baek_Kyung','Lee_Do_Hwa']).
+personajes_kdrama30('hwarang',['Moo_Myung','Ji_Dwi','Soo_Ho','Ban_Ryu']).
+personajes_kdrama31('the_master_sun',['Tae_Gong_Shil','Joo_Joong_Won','Kang_Woo','Tae_Yi_Ryung']).
+personajes_kdrama32('doctor_stranger',['Park_Hoon','Song_Jae_Hee','Han_Seung_Hee','Oh_Soo_Hyun']).
+personajes_kdrama33('dr_romantic',['Kim_Sa_Bu','Kang_Dong_Joo','Yoon_Seo_Jung','Do_In_Bum']).
+personajes_kdrama34('good_doctor',['Park_Shi_On','Cha_Yoon_Seo','Kim_Do_Han','Han_Jin_Wook']).
+personajes_kdrama35('hospital_playlist',['Lee_Ik_Joon','Ahn_Jung_Won','Kim_Joon_Wan','Yang_Seok_Hyeong']).
+personajes_kdrama36('signal',['Park_Hae_Young','Cha_Soo_Hyun','Lee_Jae_Han','Kim_Bum_Joo']).
+personajes_kdrama37('reply_1988',['Sung_Deok_Sun','Kim_Jung_Hwan','Choi_Taek','Sung_Sun_Woo']).
+personajes_kdrama38('reply_1997',['Sung_Shi_Won','Yoon_Yoon_Jae','Mo_Yoo_Jung','Kang_Joon_Hee']).
+personajes_kdrama39('reply_1994',['Sung_Na_Jung','Sseureki','Chilbong','Haitai']).
+personajes_kdrama40('youth_of_may',['Hwang_Hee_Tae','Kim_Myung_Hee','Lee_Soo_Ryeon','Lee_Soo_Chan']).
+personajes_kdrama41('navillera',['Shim_Deok_Chul','Lee_Chae_Rok','Shim_Eun_Ho','Kim_Seong_Gwan']).
+personajes_kdrama42('the_sound_of_magic',['Yoon_Ah_Yi','Na_Il_Deung','Lee_Eul','Ji_Soo']).
+personajes_kdrama43('sky_castle',['Han_Seo_Jin','Kang_Joon_Sang','Cha_Min_Hyuk','No_Seung_Hye']).
+personajes_kdrama44('the_world_of_the_married',['Ji_Sun_Woo','Lee_Tae_Oh','Yeo_Da_Kyung','Son_Je_Hyuk']).
+personajes_kdrama45('arthdal_chronicles',['Eun_Sum','Tan_Ya','Ta_Gon','Tae_Al_Ha']).
+personajes_kdrama46('mouse',['Jung_Ba_Reum','Go_Moo_Chi','Oh_Bong_Yi','Choi_Hong_Joo']).
+personajes_kdrama47('taxi_driver',['Kim_Do_Gi','Kang_Ha_Na','Go_Eun','Jang_Sung_Chul']).
+personajes_kdrama48('law_school',['Yang_Jong_Hoon','Kang_Sol_A','Han_Joon_Hwi','Kim_Eun_Sook']).
+personajes_kdrama49('uncontrollably_fond',['Shin_Joon_Young','No_Eul','Choi_Ji_Tae','Yoon_Jung_Eun']).
+personajes_kdrama50('the_penthouse',['Shim_Su_Ryeon','Cheon_Seo_Jin','Oh_Yoon_Hee','Joo_Dan_Tae']).
+personajes_kdrama51('romance_is_a_bonus_book',['Cha_Eun_Ho','Kang_Dan_Yi','Ji_Seo_Joon','Song_Hae_Rin']).
+personajes_kdrama52('because_this_is_my_first_life',['Nam_Se_Hee','Yoon_Ji_Ho','Ma_Sang_Goo','Woo_Soo_Ji']).
+personajes_kdrama53('cheese_in_the_trap',['Hong_Seol','Yoo_Jung','Baek_In_Ho','Baek_In_Ha']).
+personajes_kdrama54('her_private_life',['Sung_Deok_Mi','Ryan_Gold','Nam_Eun_Gi','Cha_Shi_An']).
+personajes_kdrama55('the_undateables',['Hoon_Nam','Jung_Eum','Choi_Joon_Soo','Yoo_Jung_Eum']).
+personajes_kdrama56('live_up_to_your_name',['Heo_Im','Choi_Yeon_Kyung','Yoo_Jae_Ha','Heo_Joon']).
+personajes_kdrama57('forest',['Kang_San_Hyeok','Jung_Young_Jae','Oh_Bo_Mi','Choi_Chang']).
+personajes_kdrama58('oh_my_venus',['Kang_Joo_Eun','Kim_Young_Ho','Jang_Joon_Sung','Kim_Ji_Woong']).
+personajes_kdrama59('the_light_in_your_eyes',['Kim_Hye_Ja','Lee_Joon_Ha','Kim_Young_Soo','Lee_Hyun_Joo']).
+personajes_kdrama60('something_in_the_rain',['Yoon_Jin_Ah','Seo_Joon_Hee','Seo_Kyung_Sun','Geum_Bo_Ra']).
+personajes_kdrama61('search_www',['Bae_Ta_Mi','Cha_Hyun','Park_Mo_Gun','Song_Ga_Kyung']).
+personajes_kdrama62('secret_garden',['Kim_Joo_Won','Gil_Ra_Im','Oska','Yoon_Seul']).
+personajes_kdrama63('protect_the_boss',['No_Eun_Sul','Cha_Ji_Heon','Cha_Moo_Won','Seo_Na_Yoon']).
+personajes_kdrama64('strongest_deliveryman',['Choi_Kang_Soo','Lee_Dan_Ah','Oh_Jin_Gyu','Lee_Ji_Yoon']).
+personajes_kdrama65('the_k2',['Kim_Je_Ha','Go_Anna','Choi_Yoo_Jin','Jang_Se_Joon']).
+personajes_kdrama66('black',['Black','Kang_Ha_Ram','Oh_Man_Soo','Yoon_Soo_Wan']).
+personajes_kdrama67('beautiful_mind',['Lee_Young_Oh','Gye_Jin_Sung','Hyun_Suk_Joo','Kim_Min_Jae']).
+personajes_kdrama68('white_christmas',['Park_Moo_Yul','Jo_Young_Jae','Yoon_Soo','Choi_Ji_Hoon']).
+personajes_kdrama69('the_guest',['Yoon_Hwa_Pyung','Choi_Yoon','Kang_Gil_Young','Yook_Gwang']).
+personajes_kdrama70('train_to_busan_the_series',['Seok_Woo','Soo_An','Sang_Hwa','Seong_Kyeong']).
+personajes_kdrama71('empress_ki',['Ki_Seung_Nyang','Wang_Yoo','Togon_Temur','Tal_Tal']).
+personajes_kdrama72('man_to_man',['Kim_Seol_Woo','Yeo_Woon_Gwang','Cha_Do_Ha','Song_Mi_Eun']).
+personajes_kdrama73('misty',['Go_Hye_Ran','Kang_Tae_Wook','Ha_Myung_Woo','Seo_Eun_Joo']).
+personajes_kdrama74('flower_of_evil',['Baek_Hee_Sung','Cha_Ji_Won','Do_Hyun_Soo','Kim_Moo_Jin']).
+personajes_kdrama75('kingdom',['Lee_Chang','Seo_Bi','Cho_Hak_Ju','Mu_Yeong']).
+personajes_kdrama76('love_in_the_moonlight',['Lee_Young','Hong_Ra_On','Kim_Yoon_Sung','Jo_Ha_Yeon']).
+personajes_kdrama77('cheer_up',['Do_Hae_Yi','Bae_Young_Woong','Jin_Sun_Ho','Joo_Suk_Hoon']).
+personajes_kdrama78('doctors',['Yoo_Hye_Jung','Hong_Ji_Hong','Jung_Yoon_Do','Jin_Seo_Woo']).
+personajes_kdrama79('prison_playbook',['Kim_Jae_Hyuk','Lee_Joon_Ho','Kim_Min_Chul','Kaist']).
+personajes_kdrama80('strangers_from_hell',['Yoon_Jong_Woo','Seo_Moon_Jo','Yoo_Ki_Hyuk','Byun_Deuk_Jong']).
+personajes_kdrama81('alice',['Park_Jin_Gyeom','Yoon_Tae_Yi','Kim_Do_Yeon','Yoo_Min_Hyuk']).
+personajes_kdrama82('mrs_cop',['Choi_Young_Jin','Park_Jong_Ho','Han_Jin_Woo','Min_Do_Young']).
+personajes_kdrama83('class_of_lies',['Ki_Moo_Hyeok','Ha_So_Hyun','Yoo_Beom_Jin','Lee_Ki_Hoon']).
+personajes_kdrama84('the_last_empress',['Oh_Ssu_Ni','Na_Wang_Sik','Lee_Hyuk','Min_Yoo_Ra']).
+personajes_kdrama85('vagabond',['Cha_Dal_Geon','Go_Hae_Ri','Gi_Tae_Woong','Hong_Soon_Jo']).
+personajes_kdrama86('life_on_mars',['Han_Tae_Joo','Kang_Dong_Cheol','Yoon_Na_Young','Lee_Yong_Gi']).
+personajes_kdrama87('shine_or_go_crazy',['Wang_So','Shin_Yool','Wang_Wook','Hwang_Bo_Yeo_Won']).
+personajes_kdrama88('the_crowned_clown',['Ha_Sun','Yoo_So_Yoon','Lee_Kyu','Shin_Chi_Soo']).
+personajes_kdrama89('blood',['Park_Ji_Sang','Yoo_Ri_Ta','Lee_Jae_Wook','Min_Ga_Yeon']).
+personajes_kdrama90('zombie_detective',['Kang_Min_Ho','Gong_Sun_Ji','Cha_Do_Hyun','Lee_Tae_Kyun']).
+personajes_kdrama91('my_secret_terrius',['Kim_Bon','Go_Ae_Rin','Jin_Yong_Tae','Yoo_Ji_Yeon']).
+personajes_kdrama92('kairos',['Kim_Seo_Jin','Han_Ae_Ri','Seo_Do_Kyun','Kang_Hyun_Chae']).
+personajes_kdrama93('the_great_show',['Wi_Dae_Han','Jung_Soo_Hyun','Kang_Joon_Ho','Kim_Hye_Jin']).
+personajes_kdrama94('angel_s_last_mission_love',['Kim_Dan','Lee_Yeon_Seo','Ji_Kang_Woo','Geum_Ni_Na']).
+personajes_kdrama95('run_on',['Ki_Seon_Gyeom','Oh_Mi_Joo','Seo_Dan_A','Lee_Young_Hwa']).
+personajes_kdrama96('into_the_ring',['Goo_Se_Ra','Seo_Gong_Myung','Kim_Min_Jae','Jang_Han_Bi']).
+personajes_kdrama97('dali_and_cocky_prince',['Jin_Moo_Hak','Kim_Da_Li','Jang_Tae_Jin','Han_Byung_Se']).
+personajes_kdrama98('school_2021',['Gong_Ki_Joon','Jin_Ji_Won','Jung_Young_Joo','Kang_Seo_Young']).
+personajes_kdrama99('the_veil',['Han_Ji_Hyuk','Seo_Soo_Yeon','Lee_In_Hwan','Jung_Yong_Tae']).
+personajes_kdrama100('inspector_koo',['Koo_Kyung_Yi','Song_Yi_Kyung','Na_Je_Hui','Oh_Gyeong_Su']).
+personajes_kdrama101('yumi_s_cells',['Yumi','Goo_Woong','Bobby','Ruby']).
+personajes_kdrama102('the_red_sleeve',['Sung_Deok_Im','Yi_San','Hong_Deok_Ro','Kim_Ga_Eun']).
+personajes_kdrama103('my_name',['Yoon_Ji_Woo','Choi_Moo_Jin','Jeon_Pil_Do','Do_Kang_Jae']).
+personajes_kdrama104('hometown_cha_cha_cha',['Yoon_Hye_Jin','Hong_Du_Sik','Ji_Seong_Hyun','Pyo_Mi_Seon']).
+personajes_kdrama105('melancholia',['Ji_Yoon_Soo','Baek_Seung_Yoo','Noh_Jung_A','Sung_Yo_Han']).
+personajes_kdrama106('happiness',['Yoon_Sae_Bom','Jung_Yi_Hyun','Han_Tae_Seok','Lee_Ji_Soo']).
+personajes_kdrama107('now_we_are_breaking_up',['Ha_Young_Eun','Yoon_Jae_Guk','Hwang_Chi_Sook','Seok_Do_Hoon']).
+personajes_kdrama108('the_law_cafe',['Kim_Jung_Ho','Kim_Yoo_Ri','Seo_Eun_Kang','Park_Woo_Jin']).
+personajes_kdrama109('big_mouth',['Park_Chang_Ho','Go_Mi_Ho','Choi_Do_Ha','Hyun_Joo_Hee']).
+personajes_kdrama110('love_in_contract',['Choi_Sang_Eun','Jung_Ji_Ho','Kang_Hae_Jin','Woo_Gwang_Nam']).
+personajes_kdrama111('alchemy_of_souls',['Jang_Uk','Mu_Deok','Seo_Yul','Park_Dang_Gu']).
+personajes_kdrama112('juvenile_justice',['Shim_Eun_Seok','Cha_Tae_Ju','Kang_Won_Joong','Na_Geun_Hee']).
+personajes_kdrama113('all_of_us_are_dead',['Lee_Cheong_San','Nam_On_Jo','Lee_Su_Hyeok','Choi_Nam_Ra']).
+personajes_kdrama114('our_beloved_summer',['Choi_Ung','Kook_Yeon_Su','Kim_Ji_Ung','NJ']).
+personajes_kdrama115('a_business_proposal',['Shin_Ha_Ri','Kang_Tae_Moo','Jin_Young_Seo','Cha_Sung_Hoon']).
+personajes_kdrama116('thirty_nine',['Cha_Mi_Jo','Jung_Chan_Young','Jang_Joo_Hee','Kim_Seon_U']).
+personajes_kdrama117('through_the_darkness',['Song_Ha_Young','Gook_Young_Soo','Yoon_Tae_Goo','Jung_Woo_Joo']).
+personajes_kdrama118('again_my_life',['Kim_Hee_Woo','Kim_Hee_Ah','Lee_Min_Soo','Kim_Jin_Woo']).
+personajes_kdrama119('love_all_play',['Park_Tae_Yang','Park_Tae_Joon','Yoo_Min_Hyuk','Lee_Yoo_Min']).
+personajes_kdrama120('clean_with_passion_for_now',['Jang_Sun_Gyeol','Gil_Oh_Sol','Choi_Gun','Kim_Hye_Won']).
+personajes_kdrama121('be_melodramatic',['Im_Jin_Joo','Lee_Eun_Jung','Hwang_Han_Joo','Son_Beom_Soo']).
+personajes_kdrama122('doom_at_your_service',['Tak_Dong_Kyung','Myul_Mang','Cha_Joo_Ik','Na_Ji_Na']).
+personajes_kdrama123('you_are_my_spring',['Kang_Da_Jeong','Joo_Young_Do','Chae_Joon','Ahn_Ga_Young']).
+personajes_kdrama124('the_one_and_only',['Pyo_In_Sook','Min_Woo_Cheon','Kang_Se_Yeon','Seong_Mi_Do']).
+personajes_kdrama125('the_raincoat_killer',['Yoo_Young_Chul','Kim_Gil_Hwan','Park_Myung_Soo','Lee_Sang_Hoon']).
+personajes_kdrama126('reflection_of_you',['Jeong_Hee_Joo','Goo_Hae_Won','Ahn_Hyun_Sung','Seo_Woo_Jae']).
+personajes_kdrama127('private_lives',['Cha_Joo_Eun','Lee_Jung_Hwan','Jeong_Bok_Gi','Kim_Jae_Wook']).
+personajes_kdrama128('she_would_never_know',['Yoon_Song_A','Chae_Hyun_Seung','Lee_Jae_Shin','Lee_Hyo_Joo']).
+personajes_kdrama129('undercover',['Han_Jung_Hyun','Choi_Yeon_Soo','Go_Yoon_Joo','Kim_Tae_Yeol']).
+personajes_kdrama130('revolutionary_sisters',['Lee_Kwang_Nam','Lee_Kwang_Sik','Lee_Kwang_Tae','Han_Dol_Se']).
+personajes_kdrama131('young_lady_and_gentleman',['Han_Seung_Joo','Yoon_Ji_Woo','Lee_Ji_Hoon','Kim_Ji_Ung']).
+personajes_kdrama132('a_piece_of_your_mind',['Ha_Won','Seo_Woo','Moon_Ha_Won','Kim_Ha']).
+personajes_kdrama133('kings_affection',['Lee_Hwi','Yi_Hyeon','Yi_Jeong','Yi_Hyeon']).
+personajes_kdrama134('the_road_tragedy_of_one',['Kim_Hyeon','Kim_Ji_Ung','Kim_Ji_Ung','Kim_Ji_Ung']).
+personajes_kdrama135('doctor_lawyer',['Lee_Ji_Woo','Lee_Ji_Woo','Lee_Ji_Woo','Lee_Ji_Woo']).
+personajes_kdrama136('why_her',['Lee_Ji_Woo','Lee_Ji_Woo','Lee_Ji_Woo','Lee_Ji_Woo']).
+personajes_kdrama137('bloody_heart',['Lee_Tae','Yoo_Jung','Park_Gye_Won','Jo_Won_Pyo']).
+personajes_kdrama138('cafe_minamdang',['Nam_Han_Joon','Han_Jae_Hui','Gong_Soo_Cheol','Nam_Hye_Joon']).
+personajes_kdrama139('insider',['Kim_Yo_Han','Oh_Soo_Yeon','Yoon_Byung_Wook','Mok_Jin_Hyung']).
+personajes_kdrama140('joseon_attorney',['Kang_Han_Soo','Lee_Yeon_Joo','Yoo_Ji_Sun','Choi_Yeon']).
+personajes_kdrama141('queen_for_seven_days',['Shin_Chae_Kyung','Lee_Yeok','Lee_Yung','Jang_Nok_Soo']).
+personajes_kdrama142('radiant_office',['Eun_Ho_Won','Seo_Woo_Jin','Do_Ki_Taek','Jang_Kang_Ho']).
+personajes_kdrama143('save_me',['Im_Sang_Mi','Han_Sang_Hwan','Seok_Dong_Chul','Woo_Jung_Hoon']).
+personajes_kdrama144('missing_the_other_side',['Kim_Wook','Jang_Pan_Seok','Lee_Jong_A','Shin_Joon_Ho']).
+personajes_kdrama145('beautiful_gong_shim',['Gong_Shim','Ahn_Dan_Tae','Gong_Mi','Seok_Joon_Soo']).
+personajes_kdrama146('temperature_of_love',['Lee_Hyun_Soo','On_Jung_Sun','Park_Jung_Woo','Ji_Hong_Ah']).
+personajes_kdrama147('the_greatest_love',['Gu_Ae_Jung','Dok_Go_Jin','Yoon_Pil_Joo','Kang_Se_Ri']).
+personajes_kdrama148('fated_to_love_you',['Lee_Gun','Kim_Mi_Young','Daniel_Pitt','Kang_Se_Ra']).
+personajes_kdrama149('oh_my_ghost',['Na_Bong_Sun','Kang_Sun_Woo','Shin_Soon_Ae','Choi_Sung_Jae']).
+personajes_kdrama150('witch_at_court',['Ma_Yi_Deum','Yeo_Jin_Wook','Jo_Gap_Soo','Min_Ji_Sook']).
+personajes_kdrama151('the_k2',['Kim_Je_Ha','Go_Anna','Choi_Yoo_Jin','Jang_Se_Joon']).
+personajes_kdrama152('the_master_s_sun',['Tae_Gong_Shil','Joo_Joong_Won','Kang_Woo','Tae_Yi_Ryung']).
+personajes_kdrama153('doctor_stranger',['Park_Hoon','Song_Jae_Hee','Han_Seung_Hee','Oh_Soo_Hyun']).
+personajes_kdrama154('dr_romantic',['Kim_Sa_Bu','Kang_Dong_Joo','Yoon_Seo_Jung','Do_In_Bum']).
+personajes_kdrama155('good_doctor',['Park_Shi_On','Cha_Yoon_Seo','Kim_Do_Han','Han_Jin_Wook']).
+personajes_kdrama156('hospital_playlist',['Lee_Ik_Joon','Ahn_Jung_Won','Kim_Joon_Wan','Yang_Seok_Hyeong']).
+personajes_kdrama157('signal',['Park_Hae_Young','Cha_Soo_Hyun','Lee_Jae_Han','Kim_Bum_Joo']).
+personajes_kdrama158('reply_1988',['Sung_Deok_Sun','Kim_Jung_Hwan','Choi_Taek','Sung_Sun_Woo']).
+personajes_kdrama159('the_good_witch',['Cha_Sun_Hee','Cha_Do_Hee','Song_Woo_Jin','Oh_Tae_Ri']).
+personajes_kdrama160('the_flames_of_desire',['Yoon_Na_Young','Kim_Min_Jae','Baek_In_Ki','Kim_Young_Min']).
+personajes_kdrama161('golden_time',['Lee_Min_Woo','Kang_Jae_In','Choi_In_Hyuk','Kim_Do_Hyun']).
+personajes_kdrama162('angel_eyes',['Park_Dong_Joo','Yoon_Soo_Wan','Kang_Ji_Woon','Cha_Min_Soo']).
+personajes_kdrama163('the_beauty_inside',['Han_Se_Gye','Seo_Do_Jae','Kang_Sa_Ra','Ryu_Eun_Ho']).
+personajes_kdrama164('another_miss_oh',['Oh_Hae_Young','Park_Do_Kyung','Han_Tae_Jin','Lee_Jin_Sang']).
+personajes_kdrama165('legend_of_the_blue_sea',['Heo_Joon_Jae','Shim_Cheong','Ma_Dae_Young','Jo_Nam_Doo']).
+personajes_kdrama166('shine_or_go_crazy',['Wang_So','Shin_Yool','Wang_Wook','Hwang_Bo_Yeo_Won']).
+personajes_kdrama167('gu_family_book',['Choi_Kang_Chi','Dam_Yeo_Wool','Park_Tae_Seo','Gon']).
+personajes_kdrama168('cinderella_and_four_knights',['Eun_Ha_Won','Kang_Ji_Woon','Kang_Hyun_Min','Kang_Seo_Woo']).
+personajes_kdrama169('you_who_came_from_the_stars',['Do_Min_Joon','Cheon_Song_Yi','Yoo_Se_Mi','Lee_Jae_Kyung']).
+personajes_kdrama170('what_s_wrong_with_secretary_kim',['Lee_Young_Joon','Kim_Mi_So','Park_Yoo_Sik','Kim_Ji_A']).
+personajes_kdrama171('to_the_beautiful_you',['Goo_Jae_Hee','Kang_Tae_Joon','Cha_Eun_Gyeol','Seol_Han_Na']).
+personajes_kdrama172('scarlet_heart',['Hae_Soo','Wang_So','Wang_Wook','Baek_Ah']).
+personajes_kdrama173('the_lovers_in_prague',['Yoon_Jae_Hee','Choi_Sang_Hyun','Ji_Young_Woo','Kim_Hye_Joo']).
+personajes_kdrama174('pasta',['Seo_Yoo_Kyung','Choi_Hyun_Wook','Geum_Suk_Ho','Kim_San']).
+personajes_kdrama175('her_lovely_heels',['Shin_Ji_Hoo','Oh_Tae_Soo','Ko_Soo_Young','Jung_Hyun_Ho']).
+personajes_kdrama176('hot_stove_league',['Baek_Seung_Soo','Lee_Se_Young','Han_Jae_Hee','Kwon_Kyung_Min']).
+personajes_kdrama177('united_we_stand',['Kim_Ji_Hoon','Park_Soo_Jin','Lee_Jung_Hoon','Choi_Yoon_Jung']).
+personajes_kdrama178('when_the_camellia_blooms',['Dong_Baek','Hwang_Yong_Sik','Kang_Jong_Ryeol','Jessica']).
+personajes_kdrama179('strongest_chil_woo',['Chil_Woo','So_Yoon','Heuk_San','Jang_Sa_Yoo']).
+personajes_kdrama180('the_king_in_love',['Wang_Won','Eun_San','Wang_Rin','Dan']).
+personajes_kdrama181('the_king_2hearts',['Lee_Jae_Ha','Kim_Hang_Ah','Kim_Bong_Gu','Eun_Si_Kyung']).
+personajes_kdrama182('the_king_eternal_monarch',['Lee_Gon','Jung_Tae_Eul','Jo_Young','Koo_Se_Ryeong']).
+personajes_kdrama183('the_kings_daughter_so_baek_hyang',['Seol_Na_Ri','Baek_Hyang','Jung_Ki_Joon','Jung_Ki_Hoon']).
+personajes_kdrama184('the_kings_face',['Gwang_Hae','Yi_Heon','Do_Chung','Yi_Kyung']).
+personajes_kdrama185('secret_of_the_three_kingdoms',['Yin_Li_Hua','Cao_Cao','Liu_Bei','Sun_Quan']).
+personajes_kdrama186('love_revolution',['Gong_Joo_Young','Wang_Jae_Gyeong','Lee_Kyung_Woo','Kim_Ju_Young']).
+personajes_kdrama187('queen_of_rings',['Mo_Ae_Ra','Ahn_Tae_Kyung','Kim_Seul_Gi','Hwang_Ji_Hyun']).
+personajes_kdrama188('mad_dog',['Choi_Kang_Woo','Kim_Min_Joon','Joo_Hyung_Min','On_Noori']).
+personajes_kdrama189('time',['Cheon_Soo_Ho','Seol_Ji_Hyun','Kim_Jung_Woon','Shin_Min_Seok']).
+personajes_kdrama190('miss_hammurabi',['Park_Cha_O_Reum','Im_Ba_Reun','Jung_Bo_Wang','Lee_Do_Yeon']).
+
+
+
+%faltna hacer reglas con ultima emision
+
+%faltan hacer mas reglas con lanzamiento kdrama
 
 %¿cuantos kdramas son emitidos por la plataforma tvN?
+%Regla que define los kdramas emitidos  por tvn
+kdrama_emitido_tvn(Kdrama, Canal) :-  
+    Canal = 'tvN' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma SBS?
+%Regla que define los kdramas emitidos  por SBS  ,
+kdrama_emitido_sbs(Kdrama, Canal) :-  
+    Canal = 'SBS' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma KBS2?
+%Regla que define los kdramas emitidos  por KBS2
+kdrama_emitido_kbs2(Kdrama, Canal) :-  
+    Canal = 'KBS2' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma MBC?
+%Regla que define los kdramas emitidos  por MBC
+kdrama_emitido_mbc(Kdrama, Canal) :-  
+    Canal = 'MBC' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma JTBC?
+%Regla que define los kdramas emitidos  por JTBC
+kdrama_emitido_jtbc(Kdrama, Canal) :-  
+    Canal = 'JTBC' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma Netflix?
+%Regla que define los kdramas emitidos  por Netflix
+kdrama_emitido_netflix(Kdrama, Canal) :-  
+    Canal = 'Netflix' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma KakaoTV?
+%Regla que define los kdramas emitidos  por KakaoTV
+kdrama_emitido_kakaotv(Kdrama, Canal) :-  
+    Canal = 'KakaoTV' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma Tencent Video?
+%Regla que define los kdramas emitidos  por Tencent Video
+kdrama_emitido_tencent_video(Kdrama, Canal) :-  
+    Canal = 'tencent_video' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma KBSW?
+%Regla que define los kdramas emitidos  por KBSW
+kdrama_emitido_kbsw(Kdrama, Canal) :-  
+    Canal = 'KBSW' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
+
+%¿cuantos kdramas son emitidos por la plataforma OCN?
+%Regla que define los kdramas emitidos  por OCN
+kdrama_emitido_ocn(Kdrama, Canal) :-  
+    Canal = 'OCN' , lanzamiento_kdrama(Kdrama, _, _, _, Canal).
 
 
 
