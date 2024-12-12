@@ -2164,6 +2164,239 @@ clasificacion_kdrama189('time','15','Mayores de 15').
 clasificacion_kdrama190('miss_hammurabi','15','Mayores de 15').
 
 
+%vestuario moderno 
+kdrama_vestuario_moderno1('itaewon_class', 'moderno').
+kdrama_vestuario_moderno2('start_up', 'oficina_moderno').
+kdrama_vestuario_moderno3('my_love_from_the_star', 'casual_elegante').
+kdrama_vestuario_moderno4('true_beauty', 'escolar_moderno').
+
+%vestuario historico
+kdrama_vestuario_historico1('moon_lovers_scarlet_heart_ryeo', 'tradicional_hanbok').
+kdrama_vestuario_historico2('the_kingdom', 'tradicional_hanbok').
+kdrama_vestuario_historico3('love_in_the_moonlight', 'historico_hanbok').
+kdrama_vestuario_historico4('shine_or_go_crazy', 'vestuario_real').
+
+%vestuario epoca
+kdrama_vestuario_epoca1('mr_sunshine', 'vestuario_de_1910').
+kdrama_vestuario_epoca2('bridal_mask', 'vestuario_de_1930').
+kdrama_vestuario_epoca3('reply_1988', 'retro_1980').
+kdrama_vestuario_epoca4('reply_1997', 'retro_1990').
+
+%vestuario fantasia
+kdrama_vestuario_fantasia1('goblin', 'fantasia_elegante').
+kdrama_vestuario_fantasia2('hotel_del_luna', 'vestuario_magico').
+kdrama_vestuario_fantasia3('alchemy_of_souls', 'historico_fantasia').
+kdrama_vestuario_fantasia4('legend_of_the_blue_sea', 'sirena').
+
+%vestuario profesional
+kdrama_vestuario_profesional1('doctors', 'bata_medica').
+kdrama_vestuario_profesional2('law_school', 'formal_abogado').
+kdrama_vestuario_profesional3('chief_of_staff', 'traje_ejecutivo').
+kdrama_vestuario_profesional4('pinocchio', 'reportero_informal').
+
+%vestuario extravagante
+kdrama_vestuario_extravagante1('sky_castle', 'lujo_moderno').
+kdrama_vestuario_extravagante2('the_penthouse', 'alta_moda').
+kdrama_vestuario_extravagante3('her_private_life', 'moda_curador').
+kdrama_vestuario_extravagante4('the_undateables', 'colorido').
+
+%vestuario casual
+kdrama_vestuario_casual1('hometown_cha_cha_cha', 'casual_pueblo').
+kdrama_vestuario_casual2('something_in_the_rain', 'casual_elegante').
+kdrama_vestuario_casual3('weightlifting_fairy_kim_bok_joo', 'ropa_deportiva').
+kdrama_vestuario_casual4('oh_my_venus', 'ropa_fitnes').
+
+%informacion kdrama
+kdrama_info1('2521', 'romance','kim_hyun_suk','Mayores de 15',2021, 'tvN').
+kdrama_info2('crash_landing_on_you', 'romance','lee_jung_hyo','Mayores de 15',2019, 'tvN').
+kdrama_info3('it_s_okay_to_not_be_okay', 'romance','park_shin_woo','Mayores de 15',2020, 'tvN').
+kdrama_info4('start_up', 'romance','oh_choong_hwan','Mayores de 15',2020, 'tvN').
+kdrama_info5('vicenzo', 'accion','kim_hee_won','Mayores de 15',2021, 'tvN').
+kdrama_info6('hotel_del_luna', 'fantasia','oh_choong_hwan','Mayores de 15',2019, 'tvN').
+kdrama_info7('herederos', 'romance','kang_shin_hyo','Mayores de 15',2013, 'SBS').
+kdrama_info8('startup', 'romance','oh_choong_hwan','Mayores de 15',2020, 'tvN').
+kdrama_info9('my_love_from_the_star', 'fantasia','jang_tae_yoo','Mayores de 15',2013, 'SBS').
+kdrama_info10('goblin', 'fantasia','lee_eung_bok','Mayores de 15',2016, 'tvN').
+kdrama_info11('the_king_eternal_monarch', 'fantasia','baek_sang_hoon','Mayores de 15',2020, 'SBS').
+kdrama_info12('it_s_okay_to_not_be_okay', 'romance','park_shin_woo','Mayores de 15',2020, 'tvN').
+kdrama_info13('the_legend_of_the_blue_sea', 'fantasia','jin_hyuk','Mayores de 15',2016, 'SBS').
+kdrama_info14('the_heirs', 'romance','kang_shin_hyo','Mayores de 15',2013, 'SBS').
+kdrama_info15('aterrizaje_emergencia_en_tu_corazon', 'romance','lee_jung_hyo','Mayores de 15',2019, 'tvN').
+kdrama_info16('itaewon_class', 'drama','kim_sung_yoon','Mayores de 15',2020, 'JTBC').
+kdrama_info17('true_beauty', 'romance','kim_sang_hyeop','Mayores de 15',2020, 'tvN').
+kdrama_info18('love_alarm', 'romance','lee_na_jung','Mayores de 15',2019, 'Netflix').
+kdrama_info19('strong_woman_do_bong_soon', 'comedia','lee_hyung_min','Mayores de 15',2017, 'JTBC').
+kdrama_info20('weightlifting_fairy_kim_bok_joo', 'comedia','oh_hyun_jong','Mayores de 15',2016, 'MBC').
+kdrama_info21('while_you_were_sleeping', 'fantasia','oh_choong_hwan','Mayores de 15',2017, 'SBS').
+kdrama_info22('w_two_worlds', 'fantasia','jung_dae_yoon','Mayores de 15',2016, 'MBC').
+kdrama_info23('healer', 'accion','lee_jung_sub','Mayores de 15',2014, 'KBS2').
+kdrama_info24('pinocchio', 'drama','jo_soo_won','Mayores de 15',2014, 'SBS').
+kdrama_info25('city_hunter', 'accion','jin_hyuk','Mayores de 15',2011, 'SBS').
+kdrama_info26('boys_over_flowers', 'romance','jeon_ki_sang','Mayores de 15',2009, 'KBS2').
+kdrama_info27('dream_high', 'musical','lee_eung_bok','Mayores de 15',2011, 'KBS2').
+kdrama_info28('moon_lovers_scarlet_heart_ryeo', 'historico','kim_kyu_chae','Mayores de 15',2016, 'SBS').
+kdrama_info29('my_id_is_gangnam_beauty', 'romance','choi_sung_bum','Mayores de 15',2018, 'JTBC').
+kdrama_info30('extraordinary_you', 'fantasia','kim_sang_hyeop','Mayores de 15',2019, 'MBC').
+kdrama_info31('hwarang', 'historico','yoon_sung_shik','Mayores de 15',2016, 'KBS2').
+kdrama_info32('the_master_sun', 'fantasia','jin_hyuk','Mayores de 15',2013, 'SBS').
+kdrama_info33('doctor_stranger', 'medico','jin_hyuk','Mayores de 15',2014, 'SBS').
+kdrama_info34('dr_romantic', 'medico','yoo_in_shik','Mayores de 15',2016, 'SBS').
+kdrama_info35('good_doctor', 'medico','kim_jin_woo','Mayores de 15',2013, 'KBS2').
+kdrama_info36('hospital_playlist', 'medico','shin_won_ho','Mayores de 15',2020, 'tvN').
+kdrama_info37('signal', 'fantasia','kim_won_seok','Mayores de 15',2016, 'tvN').
+kdrama_info38('reply_1988', 'drama','shin_won_ho','Mayores de 15',2015, 'tvN').
+kdrama_info39('reply_1997', 'drama','shin_won_ho','Mayores de 15',2012, 'tvN').
+kdrama_info40('reply_1994', 'drama','shin_won_ho','Mayores de 15',2013, 'tvN').
+kdrama_info41('youth_of_may', 'drama','song_min_yeop','Mayores de 15',2021, 'KBS2').
+kdrama_info42('navillera', 'drama','han_dong_hwa','Mayores de 15',2021, 'tvN').
+kdrama_info43('the_sound_of_magic', 'fantasia','kim_sung_yoon','Mayores de 15',2022, 'Netflix').
+kdrama_info44('sky_castle', 'drama','jo_hyun_tak','Mayores de 15',2018, 'JTBC').
+kdrama_info45('the_world_of_the_married', 'drama','mo_wan_il','Mayores de 15',2020, 'JTBC').
+kdrama_info46('mouse', 'thriller','choi_jun_bae','Mayores de 15',2021, 'tvN').
+kdrama_info47('taxi_driver', 'accion','park_joon_woo','Mayores de 15',2021, 'SBS').
+kdrama_info48('law_school', 'drama','kim_seok_yoon','Mayores de 15',2021, 'JTBC').
+kdrama_info49('uncontrollably_fond', 'romance','park_hyun_suk','Mayores de 15',2016, 'KBS2').
+kdrama_info50('the_penthouse', 'drama','joo_dong_min','Mayores de 15',2020, 'SBS').
+kdrama_info51('romance_is_a_bonus_book', 'romance','lee_jeong_hyo','Mayores de 15',2019, 'tvN').
+kdrama_info52('because_this_is_my_first_life', 'romance','park_joon_hwa','Mayores de 15',2017, 'tvN').
+kdrama_info53('cheese_in_the_trap', 'romance','lee_yoon_jung','Mayores de 15',2016, 'tvN').
+kdrama_info54('her_private_life', 'romance','hong_jong_chan','Mayores de 15',2019, 'tvN').
+kdrama_info55('the_undateables', 'comedia','kim_yoo_jin','Mayores de 15',2018, 'SBS').
+kdrama_info56('live_up_to_your_name', 'fantasia','hong_jong_chan','Mayores de 15',2017, 'tvN').
+kdrama_info57('forest', 'drama','oh_jong_rok','Mayores de 15',2020, 'KBS2').
+kdrama_info58('oh_my_venus', 'romance','kim_hyun_suk','Mayores de 15',2015, 'KBS2').
+kdrama_info59('the_light_in_your_eyes', 'drama','kim_suk_yoon','Mayores de 15',2019, 'JTBC').
+kdrama_info60('something_in_the_rain', 'romance','ahn_pan_seok','Mayores de 15',2018, 'JTBC').
+kdrama_info61('search_www', 'drama','jung_ji_hyun','Mayores de 15',2019, 'tvN').
+kdrama_info62('secret_garden', 'fantasia','shin_woo_chul','Mayores de 15',2010, 'SBS').
+kdrama_info63('protect_the_boss', 'comedia','son_jung_hyun','Mayores de 15',2011, 'SBS').
+kdrama_info64('strongest_deliveryman', 'drama','jeon_woo_sung','Mayores de 15',2017, 'KBS2').
+kdrama_info65('the_k2', 'accion','kwak_jung_hwan','Mayores de 15',2016, 'tvN').
+kdrama_info66('black', 'fantasia','kim_hong_sun','Mayores de 15',2017, 'OCN').
+kdrama_info67('beautiful_mind', 'medico','mo_wan_il','Mayores de 15',2016, 'KBS2').
+kdrama_info68('white_christmas', 'thriller','kim_yong_soo','Mayores de 15',2011, 'KBS2').
+kdrama_info69('the_guest', 'thriller','kim_hong_sun','Mayores de 15',2018, 'OCN').
+kdrama_info70('train_to_busan_the_series', 'accion','yeon_sang_ho','Mayores de 15',2016, 'OCN').
+kdrama_info71('empress_ki', 'historico','han_hee','Mayores de 15',2013, 'MBC').
+kdrama_info72('man_to_man', 'accion','lee_chang_min','Mayores de 15',2017, 'JTBC').
+kdrama_info73('misty', 'drama','mo_wan_il','Mayores de 15',2018, 'JTBC').
+kdrama_info74('flower_of_evil', 'thriller','kim_cheol_kyu','Mayores de 15',2020, 'tvN').
+kdrama_info75('kingdom', 'fantasia','kim_seong_hun','Mayores de 15',2019, 'Netflix').
+kdrama_info76('love_in_the_moonlight', 'historico','kim_sung_yoon','Mayores de 15',2016, 'KBS2').
+kdrama_info77('cheer_up', 'drama','han_joon_seo','Mayores de 15',2022, 'SBS').
+kdrama_info78('doctors', 'medico','oh_choong_hwan','Mayores de 15',2016, 'SBS').
+kdrama_info79('prison_playbook', 'drama','shin_won_ho','Mayores de 15',2017, 'tvN').
+kdrama_info80('strangers_from_hell', 'thriller','lee_chang_hee','Mayores de 15',2019, 'OCN').
+kdrama_info81('alice', 'fantasia','baek_soo_chan','Mayores de 15',2020, 'SBS').
+kdrama_info82('mrs_cop', 'accion','yoo_in_shik','Mayores de 15',2015, 'SBS').
+kdrama_info83('class_of_lies', 'thriller','seong_yong_il','Mayores de 15',2019, 'OCN').
+kdrama_info84('the_last_empress', 'drama','ju_dong_min','Mayores de 15',2018, 'SBS').
+kdrama_info85('vagabond', 'accion','yoo_in_shik','Mayores de 15',2019, 'SBS').
+kdrama_info86('life_on_mars', 'fantasia','lee_jung_hyo','Mayores de 15',2018, 'OCN').
+kdrama_info87('shine_or_go_crazy', 'historico','son_hyeong_seok','Mayores de 15',2015, 'MBC').
+kdrama_info88('the_crowned_clown', 'historico','kim_hee_won','Mayores de 15',2019, 'tvN').
+kdrama_info89('blood', 'fantasia','ki_min_soo','Mayores de 15',2015, 'KBS2').
+kdrama_info90('zombie_detective', 'fantasia','shim_jae_hyun','Mayores de 15',2020, 'KBS2').
+kdrama_info91('my_secret_terrius', 'accion','park_sang_hun','Mayores de 15',2018, 'MBC').
+kdrama_info92('kairos', 'thriller','park_seung_woo','Mayores de 15',2020, 'MBC').
+kdrama_info93('the_great_show', 'drama','shin_yong_hwi','Mayores de 15',2019, 'tvN').
+kdrama_info94('angel_s_last_mission_love', 'fantasia','lee_jung_sub','Mayores de 15',2019, 'KBS2').
+kdrama_info95('run_on', 'romance','lee_jae_hoon','Mayores de 15',2021, 'JTBC').
+kdrama_info96('into_the_ring', 'comedia','hwang_seung_ki','Mayores de 15',2020, 'KBS2').
+kdrama_info97('dali_and_cocky_prince', 'comedia','lee_jung_sub','Mayores de 15',2021, 'KBS2').
+kdrama_info98('school_2021', 'drama','kim_min_tae','Mayores de 15',2022, 'KBS2').
+kdrama_info99('the_veil', 'accion','kim_jung_min','Mayores de 15',2021, 'MBC').
+
+kdrama_info100('inspector_koo', 'drama','kim_jung_min','Mayores de 15',2021, 'SBS').
+kdrama_info101('yumi_s_cells', 'fantasia','lee_sang_yeob','Mayores de 15',2021, 'tvN').
+kdrama_info102('the_red_sleeve', 'historico','jung_ji_in','Mayores de 15',2021, 'MBC').
+kdrama_info103('my_name', 'accion','kim_jin_min','Mayores de 15',2021, 'Netflix').
+kdrama_info104('hometown_cha_cha_cha', 'romance','yu_je_won','Mayores de 15',2021, 'tvN').
+kdrama_info105('melancholia', 'drama','kim_sang_hyeob','Mayores de 15',2021, 'tvN').
+kdrama_info106('happiness', 'thriller','ahn_gil_ho','Mayores de 15',2021, 'tvN').
+kdrama_info107('now_we_are_breaking_up', 'romance','lee_gil_bok','Mayores de 15',2021, 'SBS').
+kdrama_info108('the_law_cafe', 'drama','lee_eun_jin','Mayores de 15',2022, 'KBS2').
+kdrama_info109('big_mouth', 'thriller','oh_choong_hwan','Mayores de 15',2022, 'MBC').
+kdrama_info110('love_in_contract', 'romance','nam_sung_woo','Mayores de 15',2022, 'tvN').
+kdrama_info111('alchemy_of_souls', 'fantasia','park_jun_hwa','Mayores de 15',2022, 'tvN').
+kdrama_info112('juvenile_justice', 'drama','hong_jong_chan','Mayores de 15',2022, 'Netflix').
+kdrama_info113('all_of_us_are_dead', 'thriller','lee_jae_gyu','Mayores de 15',2022, 'Netflix').
+kdrama_info114('our_beloved_summer', 'romance','kim_yoon_jin','Mayores de 15',2021, 'SBS').
+kdrama_info115('a_business_proposal', 'comedia','park_sun_ho','Mayores de 15',2022, 'SBS').
+kdrama_info116('thirty_nine', 'drama','kim_sang_ho','Mayores de 15',2022, 'JTBC').
+kdrama_info117('through_the_darkness', 'thriller','park_bong_seop','Mayores de 15',2022, 'SBS').
+kdrama_info118('again_my_life', 'fantasia','han_chae_yoon','Mayores de 15',2022, 'SBS').
+kdrama_info119('love_all_play', 'romance','jo_woong','Mayores de 15',2022, 'KBS2').
+kdrama_info120('clean_with_passion_for_now', 'comedia','noh_jong_chan','Mayores de 15',2018, 'JTBC').
+kdrama_info121('be_melodramatic', 'comedia','kim_hye_young','Mayores de 15',2019, 'JTBC').
+kdrama_info122('doom_at_your_service', 'fantasia','kwon_young_il','Mayores de 15',2021, 'tvN').
+kdrama_info123('you_are_my_spring', 'romance','jung_ji_hyun','Mayores de 15',2021, 'tvN').
+kdrama_info124('the_one_and_only', 'drama','oh_hyun_jong','Mayores de 15',2021, 'JTBC').
+kdrama_info125('the_raincoat_killer', 'thriller','kim_jin_woo','Mayores de 15',2021, 'Netflix').
+kdrama_info126('reflection_of_you', 'drama','im_hyun_wook','Mayores de 15',2021, 'JTBC').
+kdrama_info127('private_lives', 'drama','nam_gun','Mayores de 15',2020, 'JTBC').
+kdrama_info128('she_would_never_know', 'romance','lee_dong_yoon','Mayores de 15',2021, 'JTBC').
+kdrama_info129('undercover', 'thriller','song_hyun_wook','Mayores de 15',2021, 'JTBC').
+kdrama_info130('revolutionary_sisters', 'drama','lee_jin_seo','Mayores de 15',2021, 'KBS2').
+kdrama_info131('young_lady_and_gentleman', 'drama','shin_chang_seok','Mayores de 15',2021, 'KBS2').
+kdrama_info132('a_piece_of_your_mind', 'romance','lee_sang_yeob','Mayores de 15',2020, 'tvN').
+kdrama_info133('kings_affection', 'historico','song_hyun_wook','Mayores de 15',2021, 'KBS2').
+kdrama_info134('the_road_tragedy_of_one', 'thriller','kim_no_won','Mayores de 15',2021, 'tvN').
+kdrama_info135('doctor_lawyer', 'medico','lee_yong_seok','Mayores de 15',2022, 'MBC').
+kdrama_info136('why_her', 'drama','park_soo_jin','Mayores de 15',2022, 'SBS').
+kdrama_info137('bloody_heart', 'historico','yoo_young_eun','Mayores de 15',2022, 'KBS2').
+kdrama_info138('cafe_minamdang', 'comedia','go_jae_hyun','Mayores de 15',2022, 'KBS2').
+kdrama_info139('insider', 'thriller','min_yeon_hong','Mayores de 15',2022, 'JTBC').
+kdrama_info140('joseon_attorney', 'historico','kim_seong_ho','Mayores de 15',2023, 'MBC').
+kdrama_info141('queen_for_seven_days', 'historico','lee_jung_sub','Mayores de 15',2017, 'KBS2').
+kdrama_info142('radiant_office', 'drama','jung_ji_in','Mayores de 15',2017, 'MBC').
+kdrama_info143('save_me', 'thriller','kim_sung_soo','Mayores de 15',2017, 'OCN').
+kdrama_info144('missing_the_other_side', 'fantasia','min_yeon_hong','Mayores de 15',2020, 'OCN').
+kdrama_info145('beautiful_gong_shim', 'comedia','baek_soo_chan','Mayores de 15',2016, 'SBS').
+kdrama_info146('temperature_of_love', 'romance','nam_geon','Mayores de 15',2017, 'SBS').
+kdrama_info147('the_greatest_love', 'comedia','park_hong_kyun','Mayores de 15',2011, 'MBC').
+kdrama_info148('fated_to_love_you', 'romance','lee_dong_yoon','Mayores de 15',2014, 'MBC').
+kdrama_info149('oh_my_ghost', 'fantasia','yoo_je_won','Mayores de 15',2015, 'tvN').
+kdrama_info150('witch_at_court', 'drama','kim_young_kyoon','Mayores de 15',2017, 'KBS2').
+kdrama_info151('the_time_we_were_not_in_love', 'romance','jo_soo_won','Mayores de 15',2015, 'SBS').
+kdrama_info152('falling_for_innocence', 'romance','ji_young_soo','Mayores de 15',2015, 'JTBC').
+kdrama_info153('the_liar_and_his_lover', 'romance','kim_jin_min','Mayores de 15',2017, 'tvN').
+kdrama_info154('the_lovers_of_the_red_sky', 'historico','jang_tae_yoo','Mayores de 15',2021, 'SBS').
+kdrama_info155('shopping_king_louie', 'comedia','lee_sang_yeob','Mayores de 15',2016, 'MBC').
+kdrama_info156('weightlifting_fairy_kim_bok_joo', 'comedia','oh_hyun_jong','Mayores de 15',2016, 'MBC').
+kdrama_info157('goodbye_to_goodbye', 'drama','kim_min_sik','Mayores de 15',2018, 'MBC').
+kdrama_info158('secret_love_affair', 'romance','ahn_pan_seok','Mayores de 15',2014, 'JTBC').
+kdrama_info159('the_good_witch', 'fantasia','oh_se_gang','Mayores de 15',2018, 'SBS').
+kdrama_info160('the_flames_of_desire', 'drama','baek_ho_min','Mayores de 15',2010, 'MBC').
+kdrama_info161('golden_time', 'medico','kwak_jung_hwan','Mayores de 15',2012, 'MBC').
+kdrama_info162('angel_eyes', 'romance','park_shin_woo','Mayores de 15',2014, 'SBS').
+kdrama_info163('the_beauty_inside', 'fantasia','song_hyun_wook','Mayores de 15',2018, 'JTBC').
+kdrama_info164('another_miss_oh', 'romance','song_hyun_wook','Mayores de 15',2016, 'tvN').
+kdrama_info165('legend_of_the_blue_sea', 'fantasia','jin_hyuk','Mayores de 15',2016, 'SBS').
+kdrama_info166('shine_or_go_crazy', 'historico','son_hyeong_seok','Mayores de 15',2015, 'MBC').
+kdrama_info167('gu_family_book', 'fantasia','shin_woo_chul','Mayores de 15',2013, 'MBC').
+kdrama_info168('cinderella_and_four_knights', 'romance','kwon_hyuk_chan','Mayores de 15',2016, 'tvN').
+kdrama_info169('you_who_came_from_the_stars', 'fantasia','jang_tae_yoo','Mayores de 15',2013, 'SBS').
+kdrama_info170('what_s_wrong_with_secretary_kim', 'romance','park_jun_hwa','Mayores de 15',2018, 'tvN').
+kdrama_info171('to_the_beautiful_you', 'romance','jun_ki_sang','Mayores de 15',2012, 'SBS').
+kdrama_info172('scarlet_heart', 'historico','kim_kyu_chae','Mayores de 15',2016, 'SBS').
+kdrama_info173('the_lovers_in_prague', 'romance','shin_woo_chul','Mayores de 15',2005, 'SBS').
+kdrama_info174('pasta', 'romance','kwon_seok_jang','Mayores de 15',2010, 'MBC').
+kdrama_info175('her_lovely_heels', 'romance','ahn_gil_ho','Mayores de 15',2014, 'SBS').
+kdrama_info176('hot_stove_league', 'drama','jung_dong_yoon','Mayores de 15',2019, 'SBS').
+kdrama_info177('united_we_stand', 'drama','kim_jin_woo','Mayores de 15',2020, 'Netflix').
+kdrama_info178('when_the_camellia_blooms', 'romance','cha_young_hoon','Mayores de 15',2019, 'KBS2').
+kdrama_info179('strongest_chil_woo', 'historico','park_man_young','Mayores de 15',2008, 'KBS2').
+kdrama_info180('cheer_up_mr_lee', 'comedia','lee_jung_sub','Mayores de 15',2013, 'SBS').
+kdrama_info181('marry_me_now', 'drama','yoon_chang_beom','Mayores de 15',2018, 'KBS2').
+kdrama_info182('angel_s_choice', 'drama','oh_se_gang','Mayores de 15',2012, 'MBC').
+kdrama_info183('eternal_love', 'fantasia','lam_yuk_fan','Mayores de 15',2017, 'tencent_video').
+
+
+%reglas vestuarios
+
+%reglas clasificacion
+
 %faltna hacer reglas con ultima emision
 
 %faltan hacer mas reglas con lanzamiento kdrama
