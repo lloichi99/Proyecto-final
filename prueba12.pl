@@ -9,11 +9,12 @@ nombrekdrama/2.
 :- discontiguous nombreoriginalkdrama/2.
 :- discontiguous actores_de_kdramas/2.
 :- discontiguous subtitulo_de_kdrama/3.
+:- discontiguous calsificacion_kdrama/3.
 :- discontiguous locacionKdrama/4.
 :- discontiguous nombre_coreano/2.
+:- discontiguous lanzamiento_kdrama/2.
 
 %nombre kdrama
-
 nombreKdrama('2521').
 nombreKdrama('crash_landing_on_you').
 nombreKdrama('descendants_of_the_sun').
@@ -2306,7 +2307,6 @@ kdrama_info96('into_the_ring', 'comedia','hwang_seung_ki','Mayores de 15',2020, 
 kdrama_info97('dali_and_cocky_prince', 'comedia','lee_jung_sub','Mayores de 15',2021, 'KBS2').
 kdrama_info98('school_2021', 'drama','kim_min_tae','Mayores de 15',2022, 'KBS2').
 kdrama_info99('the_veil', 'accion','kim_jung_min','Mayores de 15',2021, 'MBC').
-
 kdrama_info100('inspector_koo', 'drama','kim_jung_min','Mayores de 15',2021, 'SBS').
 kdrama_info101('yumi_s_cells', 'fantasia','lee_sang_yeob','Mayores de 15',2021, 'tvN').
 kdrama_info102('the_red_sleeve', 'historico','jung_ji_in','Mayores de 15',2021, 'MBC').
@@ -2397,7 +2397,7 @@ kdrama_info183('eternal_love', 'fantasia','lam_yuk_fan','Mayores de 15',2017, 't
 
 %reglas clasificacion
 
-%faltna hacer reglas con ultima emision
+%faltan hacer reglas con ultima emision
 
 %faltan hacer mas reglas con lanzamiento kdrama
 
@@ -2454,6 +2454,7 @@ kdrama_emitido_ocn(Kdrama, Canal) :-
 
 
 %REgla que define la informacion de lanzamiento de cada kdrama
+%¿Cual es el lanzamiento de un kdrama  y su canal?
 lanzamiento_kdrama(Kdrama, Dia, Mes, Anio, Canal) :-
     lanzamiento_kdrama1(Kdrama, Dia, Mes, Anio, Canal)
     ;   lanzamiento_kdrama2(Kdrama, Dia, Mes, Anio, Canal)
@@ -2670,7 +2671,6 @@ kdramas_con_mas_de_una_temporada(Kdrama) :-
     capitulos_temporadas_kdrama(Kdrama, _, Temporada),
     Temporada > 1.
 
-%R¿Dada cierta cantidad cuales son los kdramas que tienen mas capitulos que X?
 % Regla que encuentra los Kdramas con más capítulos que una cantidad dada
 %en cantidad debemos poner X
 kdramas_con_mas_capitulos(Cantidad, Kdrama) :-
@@ -2679,6 +2679,7 @@ kdramas_con_mas_capitulos(Cantidad, Kdrama) :-
     Capitulos > Cantidad.
 
 %REgla que define cada capitulo,temporada  y  su kdrama 
+%¿Cuantos capitulos tiene cada kdrama y temporadas?
 capitulos_temporadas_kdrama(Kdrama, Capitulos,Temporada) :-
     capitulos_temporadas_kdrama1(Kdrama, Capitulos, Temporada)
     ;   capitulos_temporadas_kdrama3(Kdrama, Capitulos, Temporada)
@@ -2870,6 +2871,7 @@ capitulos_temporadas_kdrama(Kdrama, Capitulos,Temporada) :-
         ;   capitulos_temporadas_kdrama190(Kdrama, Capitulos, Temporada).
 
 %Regla que define la cantidad de Kdramas dirigidos por cada director
+%¿Cuantos kdramas ha dirigido cada director?
 cantidad_kdramas_por_director(Director, Cantidad) :-
     findall(Kdrama, directorKdrama(Kdrama, Director), ListaKdramas),
     length(ListaKdramas, Cantidad).
@@ -2877,12 +2879,14 @@ cantidad_kdramas_por_director(Director, Cantidad) :-
 %?- cantidad_kdramas_por_director('Oh Choong-hwan', Cantidad).
 % Cantidad 4
 
-%Regla que define una lista de dirctores unicos
+%Regla que define una lista de directores unicos
+%¿Cuales son los directores unicos de los kdramas?
 directores_unicos(Director) :-
     directorKdrama(_, Director),
     !. % Elimina duplicados.
 
 %Regla que define cada kdrama y su director
+%¿Cual es el director de cada kdrama?
 directorKdrama(Kdrama, Director) :-
     director_kdrama1(Kdrama, Director)
     ;   director_kdrama2(Kdrama, Director)     
@@ -3096,6 +3100,7 @@ kdramas_doblados_al_coreano(Kdrama) :-
     member(coreano, Doblajes).
 
 %regla que define un id unico para cada kdrama y sus doblajes
+%¿Cual es el id de cada kdrama y sus doblajes?
 doblajeKdrama(Id, Kdrama, Doblajes) :- 
     doblajeKdrama1(Kdrama, Doblajes), Id = 1
     ;   doblajeKdrama2(Kdrama, Doblajes), Id = 2
@@ -3339,6 +3344,7 @@ kdramas_filmados_en_chungcheong(Kdrama) :-
     member(chungcheong, Lugares).
 
 %se define u na regla que asigna un id unico a cada kdrama y sus locaciones
+%¿Cual es el id de cada kdrama y sus locaciones?
     locacionKdrama(Id, Kdrama, Pais, Lugares) :-
         locacionKdrama1(Kdrama, Pais, Lugares), Id = 1
     ;   locacionKdrama2(Kdrama, Pais, Lugares), Id = 2
@@ -3524,6 +3530,7 @@ kdramas_subtitulados_en_chino(Kdrama) :-
 
 
 %regla que asigna  un id unico a cada kdrama y sus idiomas
+%¿Cual es el id de cada kdrama y sus idiomas?
 subtitulo_de_kdrama(Id, Kdrama, Idiomas) :-
 subtitulo_de_kdrama1(Kdrama, Idiomas), Id = 1
 ;   subtitulo_de_kdrama2(Kdrama, Idiomas), Id = 2
@@ -3775,9 +3782,11 @@ es_actor_kdrama(Actor):- actuo_en1(Actor,_)
 
 
 %.Regla que indica si es hombre
+%3¿Quien es un actor hombre de kdramas?
 es_actor_hombre(X) :- hombre(X).
 
 %.regla que indica si es mujer
+%3¿Quien es un actor mujer de kdramas?
 es_actor_mujer(X) :- mujer(X).
 
 %4¿En que kdramas ha participado el actor Lee Min Ho?
@@ -4050,7 +4059,7 @@ kdramas_misterio(Kdrama,Genero) :-
 kdramas_ciencia_ficcion(Kdrama,Genero) :-
     Genero = 'ciencia_ficcion', generoKdrama(Kdrama,'ciencia_ficcion').
 
-%¿Cuales son los kdramas de genero horror?
+    %¿Cuales son los kdramas de genero horror?
 kdramas_horror(Kdrama,Genero) :-
     Genero = 'horror', generoKdrama(Kdrama,'horror').
 
